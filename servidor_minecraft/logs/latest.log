@@ -3000,3 +3000,17 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [29Jul2025 05:06:36.248] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=103, y=0, z=-836}
 [29Jul2025 05:07:13.785] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=107, y=13, z=-859}
 [29Jul2025 05:07:13.889] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=97, y=25, z=-887}
+[29Jul2025 05:08:57.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has completed the challenge [Well, that was disgusting]
+[29Jul2025 05:09:09.140] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: shebastian11 moved too quickly! 169.858512697983,-20.0,876.5108552237538
+[29Jul2025 05:11:20.225] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityCrow['Crow'/8180, l='ServerLevel[world]', x=231.31, y=66.81, z=590.40]
+[29Jul2025 05:12:21.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [Far From Perfect]
+[29Jul2025 05:12:38.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <shebastian11> as
+[29Jul2025 05:13:50.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Yonatan_nXD> zzz
+[29Jul2025 05:13:51.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkZero369> zZz
+[29Jul2025 05:14:56.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 has made the advancement [Mine? Mine? Mine?]
+[29Jul2025 05:15:19.485] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=297, y=-53, z=1111}
+[29Jul2025 05:16:34.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 was slain by Yonatan_nXD
+[29Jul2025 05:16:35.888] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[29Jul2025 05:16:35.889] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[29Jul2025 05:16:35.890] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[29Jul2025 05:17:40.064] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity IronGolem['Glem the Construct'/739, l='ServerLevel[world]', x=228.64, y=-10.00, z=781.65] died: Glem the Construct was slain by Zombie
