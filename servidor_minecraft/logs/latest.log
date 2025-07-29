@@ -3072,3 +3072,41 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [29Jul2025 03:56:38.669] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler$RequestPlayerListPacket:sendPlayerList:146]: [SERVER] 发送玩家列表给 shebastian11: [DarkZero369]
 [29Jul2025 03:56:39.464] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler:lambda$handlePacket$13:74]: [SERVER] 处理数据包: PacketHandler$$Lambda$36441/0x000072262809ab10
 [29Jul2025 03:56:39.466] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.item.Baubles.WormholeMirrorItem:setCooldown:221]: [SERVER] 发送冷却包给 shebastian11
+[29Jul2025 03:57:24.611] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkZero369 moved wrongly!
+[29Jul2025 03:58:10.192] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[29Jul2025 03:58:10.193] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[29Jul2025 03:59:02.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 has made the advancement [Ice Bucket Challenge]
+[29Jul2025 03:59:03.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 has made the advancement [I Found It Underground]
+[29Jul2025 03:59:09.174] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-452, y=72, z=-472} but found not block entity block Block{minecraft:polished_andesite} at location
+[29Jul2025 03:59:09.174] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:polished_andesite} but failed at location BlockPos{x=-452, y=72, z=-472}
+[29Jul2025 04:00:38.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 has made the advancement [Suit Up]
+[29Jul2025 04:00:56.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [shebastian11: Triggered [darkdeath]]
+[29Jul2025 04:01:02.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 died
+[29Jul2025 04:01:05.037] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[29Jul2025 04:01:05.038] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[29Jul2025 04:01:05.038] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[29Jul2025 04:01:15.413] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-297, y=118, z=-455} BlockPos{x=-297, y=119, z=-456}
+[29Jul2025 04:01:18.214] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-296, y=119, z=-455} BlockPos{x=-295, y=118, z=-455}
+[29Jul2025 04:01:32.325] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Yonatan_nXD[/127.170.17.50:58545] logged in with entity id 8485 at (9.5, 100.0, -6.5)
+[29Jul2025 04:01:32.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD joined the game
+[29Jul2025 04:01:32.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [Dungeons And Combat]
+[29Jul2025 04:01:32.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [T.O Magic 'n Extras]
+[29Jul2025 04:01:32.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has completed the challenge [The Undead]
+[29Jul2025 04:01:32.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [Ice and Fire]
+[29Jul2025 04:02:44.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 died
+[29Jul2025 04:02:45.273] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[29Jul2025 04:02:45.273] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[29Jul2025 04:02:45.277] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[29Jul2025 04:03:30.415] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yonatan_nXD lost connection: Timed out
+[29Jul2025 04:03:30.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD left the game
+[29Jul2025 04:03:30.471] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[29Jul2025 04:04:39.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 was killed by magic
+[29Jul2025 04:04:40.805] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[29Jul2025 04:04:40.805] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[29Jul2025 04:04:40.806] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[29Jul2025 04:06:05.374] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Yonatan_nXD[/127.170.17.50:57587] logged in with entity id 11298 at (9.5, 100.0, -6.5)
+[29Jul2025 04:06:05.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD joined the game
+[29Jul2025 04:06:14.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 was doomed to fall
+[29Jul2025 04:06:16.024] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[29Jul2025 04:06:16.024] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[29Jul2025 04:06:16.025] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
