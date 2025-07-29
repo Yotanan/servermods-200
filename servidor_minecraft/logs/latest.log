@@ -3025,3 +3025,49 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [29Jul2025 04:34:57.473] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
 [29Jul2025 04:34:57.474] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
 [29Jul2025 04:35:05.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has made the advancement [Local Brewery]
+[29Jul2025 04:35:18.801] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DarkZero369[/127.78.113.140:49231] logged in with entity id 7561 at (-132.30686479142548, 67.0, -461.30000001192093)
+[29Jul2025 04:35:18.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 joined the game
+[29Jul2025 04:35:29.596] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=71, y=16, z=-450}
+[29Jul2025 04:35:29.596] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=72, y=16, z=-450}
+[29Jul2025 04:35:49.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 was frozen by a dragon
+[29Jul2025 04:35:50.532] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[29Jul2025 04:35:50.532] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[29Jul2025 04:35:50.533] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[29Jul2025 04:36:27.153] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=87, y=-2, z=-511}
+[29Jul2025 04:36:27.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 was frozen by a dragon
+[29Jul2025 04:36:28.646] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[29Jul2025 04:36:28.646] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[29Jul2025 04:36:28.647] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[29Jul2025 04:36:33.194] [Worker-Main-3/ERROR] [net.minecraft.world.entity.animal.allay.Allay/]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:16,source:{source_entity:[I;44558657,-805812143,-2135634931,493044029],type:"minecraft:entity",y_offset:0.36f}}]
+[29Jul2025 04:36:55.220] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2066ms or 41 ticks behind
+[29Jul2025 04:37:28.539] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=149, y=63, z=-647} but found not block entity block Block{minecraft:air} at location
+[29Jul2025 04:37:28.539] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:air} but failed at location BlockPos{x=149, y=63, z=-647}
+[29Jul2025 04:37:29.107] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[29Jul2025 04:37:33.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 has made the advancement [The Lighthouse]
+[29Jul2025 04:37:36.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [Acquire Hardware]
+[29Jul2025 04:37:39.758] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=237, y=7, z=-391}
+[29Jul2025 04:37:59.358] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=315, y=-17, z=-438}
+[29Jul2025 04:37:59.359] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=315, y=-17, z=-439}
+[29Jul2025 04:38:33.619] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2265ms or 45 ticks behind
+[29Jul2025 04:39:19.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 froze to death
+[29Jul2025 04:39:19.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [Amateur Archaeologist]
+[29Jul2025 04:39:20.356] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[29Jul2025 04:39:20.356] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[29Jul2025 04:39:20.357] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[29Jul2025 04:39:47.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has made the advancement [Acquire Hardware]
+[29Jul2025 04:41:07.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 has made the advancement [Sweet Dreams]
+[29Jul2025 04:41:19.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [Sweet Dreams]
+[29Jul2025 04:41:21.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Yonatan_nXD> zzz
+[29Jul2025 04:41:22.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Yonatan_nXD> ZZZ
+[29Jul2025 04:41:24.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkZero369> :blobcatmorning::blobcatmorning::blobcatmorning:
+[29Jul2025 04:41:31.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has made the advancement [Monster Hunter]
+[29Jul2025 04:42:23.862] [Worker-Main-3/WARN] [lithostitched/]: Non-existent template pool reference: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[29Jul2025 04:42:23.862] [Worker-Main-3/WARN] [lithostitched/]: Non-existent template pool reference: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[29Jul2025 04:42:23.897] [Worker-Main-3/WARN] [lithostitched/]: Non-existent template pool reference: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[29Jul2025 04:42:23.897] [Worker-Main-3/WARN] [lithostitched/]: Non-existent template pool reference: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[29Jul2025 04:42:28.446] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=292, y=38, z=-231}
+[29Jul2025 04:42:28.446] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=292, y=38, z=-232}
+[29Jul2025 04:43:50.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has made the advancement [Isn't It Iron Pick]
+[29Jul2025 04:44:31.435] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2031ms or 40 ticks behind
+[29Jul2025 04:45:08.945] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Undead Knight'/15650, l='ServerLevel[world]', x=-4.56, y=64.41, z=-86.61] died: Undead Knight was slain by Wolf
+[29Jul2025 04:45:29.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 was killed by magic
