@@ -1,34 +1,4 @@
 {
-  "minecraft:recipes/decorations/ladder": {
-    "criteria": {
-      "has_stick": "2025-07-29 04:06:39 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_scythe": {
-    "criteria": {
-      "has_wood": "2025-07-29 04:02:17 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/stone_glaive": {
-    "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
-  "bloomingnature:recipes/larch_planks": {
-    "criteria": {
-      "has_larch_log": "2025-07-29 04:02:11 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/stone_longsword": {
-    "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
   "battletowers:root": {
     "criteria": {
       "Tick": "2025-07-29 03:49:03 +0000"
@@ -41,33 +11,299 @@
     },
     "done": true
   },
-  "spartanweaponry:recipes/stone_katana": {
+  "simplyswords:grant_book_on_first_join": {
     "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+      "tick": "2025-07-29 03:49:03 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/stone_battle_hammer": {
+  "dungeons_and_combat:dungeons_and_combat": {
     "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+      "dungeons_and_combat_0": "2025-07-29 03:49:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-07-29 03:49:03 +0000"
+    },
+    "done": true
+  },
+  "traveloptics:root": {
+    "criteria": {
+      "custom_test_name": "2025-07-29 03:49:03 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:grant_patchouli": {
+    "criteria": {
+      "tick": "2025-07-29 03:49:03 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/root": {
+    "criteria": {
+      "tick": "2025-07-29 03:49:03 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:wda_root": {
+    "criteria": {
+      "WDA": "2025-07-29 03:49:03 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/root": {
+    "criteria": {
+      "gun": "2025-07-29 03:49:03 +0000"
+    },
+    "done": true
+  },
+  "skyarena:root": {
+    "criteria": {
+      "always": "2025-07-29 03:49:03 +0000"
+    },
+    "done": true
+  },
+  "legendary_monsters:legendary_monsters_root": {
+    "criteria": {
+      "custom_test_name": "2025-07-29 03:49:03 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:bornin_chaos": {
+    "criteria": {
+      "bornin_chaos_0": "2025-07-29 03:49:03 +0000"
+    },
+    "done": true
+  },
+  "legendary_monsters:end_root": {
+    "criteria": {
+      "custom_test_name": "2025-07-29 03:49:03 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:root": {
+    "criteria": {
+      "custom_test_name": "2025-07-29 03:49:03 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:give_book": {
+    "criteria": {
+      "tick": "2025-07-29 03:49:03 +0000"
+    },
+    "done": true
+  },
+  "legendary_monsters:nether_root": {
+    "criteria": {
+      "custom_test_name": "2025-07-29 03:49:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:old_growth_pine_taiga": "2025-07-29 03:57:44 +0000",
+      "minecraft:taiga": "2025-07-29 03:49:04 +0000",
+      "minecraft:frozen_river": "2025-07-29 04:30:05 +0000",
+      "minecraft:beach": "2025-07-29 03:52:52 +0000",
+      "minecraft:river": "2025-07-29 03:52:07 +0000",
+      "minecraft:snowy_taiga": "2025-07-29 04:13:29 +0000",
+      "minecraft:forest": "2025-07-29 03:52:31 +0000",
+      "minecraft:old_growth_spruce_taiga": "2025-07-29 03:54:16 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2025-07-29 03:51:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2025-07-29 03:52:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2025-07-29 03:52:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2025-07-29 03:52:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2025-07-29 03:52:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2025-07-29 03:52:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2025-07-29 03:52:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2025-07-29 03:52:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2025-07-29 03:52:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2025-07-29 03:52:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-07-29 03:52:14 +0000"
+    },
+    "done": true
+  },
+  "dungeons_and_combat:origin": {
+    "criteria": {
+      "origin_0": "2025-07-29 03:52:14 +0000"
+    },
+    "done": true
+  },
+  "dungeons_and_combat:the_titan": {
+    "criteria": {
+      "the_titan_0": "2025-07-29 03:52:14 +0000"
+    },
+    "done": true
+  },
+  "spartanshields:recipes/obsidian_basic_shield": {
+    "criteria": {
+      "has_obsidian": "2025-07-29 03:52:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-07-29 03:52:50 +0000"
+    },
+    "done": true
+  },
+  "spartanshields:recipes/obsidian_tower_shield": {
+    "criteria": {
+      "has_obsidian": "2025-07-29 03:52:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2025-07-29 03:52:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/crying_obsidian": {
+    "criteria": {
+      "has_obsidian": "2025-07-29 03:52:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-07-29 03:52:50 +0000"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass_sapling": {
+    "criteria": {
+      "has_sapling": "2025-07-29 03:53:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/experience_bottle": {
+    "criteria": {
+      "has_glass_bottle": "2025-07-29 03:56:39 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/witch_hat": {
+    "criteria": {
+      "has_potion": "2025-07-29 03:56:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-07-29 03:56:47 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragon_meal": {
+    "criteria": {
+      "has_item": "2025-07-29 03:56:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "sweet_berries": "2025-07-29 04:18:04 +0000",
+      "cooked_chicken": "2025-07-29 03:56:51 +0000"
+    },
+    "done": false
+  },
+  "bloomingnature:recipes/larch_planks": {
+    "criteria": {
+      "has_larch_log": "2025-07-29 04:02:11 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_club": {
+    "criteria": {
+      "has_wood_log": "2025-07-29 04:02:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2025-07-29 04:02:11 +0000"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass_log": {
+    "criteria": {
+      "has_log": "2025-07-29 04:02:11 +0000"
+    },
+    "done": true
+  },
+  "bloomingnature:recipes/larch_wood": {
+    "criteria": {
+      "has_larch_log": "2025-07-29 04:02:11 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_scythe": {
+    "criteria": {
+      "has_wood": "2025-07-29 04:02:17 +0000"
     },
     "done": true
   },
   "spartanweaponry:recipes/wooden_spear": {
     "criteria": {
       "has_wood": "2025-07-29 04:02:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/mine_stone": {
-    "criteria": {
-      "get_stone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/furnace": {
-    "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
     },
     "done": true
   },
@@ -83,99 +319,9 @@
     },
     "done": true
   },
-  "doggytalents:recipes/decorations/witch_hat": {
-    "criteria": {
-      "has_potion": "2025-07-29 03:56:42 +0000"
-    },
-    "done": true
-  },
-  "doggytalents:recipes/decorations/sunglasses": {
-    "criteria": {
-      "has_stick": "2025-07-29 04:06:39 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/stone_throwing_knife": {
-    "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_axe": {
-    "criteria": {
-      "has_stick": "2025-07-29 04:06:39 +0000"
-    },
-    "done": true
-  },
-  "simplyswords:grant_book_on_first_join": {
-    "criteria": {
-      "tick": "2025-07-29 03:49:03 +0000"
-    },
-    "done": true
-  },
-  "spartanshields:recipes/obsidian_basic_shield": {
-    "criteria": {
-      "has_obsidian": "2025-07-29 03:52:50 +0000"
-    },
-    "done": true
-  },
-  "dungeons_and_combat:dungeons_and_combat": {
-    "criteria": {
-      "dungeons_and_combat_0": "2025-07-29 03:49:03 +0000"
-    },
-    "done": true
-  },
-  "doggytalents:recipes/decorations/giant_stick": {
-    "criteria": {
-      "has_stick": "2025-07-29 04:06:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/crafting_table": {
-    "criteria": {
-      "unlock_right_away": "2025-07-29 03:49:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2025-07-29 03:52:14 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/stick": {
     "criteria": {
       "has_planks": "2025-07-29 04:02:17 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/combat/pole_from_leather": {
-    "criteria": {
-      "has_stick": "2025-07-29 04:06:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
-    "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/cherry_boat": {
-    "criteria": {
-      "in_water": "2025-07-29 03:52:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone": {
-    "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/bamboo_raft": {
-    "criteria": {
-      "in_water": "2025-07-29 03:52:06 +0000"
     },
     "done": true
   },
@@ -197,18 +343,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/spruce_fence": {
-    "criteria": {
-      "has_planks": "2025-07-29 04:03:47 +0000"
-    },
-    "done": true
-  },
-  "traveloptics:root": {
-    "criteria": {
-      "custom_test_name": "2025-07-29 03:49:03 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/wooden_quarterstaff": {
     "criteria": {
       "has_wood": "2025-07-29 04:02:17 +0000"
@@ -221,75 +355,9 @@
     },
     "done": true
   },
-  "irons_spellbooks:grant_patchouli": {
-    "criteria": {
-      "tick": "2025-07-29 03:49:03 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/stone_boomerang": {
-    "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_club": {
-    "criteria": {
-      "has_wood_log": "2025-07-29 04:02:11 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:iceandfire/root": {
-    "criteria": {
-      "tick": "2025-07-29 03:49:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/spruce_button": {
-    "criteria": {
-      "has_planks": "2025-07-29 04:03:47 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/combat/handle_from_leather": {
-    "criteria": {
-      "has_stick": "2025-07-29 04:06:39 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/wooden_warhammer": {
     "criteria": {
       "has_wood": "2025-07-29 04:02:17 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/stone_tomahawk": {
-    "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/spruce_pressure_plate": {
-    "criteria": {
-      "has_planks": "2025-07-29 04:03:47 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/stone_pickaxe": {
-    "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
-  "dungeons_arise:wda_root": {
-    "criteria": {
-      "WDA": "2025-07-29 03:49:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/campfire": {
-    "criteria": {
-      "has_stick": "2025-07-29 04:06:39 +0000"
     },
     "done": true
   },
@@ -299,39 +367,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/wooden_hoe": {
-    "criteria": {
-      "has_stick": "2025-07-29 04:06:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/experience_bottle": {
-    "criteria": {
-      "has_glass_bottle": "2025-07-29 03:56:39 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/wooden_greatsword": {
     "criteria": {
       "has_wood": "2025-07-29 04:02:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/charcoal": {
-    "criteria": {
-      "has_log": "2025-07-29 04:02:11 +0000"
-    },
-    "done": true
-  },
-  "dungeons_and_combat:origin": {
-    "criteria": {
-      "origin_0": "2025-07-29 03:52:14 +0000"
-    },
-    "done": true
-  },
-  "naturescompass:natures_compass_log": {
-    "criteria": {
-      "has_log": "2025-07-29 04:02:11 +0000"
     },
     "done": true
   },
@@ -347,81 +385,15 @@
     },
     "done": true
   },
-  "scguns:main/root": {
-    "criteria": {
-      "gun": "2025-07-29 03:49:03 +0000"
-    },
-    "done": true
-  },
-  "mcwfurnitures:recipes/spruce": {
-    "criteria": {
-      "has_wood": "2025-07-29 04:03:35 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/stone_battleaxe": {
-    "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/form_obsidian": {
-    "criteria": {
-      "obsidian": "2025-07-29 03:52:50 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/wooden_boomerang": {
     "criteria": {
       "has_wood": "2025-07-29 04:02:17 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/stone_spear": {
-    "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/wooden_throwing_knife": {
     "criteria": {
       "has_wood": "2025-07-29 04:02:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_shovel": {
-    "criteria": {
-      "has_stick": "2025-07-29 04:06:39 +0000"
-    },
-    "done": true
-  },
-  "scalinghealth:recipes/misc/heart_dust": {
-    "criteria": {
-      "cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobblestone_slab": {
-    "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
-  "naturescompass:natures_compass_sapling": {
-    "criteria": {
-      "has_sapling": "2025-07-29 03:53:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/acacia_boat": {
-    "criteria": {
-      "in_water": "2025-07-29 03:52:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_by_something": "2025-07-29 03:51:34 +0000"
     },
     "done": true
   },
@@ -437,81 +409,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/wooden_sword": {
-    "criteria": {
-      "has_stick": "2025-07-29 04:06:39 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/barrel": {
     "criteria": {
       "has_planks": "2025-07-29 04:02:17 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
-    "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
-  "skyarena:root": {
-    "criteria": {
-      "always": "2025-07-29 03:49:03 +0000"
-    },
-    "done": true
-  },
-  "celestisynth:recipes/decorations/starlit_factory_update_fix": {
-    "criteria": {
-      "has_item": "2025-07-29 04:08:06 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/stone_rapier": {
-    "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
-  "legendary_monsters:legendary_monsters_root": {
-    "criteria": {
-      "custom_test_name": "2025-07-29 03:49:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobblestone_stairs": {
-    "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
-  "born_in_chaos_v1:bornin_chaos": {
-    "criteria": {
-      "bornin_chaos_0": "2025-07-29 03:49:03 +0000"
-    },
-    "done": true
-  },
   "bloomingnature:recipes/larch_stairs": {
     "criteria": {
       "has_larch_planks": "2025-07-29 04:02:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/stone_shovel": {
-    "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/jungle_boat": {
-    "criteria": {
-      "in_water": "2025-07-29 03:52:06 +0000"
-    },
-    "done": true
-  },
-  "scalinghealth:recipes/misc/power_crystal": {
-    "criteria": {
-      "cobblestone": "2025-07-29 04:08:22 +0000"
     },
     "done": true
   },
@@ -527,63 +433,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/lever": {
-    "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/stone_saber": {
-    "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/misc/dragon_meal": {
-    "criteria": {
-      "has_item": "2025-07-29 03:56:49 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/stone_scythe": {
-    "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/stone_greatsword": {
-    "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/wooden_glaive": {
     "criteria": {
       "has_wood": "2025-07-29 04:02:17 +0000"
-    },
-    "done": true
-  },
-  "dungeons_and_combat:the_titan": {
-    "criteria": {
-      "the_titan_0": "2025-07-29 03:52:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/stone_sword": {
-    "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cobblestone_wall": {
-    "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/stone_axe": {
-    "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
     },
     "done": true
   },
@@ -599,51 +451,15 @@
     },
     "done": true
   },
-  "spartanshields:recipes/obsidian_tower_shield": {
-    "criteria": {
-      "has_obsidian": "2025-07-29 03:52:50 +0000"
-    },
-    "done": true
-  },
-  "treasure2:recipes/tools/treasure_tool": {
-    "criteria": {
-      "has_stick": "2025-07-29 04:06:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bowl": {
-    "criteria": {
-      "has_brown_mushroom": "2025-07-29 04:04:00 +0000"
-    },
-    "done": true
-  },
-  "legendary_monsters:end_root": {
-    "criteria": {
-      "custom_test_name": "2025-07-29 03:49:03 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/wooden_longsword": {
     "criteria": {
       "has_wood": "2025-07-29 04:02:17 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/spruce_sign": {
-    "criteria": {
-      "has_planks": "2025-07-29 04:03:47 +0000"
-    },
-    "done": true
-  },
   "bloomingnature:recipes/larch_button": {
     "criteria": {
       "has_larch_planks": "2025-07-29 04:02:17 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/stone_parrying_dagger": {
-    "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
     },
     "done": true
   },
@@ -659,12 +475,6 @@
     },
     "done": true
   },
-  "doggytalents:recipes/food/uncooked_rice_bowl": {
-    "criteria": {
-      "has_dtn_rice_grains": "2025-07-29 04:04:33 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/wooden_pike": {
     "criteria": {
       "has_wood": "2025-07-29 04:02:17 +0000"
@@ -674,30 +484,6 @@
   "shieldsplus:recipes/combat/wooden_shield": {
     "criteria": {
       "has_planks": "2025-07-29 04:02:17 +0000"
-    },
-    "done": true
-  },
-  "spartanshields:recipes/stone_basic_shield": {
-    "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
-  "bloomingnature:recipes/larch_wood": {
-    "criteria": {
-      "has_larch_log": "2025-07-29 04:02:11 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/combat/pole_from_wool": {
-    "criteria": {
-      "has_stick": "2025-07-29 04:06:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_wood": {
-    "criteria": {
-      "has_log": "2025-07-29 04:03:35 +0000"
     },
     "done": true
   },
@@ -713,81 +499,15 @@
     },
     "done": true
   },
-  "shieldsplus:recipes/combat/stone_shield": {
-    "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
   "iceandfire:recipes/misc/earplugs": {
     "criteria": {
       "has_item": "2025-07-29 04:02:17 +0000"
     },
     "done": true
   },
-  "toughasnails:recipes/food/sweet_berry_juice": {
-    "criteria": {
-      "has_sweet_berries": "2025-07-29 04:05:24 +0000"
-    },
-    "done": true
-  },
-  "scalinghealth:recipes/misc/heart_crystal": {
-    "criteria": {
-      "cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/spruce_boat": {
-    "criteria": {
-      "in_water": "2025-07-29 03:52:06 +0000"
-    },
-    "done": true
-  },
-  "scalinghealth:recipes/combat/bandages": {
-    "criteria": {
-      "cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/root": {
-    "criteria": {
-      "consumed_item": "2025-07-29 03:56:47 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/birch_boat": {
-    "criteria": {
-      "in_water": "2025-07-29 03:52:06 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/wooden_katana": {
     "criteria": {
       "has_wood": "2025-07-29 04:02:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/oak_boat": {
-    "criteria": {
-      "in_water": "2025-07-29 03:52:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/paper": {
-    "criteria": {
-      "has_reeds": "2025-07-29 04:02:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_slab": {
-    "criteria": {
-      "has_planks": "2025-07-29 04:03:47 +0000"
-    },
-    "done": true
-  },
-  "cataclysm:root": {
-    "criteria": {
-      "custom_test_name": "2025-07-29 03:49:03 +0000"
     },
     "done": true
   },
@@ -803,69 +523,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/mangrove_boat": {
-    "criteria": {
-      "in_water": "2025-07-29 03:52:06 +0000"
-    },
-    "done": true
-  },
-  "scalinghealth:recipes/combat/medkit": {
-    "criteria": {
-      "cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/stone_lance": {
-    "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_planks": {
-    "criteria": {
-      "has_logs": "2025-07-29 04:03:35 +0000"
-    },
-    "done": true
-  },
   "bloomingnature:recipes/larch_hanging_sign": {
     "criteria": {
       "has_larch_planks": "2025-07-29 04:02:17 +0000"
-    },
-    "done": true
-  },
-  "spartanshields:recipes/stone_tower_shield": {
-    "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/stone_quarterstaff": {
-    "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/combat/handle_from_wool": {
-    "criteria": {
-      "has_stick": "2025-07-29 04:06:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/fermented_spider_eye": {
-    "criteria": {
-      "has_spider_eye": "2025-07-29 04:09:40 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/flint_and_steel": {
-    "criteria": {
-      "has_obsidian": "2025-07-29 03:52:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/sugar_from_sugar_cane": {
-    "criteria": {
-      "has_sugar_cane": "2025-07-29 04:02:34 +0000"
     },
     "done": true
   },
@@ -875,21 +535,75 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/wooden_pickaxe": {
+  "spartanweaponry:recipes/wooden_heavy_crossbow": {
     "criteria": {
-      "has_stick": "2025-07-29 04:06:39 +0000"
+      "has_wood": "2025-07-29 04:02:17 +0000"
     },
     "done": true
   },
-  "doggytalents:recipes/food/training_treat": {
+  "spartanweaponry:recipes/wooden_tomahawk": {
     "criteria": {
-      "has_dtn_rice_grains": "2025-07-29 04:04:33 +0000"
+      "has_wood": "2025-07-29 04:02:17 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/stone_flanged_mace": {
+  "minecraft:recipes/misc/paper": {
     "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+      "has_reeds": "2025-07-29 04:02:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2025-07-29 04:02:34 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce": {
+    "criteria": {
+      "has_wood": "2025-07-29 04:03:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2025-07-29 04:03:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2025-07-29 04:03:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2025-07-29 04:03:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2025-07-29 04:03:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-07-29 04:03:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2025-07-29 04:03:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2025-07-29 04:03:47 +0000"
     },
     "done": true
   },
@@ -911,27 +625,123 @@
     },
     "done": true
   },
-  "spartanweaponry:recipes/stone_javelin": {
+  "minecraft:recipes/building_blocks/spruce_stairs": {
     "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+      "has_planks": "2025-07-29 04:03:47 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/wooden_heavy_crossbow": {
+  "minecraft:recipes/misc/bowl": {
     "criteria": {
-      "has_wood": "2025-07-29 04:02:17 +0000"
+      "has_brown_mushroom": "2025-07-29 04:04:00 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/crying_obsidian": {
+  "minecraft:recipes/food/mushroom_stew": {
     "criteria": {
-      "has_obsidian": "2025-07-29 03:52:50 +0000"
+      "has_brown_mushroom": "2025-07-29 04:04:00 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/stone_pike": {
+  "doggytalents:recipes/food/uncooked_rice_bowl": {
     "criteria": {
-      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+      "has_dtn_rice_grains": "2025-07-29 04:04:33 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/food/training_treat": {
+    "criteria": {
+      "has_dtn_rice_grains": "2025-07-29 04:04:33 +0000"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/food/sweet_berry_juice": {
+    "criteria": {
+      "has_sweet_berries": "2025-07-29 04:05:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2025-07-29 04:06:39 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/sunglasses": {
+    "criteria": {
+      "has_stick": "2025-07-29 04:06:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2025-07-29 04:06:39 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/giant_stick": {
+    "criteria": {
+      "has_stick": "2025-07-29 04:06:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/combat/pole_from_leather": {
+    "criteria": {
+      "has_stick": "2025-07-29 04:06:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/combat/handle_from_leather": {
+    "criteria": {
+      "has_stick": "2025-07-29 04:06:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2025-07-29 04:06:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2025-07-29 04:06:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2025-07-29 04:06:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2025-07-29 04:06:39 +0000"
+    },
+    "done": true
+  },
+  "treasure2:recipes/tools/treasure_tool": {
+    "criteria": {
+      "has_stick": "2025-07-29 04:06:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/combat/pole_from_wool": {
+    "criteria": {
+      "has_stick": "2025-07-29 04:06:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/combat/handle_from_wool": {
+    "criteria": {
+      "has_stick": "2025-07-29 04:06:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2025-07-29 04:06:39 +0000"
     },
     "done": true
   },
@@ -941,32 +751,267 @@
     },
     "done": true
   },
-  "spartanweaponry:recipes/stone_warhammer": {
+  "spartanweaponry:recipes/combat/simple_handle": {
+    "criteria": {
+      "has_stick": "2025-07-29 04:06:39 +0000"
+    },
+    "done": true
+  },
+  "celestisynth:recipes/decorations/starlit_factory_update_fix": {
+    "criteria": {
+      "has_item": "2025-07-29 04:08:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-07-29 04:08:06 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_glaive": {
     "criteria": {
       "has_cobblestone": "2025-07-29 04:08:22 +0000"
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "spartanweaponry:recipes/stone_longsword": {
     "criteria": {
-      "minecraft:old_growth_pine_taiga": "2025-07-29 03:57:44 +0000",
-      "minecraft:taiga": "2025-07-29 03:49:04 +0000",
-      "minecraft:beach": "2025-07-29 03:52:52 +0000",
-      "minecraft:river": "2025-07-29 03:52:07 +0000",
-      "minecraft:forest": "2025-07-29 03:52:31 +0000",
-      "minecraft:old_growth_spruce_taiga": "2025-07-29 03:54:16 +0000"
-    },
-    "done": false
-  },
-  "spartanweaponry:recipes/wooden_tomahawk": {
-    "criteria": {
-      "has_wood": "2025-07-29 04:02:17 +0000"
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/combat/simple_handle": {
+  "spartanweaponry:recipes/stone_katana": {
     "criteria": {
-      "has_stick": "2025-07-29 04:06:39 +0000"
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_battle_hammer": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_throwing_knife": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_boomerang": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_tomahawk": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_battleaxe": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_spear": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "scalinghealth:recipes/misc/heart_dust": {
+    "criteria": {
+      "cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_rapier": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "scalinghealth:recipes/misc/power_crystal": {
+    "criteria": {
+      "cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_saber": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_scythe": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_greatsword": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_parrying_dagger": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "spartanshields:recipes/stone_basic_shield": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "shieldsplus:recipes/combat/stone_shield": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "scalinghealth:recipes/misc/heart_crystal": {
+    "criteria": {
+      "cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "scalinghealth:recipes/combat/bandages": {
+    "criteria": {
+      "cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "scalinghealth:recipes/combat/medkit": {
+    "criteria": {
+      "cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_lance": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "spartanshields:recipes/stone_tower_shield": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_quarterstaff": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_flanged_mace": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_javelin": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_pike": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_warhammer": {
+    "criteria": {
+      "has_cobblestone": "2025-07-29 04:08:22 +0000"
     },
     "done": true
   },
@@ -982,33 +1027,9 @@
     },
     "done": true
   },
-  "apotheosis:give_book": {
-    "criteria": {
-      "tick": "2025-07-29 03:49:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/mushroom_stew": {
-    "criteria": {
-      "has_brown_mushroom": "2025-07-29 04:04:00 +0000"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/balanced_diet": {
-    "criteria": {
-      "cooked_chicken": "2025-07-29 03:56:51 +0000"
-    },
-    "done": false
-  },
   "spartanweaponry:recipes/stone_halberd": {
     "criteria": {
       "has_cobblestone": "2025-07-29 04:08:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/enchanting_table": {
-    "criteria": {
-      "has_obsidian": "2025-07-29 03:52:50 +0000"
     },
     "done": true
   },
@@ -1018,27 +1039,45 @@
     },
     "done": true
   },
-  "legendary_monsters:nether_root": {
+  "minecraft:recipes/brewing/fermented_spider_eye": {
     "criteria": {
-      "custom_test_name": "2025-07-29 03:49:03 +0000"
+      "has_spider_eye": "2025-07-29 04:09:40 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/spruce_stairs": {
+  "dungeons_enhanced:ambitious_explorer": {
     "criteria": {
-      "has_planks": "2025-07-29 04:03:47 +0000"
+      "entered_witch_tower": "2025-07-29 04:30:59 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2025-07-29 04:30:22 +0000"
     },
     "done": true
   },
-  "minecraft:story/root": {
+  "bloomingnature:recipes/fir_planks": {
     "criteria": {
-      "crafting_table": "2025-07-29 04:08:06 +0000"
+      "has_fir_log": "2025-07-29 04:31:10 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/dark_oak_boat": {
+  "dungeons_enhanced:root": {
     "criteria": {
-      "in_water": "2025-07-29 03:52:06 +0000"
+      "entered_witch_tower": "2025-07-29 04:30:59 +0000"
+    },
+    "done": true
+  },
+  "artifacts:amateur_archaeologist": {
+    "criteria": {
+      "find_artifact": "2025-07-29 04:30:21 +0000"
+    },
+    "done": true
+  },
+  "bloomingnature:recipes/fir_wood": {
+    "criteria": {
+      "has_fir_log": "2025-07-29 04:31:10 +0000"
     },
     "done": true
   },
