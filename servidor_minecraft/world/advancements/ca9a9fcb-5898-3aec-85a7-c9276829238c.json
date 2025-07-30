@@ -106,6 +106,7 @@
       "minecraft:old_growth_pine_taiga": "2025-07-29 03:57:31 +0000",
       "minecraft:taiga": "2025-07-29 02:30:13 +0000",
       "minecraft:frozen_river": "2025-07-29 04:12:25 +0000",
+      "minecraft:sunflower_plains": "2025-07-30 04:28:44 +0000",
       "minecraft:beach": "2025-07-29 02:33:23 +0000",
       "minecraft:river": "2025-07-29 02:33:13 +0000",
       "minecraft:stony_shore": "2025-07-29 04:41:51 +0000",
@@ -241,6 +242,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-07-30 04:36:06 +0000",
       "minecraft:skeleton": "2025-07-29 04:11:12 +0000",
       "minecraft:spider": "2025-07-29 03:50:48 +0000",
       "minecraft:phantom": "2025-07-30 02:57:10 +0000",
@@ -3098,6 +3100,12 @@
     },
     "done": true
   },
+  "spartanfire:recipes/dragon_bone_pike": {
+    "criteria": {
+      "has_dragon_bone": "2025-07-30 04:35:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-07-30 02:55:43 +0000"
@@ -3146,6 +3154,12 @@
     },
     "done": true
   },
+  "iceandfire:recipes/misc/dragon_bone_wall": {
+    "criteria": {
+      "has_item": "2025-07-30 04:35:44 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/huge_quiver_brace": {
     "criteria": {
       "has_diamond": "2025-07-30 03:49:32 +0000"
@@ -3182,6 +3196,12 @@
     },
     "done": true
   },
+  "spartanfire:recipes/dragon_bone_rapier": {
+    "criteria": {
+      "has_dragon_bone": "2025-07-30 04:35:44 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/diamond_tomahawk": {
     "criteria": {
       "has_diamond": "2025-07-30 03:49:32 +0000"
@@ -3215,6 +3235,12 @@
   "minecraft:adventure/shoot_arrow": {
     "criteria": {
       "shot_arrow": "2025-07-30 04:16:54 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/dragon_bone_dagger": {
+    "criteria": {
+      "has_dragon_bone": "2025-07-30 04:35:44 +0000"
     },
     "done": true
   },
@@ -3260,6 +3286,12 @@
     },
     "done": true
   },
+  "spartanfire:recipes/dragon_bone_flanged_mace": {
+    "criteria": {
+      "has_dragon_bone": "2025-07-30 04:35:44 +0000"
+    },
+    "done": true
+  },
   "potionring:recipes/brewing/ring_of_fire_resistance": {
     "criteria": {
       "has_ring": "2025-07-30 02:40:05 +0000"
@@ -3269,6 +3301,12 @@
   "sophisticatedbackpacks:recipes/misc/feeding_upgrade": {
     "criteria": {
       "has_upgrade_base": "2025-07-30 03:52:20 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragon_flute": {
+    "criteria": {
+      "has_item": "2025-07-30 04:35:44 +0000"
     },
     "done": true
   },
@@ -3287,6 +3325,12 @@
   "spartanfire:recipes/misc/witherbone_pole_from_string": {
     "criteria": {
       "has_witherbone": "2025-07-30 02:40:00 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/dragon_bone_scythe": {
+    "criteria": {
+      "has_dragon_bone": "2025-07-30 04:35:44 +0000"
     },
     "done": true
   },
@@ -3362,6 +3406,12 @@
     },
     "done": true
   },
+  "iceandfire:recipes/misc/nest": {
+    "criteria": {
+      "has_item": "2025-07-30 04:35:44 +0000"
+    },
+    "done": true
+  },
   "sophisticatedbackpacks:recipes/misc/smelting_upgrade": {
     "criteria": {
       "has_upgrade_base": "2025-07-30 03:52:20 +0000"
@@ -3386,6 +3436,12 @@
     },
     "done": true
   },
+  "iceandfire:recipes/combat/dragonbone_bow": {
+    "criteria": {
+      "has_item": "2025-07-30 04:35:44 +0000"
+    },
+    "done": true
+  },
   "sophisticatedbackpacks:recipes/misc/refill_upgrade": {
     "criteria": {
       "has_upgrade_base": "2025-07-30 03:52:20 +0000"
@@ -3395,6 +3451,12 @@
   "spartanweaponry:recipes/diamond_halberd": {
     "criteria": {
       "has_diamond": "2025-07-30 03:49:32 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/dragon_bone_greatsword": {
+    "criteria": {
+      "has_dragon_bone": "2025-07-30 04:35:44 +0000"
     },
     "done": true
   },
@@ -3437,6 +3499,12 @@
   "sophisticatedbackpacks:recipes/misc/jukebox_upgrade": {
     "criteria": {
       "has_upgrade_base": "2025-07-30 03:52:20 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/dragon_bone_block": {
+    "criteria": {
+      "has_dragonbone": "2025-07-30 04:35:44 +0000"
     },
     "done": true
   },
@@ -3488,6 +3556,12 @@
     },
     "done": true
   },
+  "iceandfire:recipes/tools/dragonbone_hoe": {
+    "criteria": {
+      "has_item": "2025-07-30 04:35:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2025-07-30 02:55:19 +0000"
@@ -3506,9 +3580,21 @@
     },
     "done": true
   },
+  "spartanfire:recipes/dragon_bone_throwing_knife": {
+    "criteria": {
+      "has_dragon_bone": "2025-07-30 04:35:44 +0000"
+    },
+    "done": true
+  },
   "sophisticatedbackpacks:recipes/misc/pump_upgrade": {
     "criteria": {
       "has_upgrade_base": "2025-07-30 03:52:20 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/dragon_bone_glaive": {
+    "criteria": {
+      "has_dragon_bone": "2025-07-30 04:35:44 +0000"
     },
     "done": true
   },
@@ -3578,9 +3664,21 @@
     },
     "done": true
   },
+  "spartanfire:recipes/dragon_bone_parrying_dagger": {
+    "criteria": {
+      "has_dragon_bone": "2025-07-30 04:35:44 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/diamond_glaive": {
     "criteria": {
       "has_diamond": "2025-07-30 03:49:32 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/dragon_bone_warhammer": {
+    "criteria": {
+      "has_dragon_bone": "2025-07-30 04:35:44 +0000"
     },
     "done": true
   },
@@ -3596,9 +3694,21 @@
     },
     "done": true
   },
+  "spartanfire:recipes/dragon_bone_longsword": {
+    "criteria": {
+      "has_dragon_bone": "2025-07-30 04:35:44 +0000"
+    },
+    "done": true
+  },
   "sophisticatedbackpacks:recipes/misc/smoking_upgrade": {
     "criteria": {
       "has_upgrade_base": "2025-07-30 03:52:20 +0000"
+    },
+    "done": true
+  },
+  "undead_revamp2:nowyouknow": {
+    "criteria": {
+      "nowyouknow_0": "2025-07-30 04:28:21 +0000"
     },
     "done": true
   },
@@ -3632,6 +3742,12 @@
     },
     "done": true
   },
+  "spartanfire:recipes/dragon_bone_battle_hammer": {
+    "criteria": {
+      "has_dragon_bone": "2025-07-30 04:35:44 +0000"
+    },
+    "done": true
+  },
   "spartanfire:recipes/misc/witherbone_handle_from_leather": {
     "criteria": {
       "has_witherbone": "2025-07-30 02:40:00 +0000"
@@ -3662,6 +3778,12 @@
     },
     "done": true
   },
+  "iceandfire:recipes/tools/dragonbone_shovel": {
+    "criteria": {
+      "has_item": "2025-07-30 04:35:44 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:collect_heads": {
     "criteria": {
       "wither_skeleton_skull": "2025-07-30 04:05:39 +0000"
@@ -3671,6 +3793,12 @@
   "shieldsplus:recipes/combat/diamond_shield": {
     "criteria": {
       "has_diamond": "2025-07-30 03:49:32 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/dragon_bone_longbow": {
+    "criteria": {
+      "has_dragon_bone": "2025-07-30 04:35:44 +0000"
     },
     "done": true
   },
@@ -3782,6 +3910,12 @@
     },
     "done": true
   },
+  "spartanfire:recipes/dragon_bone_lance": {
+    "criteria": {
+      "has_dragon_bone": "2025-07-30 04:35:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobbled_deepslate_wall": {
     "criteria": {
       "has_cobbled_deepslate": "2025-07-30 02:55:43 +0000"
@@ -3806,6 +3940,12 @@
     },
     "done": true
   },
+  "iceandfire:recipes/tools/dragonbone_axe": {
+    "criteria": {
+      "has_item": "2025-07-30 04:35:44 +0000"
+    },
+    "done": true
+  },
   "sophisticatedbackpacks:recipes/misc/compacting_upgrade": {
     "criteria": {
       "has_upgrade_base": "2025-07-30 03:52:20 +0000"
@@ -3815,6 +3955,12 @@
   "minecraft:recipes/redstone/redstone": {
     "criteria": {
       "has_redstone_block": "2025-07-30 03:02:17 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/dragon_bone_halberd": {
+    "criteria": {
+      "has_dragon_bone": "2025-07-30 04:35:44 +0000"
     },
     "done": true
   },
@@ -3830,6 +3976,12 @@
     },
     "done": true
   },
+  "iceandfire:recipes/tools/dragonbone_pickaxe": {
+    "criteria": {
+      "has_item": "2025-07-30 04:35:44 +0000"
+    },
+    "done": true
+  },
   "potionring:recipes/brewing/ring_of_mining_fatigue": {
     "criteria": {
       "has_potion_ring": "2025-07-30 02:40:05 +0000"
@@ -3839,6 +3991,18 @@
   "sophisticatedbackpacks:recipes/misc/alchemy_upgrade": {
     "criteria": {
       "has_upgrade_base": "2025-07-30 03:52:20 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/dragon_bone_katana": {
+    "criteria": {
+      "has_dragon_bone": "2025-07-30 04:35:44 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/dragon_bone_boomerang": {
+    "criteria": {
+      "has_dragon_bone": "2025-07-30 04:35:44 +0000"
     },
     "done": true
   },
@@ -3902,6 +4066,12 @@
     },
     "done": true
   },
+  "spartanfire:recipes/dragon_bone_javelin": {
+    "criteria": {
+      "has_dragon_bone": "2025-07-30 04:35:44 +0000"
+    },
+    "done": true
+  },
   "potionring:recipes/brewing/ring_of_blindness": {
     "criteria": {
       "has_ring": "2025-07-30 02:40:05 +0000"
@@ -3917,6 +4087,12 @@
   "minecraft:recipes/building_blocks/polished_deepslate_slab_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-07-30 02:55:43 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/dragon_bone_tomahawk": {
+    "criteria": {
+      "has_dragon_bone": "2025-07-30 04:35:44 +0000"
     },
     "done": true
   },
@@ -3950,9 +4126,21 @@
     },
     "done": true
   },
+  "spartanfire:recipes/dragon_bone_spear": {
+    "criteria": {
+      "has_dragon_bone": "2025-07-30 04:35:44 +0000"
+    },
+    "done": true
+  },
   "potionring:recipes/brewing/ring_of_hunger": {
     "criteria": {
       "has_ring": "2025-07-30 02:40:05 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/dragon_bone_saber": {
+    "criteria": {
+      "has_dragon_bone": "2025-07-30 04:35:44 +0000"
     },
     "done": true
   },
@@ -3977,6 +4165,18 @@
   "minecraft:recipes/misc/eye_armor_trim_smithing_template": {
     "criteria": {
       "has_eye_armor_trim_smithing_template": "2025-07-30 03:22:34 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/dragon_bone_battleaxe": {
+    "criteria": {
+      "has_dragon_bone": "2025-07-30 04:35:44 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/dragonbone_sword": {
+    "criteria": {
+      "has_item": "2025-07-30 04:35:44 +0000"
     },
     "done": true
   },
@@ -4010,6 +4210,12 @@
     },
     "done": true
   },
+  "spartanfire:recipes/dragon_bone_heavy_crossbow": {
+    "criteria": {
+      "has_dragon_bone": "2025-07-30 04:35:44 +0000"
+    },
+    "done": true
+  },
   "potionring:recipes/brewing/ring_of_strengh": {
     "criteria": {
       "has_ring": "2025-07-30 02:40:05 +0000"
@@ -4040,6 +4246,12 @@
     },
     "done": true
   },
+  "iceandfire:recipes/misc/dragon_horn": {
+    "criteria": {
+      "has_item": "2025-07-30 04:35:44 +0000"
+    },
+    "done": true
+  },
   "sophisticatedbackpacks:recipes/misc/tank_upgrade": {
     "criteria": {
       "has_upgrade_base": "2025-07-30 03:52:20 +0000"
@@ -4061,6 +4273,12 @@
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2025-07-30 03:49:32 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/dragon_bone_quarterstaff": {
+    "criteria": {
+      "has_dragon_bone": "2025-07-30 04:35:44 +0000"
     },
     "done": true
   },

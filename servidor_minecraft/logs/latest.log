@@ -3323,3 +3323,50 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [30Jul2025 04:27:12.778] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
 [30Jul2025 04:27:15.409] [Server thread/WARN] [Scaling Health/]: Another mod seems to have canceled healing from a heart container (player literal{Yonatan_nXD})
 [30Jul2025 04:28:21.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 has completed the challenge [Well, that was disgusting]
+[30Jul2025 04:29:07.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <shebastian11> se bueno pls
+[30Jul2025 04:29:14.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkZero369> cuak
+[30Jul2025 04:29:42.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 burned to death
+[30Jul2025 04:29:43.312] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 04:29:43.312] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[30Jul2025 04:29:43.313] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 04:30:27.861] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=879, y=99, z=947} BlockPos{x=879, y=100, z=948}
+[30Jul2025 04:30:34.727] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 04:30:35.899] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 04:30:36.408] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 04:30:37.007] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 04:30:37.507] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 04:30:38.508] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 04:30:39.509] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 04:30:51.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 was slain by Fire Dragon
+[30Jul2025 04:30:52.691] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 04:30:52.691] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[30Jul2025 04:30:52.692] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 04:30:58.368] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 04:31:22.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 was incinerated by a dragon
+[30Jul2025 04:31:42.518] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 04:31:42.519] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[30Jul2025 04:31:42.519] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 04:32:28.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 was slain by Fire Dragon
+[30Jul2025 04:32:29.618] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 04:32:29.618] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[30Jul2025 04:32:29.619] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 04:32:46.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yonatan_nXD: Triggered [darkdeath]]
+[30Jul2025 04:32:53.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD died
+[30Jul2025 04:32:54.540] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 04:32:54.540] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[30Jul2025 04:32:54.541] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 04:33:15.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkZero369: Triggered [darkdeath]]
+[30Jul2025 04:33:22.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 died
+[30Jul2025 04:33:23.333] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 04:33:23.333] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[30Jul2025 04:33:23.334] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 04:34:00.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 was incinerated by a dragon
+[30Jul2025 04:34:01.863] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 04:34:01.863] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[30Jul2025 04:34:01.864] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 04:34:15.305] [Server thread/INFO] [Scaling Health/]: Blight Corpse Fly has died
+[30Jul2025 04:34:46.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [Dragonslayer]
+[30Jul2025 04:36:02.303] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: shebastian11 lost connection: Disconnected
+[30Jul2025 04:36:02.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 left the game
+[30Jul2025 04:36:30.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [Thunder Time]
+[30Jul2025 04:37:23.308] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkZero369 moved too quickly! -50.48048308506509,-5.0,-153.47587295077574
