@@ -241,6 +241,7 @@
     "criteria": {
       "minecraft:skeleton": "2025-07-29 04:11:12 +0000",
       "minecraft:spider": "2025-07-29 03:50:48 +0000",
+      "minecraft:stray": "2025-07-30 02:41:44 +0000",
       "minecraft:zombie": "2025-07-29 04:03:23 +0000"
     },
     "done": false
@@ -2649,15 +2650,75 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/brick_wall": {
+  "naturescompass:natures_compass": {
     "criteria": {
-      "has_bricks": "2025-07-30 02:21:19 +0000"
+      "has_compass": "2025-07-30 02:05:34 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/brick_stairs": {
+  "minecraft:recipes/misc/map": {
     "criteria": {
-      "has_bricks": "2025-07-30 02:21:19 +0000"
+      "has_compass": "2025-07-30 02:05:34 +0000"
+    },
+    "done": true
+  },
+  "artifacts:amateur_archaeologist": {
+    "criteria": {
+      "find_artifact": "2025-07-30 02:06:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-07-30 02:06:31 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/head_band_blank": {
+    "criteria": {
+      "has_paper": "2025-07-30 02:06:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/name_tag": {
+    "criteria": {
+      "has_paper": "2025-07-30 02:06:55 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/birthday_hat_alt": {
+    "criteria": {
+      "has_paper": "2025-07-30 02:06:55 +0000"
+    },
+    "done": true
+  },
+  "roughtweaks:recipes/misc/plaster": {
+    "criteria": {
+      "has_paper": "2025-07-30 02:06:55 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/dog_gift_costume": {
+    "criteria": {
+      "has_paper": "2025-07-30 02:06:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-07-30 02:06:55 +0000"
+    },
+    "done": true
+  },
+  "roughtweaks:recipes/misc/bandage": {
+    "criteria": {
+      "has_paper": "2025-07-30 02:06:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-07-30 02:06:55 +0000"
     },
     "done": true
   },
@@ -2667,33 +2728,57 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/raw_iron_block": {
+  "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
-      "has_raw_iron": "2025-07-30 02:12:36 +0000"
+      "has_planks": "2025-07-30 02:07:09 +0000"
     },
     "done": true
   },
-  "doggytalents:recipes/decorations/ceremonial_garb": {
+  "minecraft:recipes/redstone/oak_fence_gate": {
     "criteria": {
-      "has_lead": "2025-07-30 02:09:47 +0000"
+      "has_planks": "2025-07-30 02:07:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2025-07-30 02:07:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-07-30 02:07:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-07-30 02:07:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2025-07-30 02:07:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2025-07-30 02:07:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-07-30 02:07:09 +0000"
     },
     "done": true
   },
   "iceandfire:recipes/building_blocks/dragonforge_ice_brick": {
     "criteria": {
       "has_item": "2025-07-30 02:09:46 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/andesite_stairs": {
-    "criteria": {
-      "has_andesite": "2025-07-30 02:22:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
-    "criteria": {
-      "has_raw_gold": "2025-07-30 02:22:27 +0000"
     },
     "done": true
   },
@@ -2709,111 +2794,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/brick_stairs_from_bricks_stonecutting": {
-    "criteria": {
-      "has_bricks": "2025-07-30 02:21:19 +0000"
-    },
-    "done": true
-  },
-  "naturescompass:natures_compass": {
-    "criteria": {
-      "has_compass": "2025-07-30 02:05:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/map": {
-    "criteria": {
-      "has_compass": "2025-07-30 02:05:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
-    "criteria": {
-      "has_mossy_cobblestone": "2025-07-30 02:17:09 +0000"
-    },
-    "done": true
-  },
-  "toughasnails:recipes/food/apple_juice": {
-    "criteria": {
-      "has_apple": "2025-07-30 02:11:16 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/sulfur_chunk": {
-    "criteria": {
-      "sulfur_chunk": "2025-07-30 02:24:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
-    "criteria": {
-      "has_mossy_cobblestone": "2025-07-30 02:17:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
-    "criteria": {
-      "has_mossy_cobblestone": "2025-07-30 02:17:09 +0000"
-    },
-    "done": true
-  },
-  "doggytalents:recipes/decorations/head_band_blank": {
-    "criteria": {
-      "has_paper": "2025-07-30 02:06:55 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
-    "criteria": {
-      "has_raw_gold": "2025-07-30 02:22:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/name_tag": {
-    "criteria": {
-      "has_paper": "2025-07-30 02:06:55 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_slab": {
-    "criteria": {
-      "has_planks": "2025-07-30 02:07:09 +0000"
-    },
-    "done": true
-  },
-  "doggytalents:recipes/decorations/birthday_hat_alt": {
-    "criteria": {
-      "has_paper": "2025-07-30 02:06:55 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/raw_gold_block": {
-    "criteria": {
-      "has_raw_gold": "2025-07-30 02:22:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/brick_slab": {
-    "criteria": {
-      "has_bricks": "2025-07-30 02:21:19 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_fence_gate": {
-    "criteria": {
-      "has_planks": "2025-07-30 02:07:09 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone_brick_slab": {
     "criteria": {
       "has_stone_bricks": "2025-07-30 02:09:46 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
-    "criteria": {
-      "has_andesite": "2025-07-30 02:22:29 +0000"
     },
     "done": true
   },
@@ -2823,63 +2806,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/oak_door": {
-    "criteria": {
-      "has_planks": "2025-07-30 02:07:09 +0000"
-    },
-    "done": true
-  },
-  "roughtweaks:recipes/misc/plaster": {
-    "criteria": {
-      "has_paper": "2025-07-30 02:06:55 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
-    "criteria": {
-      "has_mossy_cobblestone": "2025-07-30 02:17:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
-    "criteria": {
-      "has_raw_iron": "2025-07-30 02:12:36 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
-    "criteria": {
-      "has_andesite": "2025-07-30 02:22:29 +0000"
-    },
-    "done": true
-  },
-  "doggytalents:recipes/decorations/dog_gift_costume": {
-    "criteria": {
-      "has_paper": "2025-07-30 02:06:55 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/stone_brick_wall": {
     "criteria": {
       "has_stone_bricks": "2025-07-30 02:09:46 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/iron_tools": {
-    "criteria": {
-      "iron_pickaxe": "2025-07-30 02:06:31 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_trapdoor": {
-    "criteria": {
-      "has_planks": "2025-07-30 02:07:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/book": {
-    "criteria": {
-      "has_paper": "2025-07-30 02:06:55 +0000"
     },
     "done": true
   },
@@ -2901,39 +2830,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/brick_slab_from_bricks_stonecutting": {
-    "criteria": {
-      "has_bricks": "2025-07-30 02:21:19 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
-    "criteria": {
-      "has_andesite": "2025-07-30 02:22:29 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
     "criteria": {
       "has_tag": "2025-07-30 02:09:46 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_stairs": {
-    "criteria": {
-      "has_planks": "2025-07-30 02:07:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
-    "criteria": {
-      "has_andesite": "2025-07-30 02:22:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/oak_fence": {
-    "criteria": {
-      "has_planks": "2025-07-30 02:07:09 +0000"
     },
     "done": true
   },
@@ -2943,27 +2842,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
     "criteria": {
-      "has_andesite": "2025-07-30 02:22:29 +0000"
+      "has_stone_bricks": "2025-07-30 02:09:46 +0000"
     },
     "done": true
   },
-  "roughtweaks:recipes/misc/bandage": {
+  "doggytalents:recipes/decorations/ceremonial_garb": {
     "criteria": {
-      "has_paper": "2025-07-30 02:06:55 +0000"
+      "has_lead": "2025-07-30 02:09:47 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/oak_button": {
+  "toughasnails:recipes/food/apple_juice": {
     "criteria": {
-      "has_planks": "2025-07-30 02:07:09 +0000"
+      "has_apple": "2025-07-30 02:11:16 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
+  "minecraft:recipes/building_blocks/raw_iron_block": {
     "criteria": {
-      "has_andesite": "2025-07-30 02:22:29 +0000"
+      "has_raw_iron": "2025-07-30 02:12:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2025-07-30 02:12:36 +0000"
     },
     "done": true
   },
@@ -2973,9 +2878,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
     "criteria": {
-      "has_stone_bricks": "2025-07-30 02:09:46 +0000"
+      "has_mossy_cobblestone": "2025-07-30 02:17:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-07-30 02:17:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-07-30 02:17:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-07-30 02:17:09 +0000"
     },
     "done": true
   },
@@ -2985,15 +2908,39 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/oak_pressure_plate": {
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
     "criteria": {
-      "has_planks": "2025-07-30 02:07:09 +0000"
+      "has_mossy_cobblestone": "2025-07-30 02:17:09 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_andesite": {
+  "minecraft:recipes/decorations/brick_wall": {
     "criteria": {
-      "has_andesite": "2025-07-30 02:22:29 +0000"
+      "has_bricks": "2025-07-30 02:21:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs": {
+    "criteria": {
+      "has_bricks": "2025-07-30 02:21:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2025-07-30 02:21:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab": {
+    "criteria": {
+      "has_bricks": "2025-07-30 02:21:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2025-07-30 02:21:19 +0000"
     },
     "done": true
   },
@@ -3003,15 +2950,69 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/cartography_table": {
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
     "criteria": {
-      "has_paper": "2025-07-30 02:06:55 +0000"
+      "has_raw_gold": "2025-07-30 02:22:27 +0000"
     },
     "done": true
   },
-  "artifacts:amateur_archaeologist": {
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
     "criteria": {
-      "find_artifact": "2025-07-30 02:06:27 +0000"
+      "has_raw_gold": "2025-07-30 02:22:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2025-07-30 02:22:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs": {
+    "criteria": {
+      "has_andesite": "2025-07-30 02:22:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-07-30 02:22:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-07-30 02:22:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-07-30 02:22:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-07-30 02:22:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-07-30 02:22:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-07-30 02:22:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite": {
+    "criteria": {
+      "has_andesite": "2025-07-30 02:22:29 +0000"
     },
     "done": true
   },
@@ -3027,9 +3028,255 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+  "scguns:main/sulfur_chunk": {
     "criteria": {
-      "has_mossy_cobblestone": "2025-07-30 02:17:09 +0000"
+      "sulfur_chunk": "2025-07-30 02:24:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-07-30 02:31:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-07-30 02:31:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-07-30 02:31:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-07-30 02:31:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-07-30 02:31:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-07-30 02:31:03 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:affix/random": {
+    "criteria": {
+      "sword": "2025-07-30 02:33:33 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/misc/witherbone_handle_from_wool": {
+    "criteria": {
+      "has_witherbone": "2025-07-30 02:40:00 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_speed": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:40:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2025-07-30 02:40:10 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_invisibility": {
+    "criteria": {
+      "has_potion_ring": "2025-07-30 02:40:05 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_haste": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:40:05 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/misc/witherbone_pole_from_leather": {
+    "criteria": {
+      "has_witherbone": "2025-07-30 02:40:00 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_luck": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:40:05 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_fire_resistance": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:40:05 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/misc/witherbone_pole_from_string": {
+    "criteria": {
+      "has_witherbone": "2025-07-30 02:40:00 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_resistance": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:40:05 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/misc/witherbone_handle_from_string": {
+    "criteria": {
+      "has_witherbone": "2025-07-30 02:40:00 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_weakness": {
+    "criteria": {
+      "has_potion_ring": "2025-07-30 02:40:05 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_regeneration": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:40:05 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_wither": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:40:05 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_conduit_power": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:40:05 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_slow_falling": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:40:05 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_night_vision": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:40:05 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/misc/witherbone_handle_from_leather": {
+    "criteria": {
+      "has_witherbone": "2025-07-30 02:40:00 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_levitation": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:40:05 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_darkness": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:40:05 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_poison": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:40:05 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_unluck": {
+    "criteria": {
+      "has_potion_ring": "2025-07-30 02:40:05 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/misc/witherbone_pole_from_wool": {
+    "criteria": {
+      "has_witherbone": "2025-07-30 02:40:00 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_mining_fatigue": {
+    "criteria": {
+      "has_potion_ring": "2025-07-30 02:40:05 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_water_breathing": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:40:05 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_blindness": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:40:05 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_jump_boost": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:40:05 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_slowness": {
+    "criteria": {
+      "has_potion_ring": "2025-07-30 02:40:05 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_hunger": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:40:05 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_glowing": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:40:05 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_strengh": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:40:05 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_nausea": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:40:05 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_saturation": {
+    "criteria": {
+      "has_potion_ring": "2025-07-30 02:40:05 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_dolphins_grace": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:40:05 +0000"
     },
     "done": true
   },
