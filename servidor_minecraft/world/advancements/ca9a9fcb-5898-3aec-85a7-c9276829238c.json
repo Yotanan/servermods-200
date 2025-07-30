@@ -112,6 +112,7 @@
       "minecraft:snowy_taiga": "2025-07-29 04:12:09 +0000",
       "minecraft:cold_ocean": "2025-07-29 04:45:40 +0000",
       "minecraft:forest": "2025-07-29 02:33:26 +0000",
+      "minecraft:ice_spikes": "2025-07-30 03:55:30 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-07-29 03:56:02 +0000",
       "minecraft:plains": "2025-07-29 04:49:30 +0000"
     },
@@ -930,6 +931,7 @@
   },
   "dungeons_enhanced:ambitious_explorer": {
     "criteria": {
+      "entered_tower_of_the_undead": "2025-07-30 03:55:53 +0000",
       "entered_ruined_building": "2025-07-29 04:02:16 +0000"
     },
     "done": false
@@ -3692,6 +3694,12 @@
   "sophisticatedbackpacks:recipes/misc/stack_upgrade_starter_tier": {
     "criteria": {
       "has_upgrade_base": "2025-07-30 03:52:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2025-07-30 03:55:36 +0000"
     },
     "done": true
   },

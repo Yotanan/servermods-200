@@ -3170,3 +3170,32 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [30Jul2025 03:52:11.682] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=730, y=27, z=950}
 [30Jul2025 03:56:19.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has reached the goal [Flawless Crystals]
 [30Jul2025 03:57:14.727] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkZero369 moved too quickly! 366.5508683376236,-32.5,-238.39716334823788
+[30Jul2025 03:59:53.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkZero369> ZzZzZzZzZ
+[30Jul2025 03:59:56.714] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/32997, l='ServerLevel[world]', x=239.30, y=78.00, z=871.36] died, message: 'Farmer was slain by Door Knight'
+[30Jul2025 04:00:03.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkZero369> duerme que ya canto barney
+[30Jul2025 04:00:10.616] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/32899, l='ServerLevel[world]', x=237.40, y=79.00, z=866.40] died, message: 'Villager was slain by Door Knight'
+[30Jul2025 04:00:11.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 was killed by magic
+[30Jul2025 04:00:12.853] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 04:00:12.854] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[30Jul2025 04:00:12.854] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 04:00:14.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkZero369> duerme que los teletubies ya duermen
+[30Jul2025 04:00:42.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has made the advancement [How'd You Get This?]
+[30Jul2025 04:01:31.443] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5203ms or 104 ticks behind
+[30Jul2025 04:01:31.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <shebastian11> as
+[30Jul2025 04:03:06.330] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=838, y=-52, z=887}
+[30Jul2025 04:03:06.330] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=832, y=-12, z=893}
+[30Jul2025 04:03:19.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 fell from a high place
+[30Jul2025 04:03:20.832] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 04:03:20.832] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[30Jul2025 04:03:20.833] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 04:03:27.403] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: shebastian11 moved too quickly! -1.2836572300197986,-13.739436167490794,0.34729401801996573
+[30Jul2025 04:03:32.431] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=840, y=-52, z=887}
+[30Jul2025 04:03:32.431] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=839, y=-52, z=887}
+[30Jul2025 04:04:26.826] [Server thread/WARN] [Scaling Health/]: Another mod seems to have canceled healing from a heart container (player literal{shebastian11})
+[30Jul2025 04:04:39.687] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkZero369 moved too quickly! -8.446831233539456,-1.3427004271550658,5.5814469714583765
+[30Jul2025 04:05:01.333] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: shebastian11 moved too quickly! -51.27337041644432,-22.460877198454597,12.693862708493498
+[30Jul2025 04:05:21.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 was turned into KFC by a dragon
+[30Jul2025 04:05:22.565] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 04:05:22.565] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[30Jul2025 04:05:22.566] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 04:05:39.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 has made the advancement [Spooky Scary Skeleton]

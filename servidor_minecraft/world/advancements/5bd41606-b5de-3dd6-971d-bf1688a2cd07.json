@@ -106,6 +106,7 @@
       "minecraft:old_growth_pine_taiga": "2025-07-29 03:57:44 +0000",
       "minecraft:taiga": "2025-07-29 03:49:04 +0000",
       "minecraft:frozen_river": "2025-07-29 04:30:05 +0000",
+      "minecraft:sunflower_plains": "2025-07-30 03:54:20 +0000",
       "minecraft:beach": "2025-07-29 03:52:52 +0000",
       "minecraft:river": "2025-07-29 03:52:07 +0000",
       "minecraft:snowy_plains": "2025-07-29 04:33:20 +0000",
@@ -2413,6 +2414,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-07-29 05:19:37 +0000",
+      "minecraft:magma_cube": "2025-07-30 03:59:20 +0000",
       "minecraft:spider": "2025-07-30 02:27:05 +0000",
       "minecraft:creeper": "2025-07-30 02:07:09 +0000",
       "minecraft:phantom": "2025-07-30 02:06:19 +0000",
@@ -3493,6 +3495,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_quartz_slab": {
+    "criteria": {
+      "has_smooth_quartz": "2025-07-30 03:57:23 +0000"
+    },
+    "done": true
+  },
   "iceandfire:recipes/misc/ash_to_charcoal": {
     "criteria": {
       "has_item": "2025-07-30 03:49:19 +0000"
@@ -3823,6 +3831,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs": {
+    "criteria": {
+      "has_smooth_quartz": "2025-07-30 03:57:23 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/diamond_glaive": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
@@ -3838,6 +3852,12 @@
   "spartanshields:recipes/lapis_lazuli_basic_shield": {
     "criteria": {
       "has_lapis_lazuli": "2025-07-30 02:40:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_slab_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_smooth_quartz": "2025-07-30 03:57:23 +0000"
     },
     "done": true
   },
@@ -3979,6 +3999,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_smooth_quartz": "2025-07-30 03:57:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/decorated_pot_simple": {
     "criteria": {
       "has_brick": "2025-07-30 02:54:24 +0000"
@@ -3988,6 +4014,12 @@
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:affix/random": {
+    "criteria": {
+      "sword": "2025-07-30 04:00:42 +0000"
     },
     "done": true
   },
@@ -4024,6 +4056,12 @@
   "minecraft:recipes/misc/eye_armor_trim_smithing_template": {
     "criteria": {
       "has_eye_armor_trim_smithing_template": "2025-07-30 03:15:09 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_small_blimp": {
+    "criteria": {
+      "location0": "2025-07-30 03:55:50 +0000"
     },
     "done": true
   },
