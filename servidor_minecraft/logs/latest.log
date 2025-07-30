@@ -3092,3 +3092,1595 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [30Jul2025 23:02:45.928] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=240, y=54, z=1009} BlockPos{x=240, y=53, z=1009}
 [30Jul2025 23:02:45.951] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=240, y=54, z=1009} BlockPos{x=240, y=53, z=1009}
 [30Jul2025 23:05:38.827] [Server thread/INFO] [Scaling Health/]: Blight Corpse Maggot has died
+[30Jul2025 23:14:56.242] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: minecraft:block_entity
+	Index: 27
+	Listeners:
+		0: HIGHEST
+		1: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@51bb4588
+		2: ASM: top.theillusivec4.curios.common.event.CuriosEventHandler@38f0368e onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		3: HIGH
+		4: ASM: dev.shadowsoffire.attributeslib.impl.AttributeEvents@7a1b8646 blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		5: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		6: NORMAL
+		7: ASM: class com.jinqinxixi.trinketsandbaubles.capability.event.RaceEventHandler onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		8: ASM: class com.kettle.jlme.enchantment.AdvancedFortuneEnchantment onMining(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		9: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@e1fc65a
+		10: ASM: class com.jtorleonstudios.libraryferret.CommonEvent blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		11: ASM: class codyhuh.ambientadditions.common.ForgeEvents onBlockBroken(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		12: ASM: com.yyon.grapplinghook.common.CommonEventHandlers@2deb6adb onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		13: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@6eb24739
+		14: ASM: com.corosus.zombieawareness.ZAEventHandler@2708250d breakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		15: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@283a88
+		16: ASM: class com.kwpugh.gobber2.util.handlers.AbilityEventHandler onMiningExpDropEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		17: ASM: com.github.L_Ender.cataclysm.event.ServerEventHandler@36384f87 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		18: ASM: class cofh.ensorcellation.common.event.CommonEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		19: ASM: class io.redspace.ironsspellbooks.entity.mobs.wizards.WizardAIEvents onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		20: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		21: ASM: com.github.alexthe666.iceandfire.event.ServerEvents@71740a24 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		22: LOW
+		23: ASM: class cofh.core.common.event.AreaEffectEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		24: ASM: dev.shadowsoffire.apotheosis.ench.EnchModuleEvents@392d8a93 breakSpeed(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		25: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c onBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		26: LOWEST
+		27: ASM: class com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem onBlockDrop(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		28: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@bb4b800
+java.util.NoSuchElementException: minecraft:block_entity
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100)
+	at TRANSFORMER/apotheosis@7.4.8/dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.Block.m_49874_(Block.java:258)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.4.0/net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$261(MinecraftServer.java)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.wrapOperation$zco000$managedBlock(MinecraftServer.java:1856)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[30Jul2025 23:14:56.244] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundPlayerActionPacket@68f9cb8c, suppressing error
+java.util.NoSuchElementException: minecraft:block_entity
+	at net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80) ~[Apotheosis-1.20.1-7.4.8.jar%23320!/:7.4.8]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.world.level.block.Block.m_49874_(Block.java:258) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543) ~[forge-1.20.1-47.4.0-universal.jar%23528!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$261(MinecraftServer.java) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.wrapOperation$zco000$managedBlock(MinecraftServer.java:1856) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[30Jul2025 23:15:02.985] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: minecraft:block_entity
+	Index: 27
+	Listeners:
+		0: HIGHEST
+		1: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@51bb4588
+		2: ASM: top.theillusivec4.curios.common.event.CuriosEventHandler@38f0368e onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		3: HIGH
+		4: ASM: dev.shadowsoffire.attributeslib.impl.AttributeEvents@7a1b8646 blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		5: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		6: NORMAL
+		7: ASM: class com.jinqinxixi.trinketsandbaubles.capability.event.RaceEventHandler onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		8: ASM: class com.kettle.jlme.enchantment.AdvancedFortuneEnchantment onMining(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		9: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@e1fc65a
+		10: ASM: class com.jtorleonstudios.libraryferret.CommonEvent blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		11: ASM: class codyhuh.ambientadditions.common.ForgeEvents onBlockBroken(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		12: ASM: com.yyon.grapplinghook.common.CommonEventHandlers@2deb6adb onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		13: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@6eb24739
+		14: ASM: com.corosus.zombieawareness.ZAEventHandler@2708250d breakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		15: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@283a88
+		16: ASM: class com.kwpugh.gobber2.util.handlers.AbilityEventHandler onMiningExpDropEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		17: ASM: com.github.L_Ender.cataclysm.event.ServerEventHandler@36384f87 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		18: ASM: class cofh.ensorcellation.common.event.CommonEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		19: ASM: class io.redspace.ironsspellbooks.entity.mobs.wizards.WizardAIEvents onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		20: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		21: ASM: com.github.alexthe666.iceandfire.event.ServerEvents@71740a24 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		22: LOW
+		23: ASM: class cofh.core.common.event.AreaEffectEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		24: ASM: dev.shadowsoffire.apotheosis.ench.EnchModuleEvents@392d8a93 breakSpeed(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		25: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c onBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		26: LOWEST
+		27: ASM: class com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem onBlockDrop(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		28: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@bb4b800
+java.util.NoSuchElementException: minecraft:block_entity
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100)
+	at TRANSFORMER/apotheosis@7.4.8/dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.Block.m_49874_(Block.java:258)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.4.0/net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[30Jul2025 23:15:02.986] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundPlayerActionPacket@38a57102, suppressing error
+java.util.NoSuchElementException: minecraft:block_entity
+	at net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80) ~[Apotheosis-1.20.1-7.4.8.jar%23320!/:7.4.8]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.world.level.block.Block.m_49874_(Block.java:258) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543) ~[forge-1.20.1-47.4.0-universal.jar%23528!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[30Jul2025 23:15:05.540] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: minecraft:block_entity
+	Index: 27
+	Listeners:
+		0: HIGHEST
+		1: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@51bb4588
+		2: ASM: top.theillusivec4.curios.common.event.CuriosEventHandler@38f0368e onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		3: HIGH
+		4: ASM: dev.shadowsoffire.attributeslib.impl.AttributeEvents@7a1b8646 blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		5: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		6: NORMAL
+		7: ASM: class com.jinqinxixi.trinketsandbaubles.capability.event.RaceEventHandler onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		8: ASM: class com.kettle.jlme.enchantment.AdvancedFortuneEnchantment onMining(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		9: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@e1fc65a
+		10: ASM: class com.jtorleonstudios.libraryferret.CommonEvent blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		11: ASM: class codyhuh.ambientadditions.common.ForgeEvents onBlockBroken(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		12: ASM: com.yyon.grapplinghook.common.CommonEventHandlers@2deb6adb onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		13: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@6eb24739
+		14: ASM: com.corosus.zombieawareness.ZAEventHandler@2708250d breakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		15: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@283a88
+		16: ASM: class com.kwpugh.gobber2.util.handlers.AbilityEventHandler onMiningExpDropEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		17: ASM: com.github.L_Ender.cataclysm.event.ServerEventHandler@36384f87 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		18: ASM: class cofh.ensorcellation.common.event.CommonEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		19: ASM: class io.redspace.ironsspellbooks.entity.mobs.wizards.WizardAIEvents onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		20: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		21: ASM: com.github.alexthe666.iceandfire.event.ServerEvents@71740a24 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		22: LOW
+		23: ASM: class cofh.core.common.event.AreaEffectEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		24: ASM: dev.shadowsoffire.apotheosis.ench.EnchModuleEvents@392d8a93 breakSpeed(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		25: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c onBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		26: LOWEST
+		27: ASM: class com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem onBlockDrop(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		28: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@bb4b800
+java.util.NoSuchElementException: minecraft:block_entity
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100)
+	at TRANSFORMER/apotheosis@7.4.8/dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.Block.m_49874_(Block.java:258)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.4.0/net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$261(MinecraftServer.java)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.wrapOperation$zco000$managedBlock(MinecraftServer.java:1856)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[30Jul2025 23:15:05.541] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundPlayerActionPacket@6a2d37f1, suppressing error
+java.util.NoSuchElementException: minecraft:block_entity
+	at net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80) ~[Apotheosis-1.20.1-7.4.8.jar%23320!/:7.4.8]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.world.level.block.Block.m_49874_(Block.java:258) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543) ~[forge-1.20.1-47.4.0-universal.jar%23528!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$261(MinecraftServer.java) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.wrapOperation$zco000$managedBlock(MinecraftServer.java:1856) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[30Jul2025 23:15:08.884] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: minecraft:block_entity
+	Index: 27
+	Listeners:
+		0: HIGHEST
+		1: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@51bb4588
+		2: ASM: top.theillusivec4.curios.common.event.CuriosEventHandler@38f0368e onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		3: HIGH
+		4: ASM: dev.shadowsoffire.attributeslib.impl.AttributeEvents@7a1b8646 blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		5: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		6: NORMAL
+		7: ASM: class com.jinqinxixi.trinketsandbaubles.capability.event.RaceEventHandler onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		8: ASM: class com.kettle.jlme.enchantment.AdvancedFortuneEnchantment onMining(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		9: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@e1fc65a
+		10: ASM: class com.jtorleonstudios.libraryferret.CommonEvent blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		11: ASM: class codyhuh.ambientadditions.common.ForgeEvents onBlockBroken(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		12: ASM: com.yyon.grapplinghook.common.CommonEventHandlers@2deb6adb onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		13: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@6eb24739
+		14: ASM: com.corosus.zombieawareness.ZAEventHandler@2708250d breakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		15: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@283a88
+		16: ASM: class com.kwpugh.gobber2.util.handlers.AbilityEventHandler onMiningExpDropEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		17: ASM: com.github.L_Ender.cataclysm.event.ServerEventHandler@36384f87 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		18: ASM: class cofh.ensorcellation.common.event.CommonEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		19: ASM: class io.redspace.ironsspellbooks.entity.mobs.wizards.WizardAIEvents onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		20: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		21: ASM: com.github.alexthe666.iceandfire.event.ServerEvents@71740a24 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		22: LOW
+		23: ASM: class cofh.core.common.event.AreaEffectEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		24: ASM: dev.shadowsoffire.apotheosis.ench.EnchModuleEvents@392d8a93 breakSpeed(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		25: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c onBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		26: LOWEST
+		27: ASM: class com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem onBlockDrop(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		28: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@bb4b800
+java.util.NoSuchElementException: minecraft:block_entity
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100)
+	at TRANSFORMER/apotheosis@7.4.8/dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.Block.m_49874_(Block.java:258)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.4.0/net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$261(MinecraftServer.java)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.wrapOperation$zco000$managedBlock(MinecraftServer.java:1856)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[30Jul2025 23:15:08.885] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundPlayerActionPacket@2dae092d, suppressing error
+java.util.NoSuchElementException: minecraft:block_entity
+	at net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80) ~[Apotheosis-1.20.1-7.4.8.jar%23320!/:7.4.8]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.world.level.block.Block.m_49874_(Block.java:258) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543) ~[forge-1.20.1-47.4.0-universal.jar%23528!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$261(MinecraftServer.java) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.wrapOperation$zco000$managedBlock(MinecraftServer.java:1856) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[30Jul2025 23:15:11.436] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: minecraft:block_entity
+	Index: 27
+	Listeners:
+		0: HIGHEST
+		1: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@51bb4588
+		2: ASM: top.theillusivec4.curios.common.event.CuriosEventHandler@38f0368e onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		3: HIGH
+		4: ASM: dev.shadowsoffire.attributeslib.impl.AttributeEvents@7a1b8646 blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		5: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		6: NORMAL
+		7: ASM: class com.jinqinxixi.trinketsandbaubles.capability.event.RaceEventHandler onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		8: ASM: class com.kettle.jlme.enchantment.AdvancedFortuneEnchantment onMining(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		9: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@e1fc65a
+		10: ASM: class com.jtorleonstudios.libraryferret.CommonEvent blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		11: ASM: class codyhuh.ambientadditions.common.ForgeEvents onBlockBroken(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		12: ASM: com.yyon.grapplinghook.common.CommonEventHandlers@2deb6adb onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		13: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@6eb24739
+		14: ASM: com.corosus.zombieawareness.ZAEventHandler@2708250d breakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		15: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@283a88
+		16: ASM: class com.kwpugh.gobber2.util.handlers.AbilityEventHandler onMiningExpDropEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		17: ASM: com.github.L_Ender.cataclysm.event.ServerEventHandler@36384f87 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		18: ASM: class cofh.ensorcellation.common.event.CommonEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		19: ASM: class io.redspace.ironsspellbooks.entity.mobs.wizards.WizardAIEvents onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		20: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		21: ASM: com.github.alexthe666.iceandfire.event.ServerEvents@71740a24 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		22: LOW
+		23: ASM: class cofh.core.common.event.AreaEffectEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		24: ASM: dev.shadowsoffire.apotheosis.ench.EnchModuleEvents@392d8a93 breakSpeed(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		25: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c onBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		26: LOWEST
+		27: ASM: class com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem onBlockDrop(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		28: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@bb4b800
+java.util.NoSuchElementException: minecraft:block_entity
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100)
+	at TRANSFORMER/apotheosis@7.4.8/dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.Block.m_49874_(Block.java:258)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.4.0/net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$261(MinecraftServer.java)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.wrapOperation$zco000$managedBlock(MinecraftServer.java:1856)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[30Jul2025 23:15:11.437] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundPlayerActionPacket@445f5ace, suppressing error
+java.util.NoSuchElementException: minecraft:block_entity
+	at net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80) ~[Apotheosis-1.20.1-7.4.8.jar%23320!/:7.4.8]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.world.level.block.Block.m_49874_(Block.java:258) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543) ~[forge-1.20.1-47.4.0-universal.jar%23528!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$261(MinecraftServer.java) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.wrapOperation$zco000$managedBlock(MinecraftServer.java:1856) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[30Jul2025 23:15:18.246] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: minecraft:block_entity
+	Index: 27
+	Listeners:
+		0: HIGHEST
+		1: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@51bb4588
+		2: ASM: top.theillusivec4.curios.common.event.CuriosEventHandler@38f0368e onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		3: HIGH
+		4: ASM: dev.shadowsoffire.attributeslib.impl.AttributeEvents@7a1b8646 blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		5: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		6: NORMAL
+		7: ASM: class com.jinqinxixi.trinketsandbaubles.capability.event.RaceEventHandler onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		8: ASM: class com.kettle.jlme.enchantment.AdvancedFortuneEnchantment onMining(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		9: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@e1fc65a
+		10: ASM: class com.jtorleonstudios.libraryferret.CommonEvent blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		11: ASM: class codyhuh.ambientadditions.common.ForgeEvents onBlockBroken(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		12: ASM: com.yyon.grapplinghook.common.CommonEventHandlers@2deb6adb onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		13: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@6eb24739
+		14: ASM: com.corosus.zombieawareness.ZAEventHandler@2708250d breakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		15: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@283a88
+		16: ASM: class com.kwpugh.gobber2.util.handlers.AbilityEventHandler onMiningExpDropEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		17: ASM: com.github.L_Ender.cataclysm.event.ServerEventHandler@36384f87 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		18: ASM: class cofh.ensorcellation.common.event.CommonEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		19: ASM: class io.redspace.ironsspellbooks.entity.mobs.wizards.WizardAIEvents onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		20: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		21: ASM: com.github.alexthe666.iceandfire.event.ServerEvents@71740a24 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		22: LOW
+		23: ASM: class cofh.core.common.event.AreaEffectEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		24: ASM: dev.shadowsoffire.apotheosis.ench.EnchModuleEvents@392d8a93 breakSpeed(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		25: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c onBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		26: LOWEST
+		27: ASM: class com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem onBlockDrop(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		28: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@bb4b800
+java.util.NoSuchElementException: minecraft:block_entity
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100)
+	at TRANSFORMER/apotheosis@7.4.8/dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.Block.m_49874_(Block.java:258)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.4.0/net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$261(MinecraftServer.java)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.wrapOperation$zco000$managedBlock(MinecraftServer.java:1856)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[30Jul2025 23:15:18.247] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundPlayerActionPacket@4c378230, suppressing error
+java.util.NoSuchElementException: minecraft:block_entity
+	at net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80) ~[Apotheosis-1.20.1-7.4.8.jar%23320!/:7.4.8]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.world.level.block.Block.m_49874_(Block.java:258) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543) ~[forge-1.20.1-47.4.0-universal.jar%23528!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$261(MinecraftServer.java) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.wrapOperation$zco000$managedBlock(MinecraftServer.java:1856) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[30Jul2025 23:15:19.795] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: minecraft:block_entity
+	Index: 27
+	Listeners:
+		0: HIGHEST
+		1: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@51bb4588
+		2: ASM: top.theillusivec4.curios.common.event.CuriosEventHandler@38f0368e onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		3: HIGH
+		4: ASM: dev.shadowsoffire.attributeslib.impl.AttributeEvents@7a1b8646 blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		5: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		6: NORMAL
+		7: ASM: class com.jinqinxixi.trinketsandbaubles.capability.event.RaceEventHandler onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		8: ASM: class com.kettle.jlme.enchantment.AdvancedFortuneEnchantment onMining(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		9: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@e1fc65a
+		10: ASM: class com.jtorleonstudios.libraryferret.CommonEvent blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		11: ASM: class codyhuh.ambientadditions.common.ForgeEvents onBlockBroken(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		12: ASM: com.yyon.grapplinghook.common.CommonEventHandlers@2deb6adb onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		13: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@6eb24739
+		14: ASM: com.corosus.zombieawareness.ZAEventHandler@2708250d breakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		15: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@283a88
+		16: ASM: class com.kwpugh.gobber2.util.handlers.AbilityEventHandler onMiningExpDropEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		17: ASM: com.github.L_Ender.cataclysm.event.ServerEventHandler@36384f87 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		18: ASM: class cofh.ensorcellation.common.event.CommonEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		19: ASM: class io.redspace.ironsspellbooks.entity.mobs.wizards.WizardAIEvents onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		20: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		21: ASM: com.github.alexthe666.iceandfire.event.ServerEvents@71740a24 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		22: LOW
+		23: ASM: class cofh.core.common.event.AreaEffectEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		24: ASM: dev.shadowsoffire.apotheosis.ench.EnchModuleEvents@392d8a93 breakSpeed(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		25: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c onBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		26: LOWEST
+		27: ASM: class com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem onBlockDrop(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		28: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@bb4b800
+java.util.NoSuchElementException: minecraft:block_entity
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100)
+	at TRANSFORMER/apotheosis@7.4.8/dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.Block.m_49874_(Block.java:258)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.4.0/net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$261(MinecraftServer.java)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.wrapOperation$zco000$managedBlock(MinecraftServer.java:1856)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[30Jul2025 23:15:19.797] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundPlayerActionPacket@6f55f500, suppressing error
+java.util.NoSuchElementException: minecraft:block_entity
+	at net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80) ~[Apotheosis-1.20.1-7.4.8.jar%23320!/:7.4.8]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.world.level.block.Block.m_49874_(Block.java:258) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543) ~[forge-1.20.1-47.4.0-universal.jar%23528!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$261(MinecraftServer.java) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.wrapOperation$zco000$managedBlock(MinecraftServer.java:1856) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[30Jul2025 23:15:21.535] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: minecraft:block_entity
+	Index: 27
+	Listeners:
+		0: HIGHEST
+		1: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@51bb4588
+		2: ASM: top.theillusivec4.curios.common.event.CuriosEventHandler@38f0368e onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		3: HIGH
+		4: ASM: dev.shadowsoffire.attributeslib.impl.AttributeEvents@7a1b8646 blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		5: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		6: NORMAL
+		7: ASM: class com.jinqinxixi.trinketsandbaubles.capability.event.RaceEventHandler onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		8: ASM: class com.kettle.jlme.enchantment.AdvancedFortuneEnchantment onMining(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		9: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@e1fc65a
+		10: ASM: class com.jtorleonstudios.libraryferret.CommonEvent blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		11: ASM: class codyhuh.ambientadditions.common.ForgeEvents onBlockBroken(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		12: ASM: com.yyon.grapplinghook.common.CommonEventHandlers@2deb6adb onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		13: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@6eb24739
+		14: ASM: com.corosus.zombieawareness.ZAEventHandler@2708250d breakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		15: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@283a88
+		16: ASM: class com.kwpugh.gobber2.util.handlers.AbilityEventHandler onMiningExpDropEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		17: ASM: com.github.L_Ender.cataclysm.event.ServerEventHandler@36384f87 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		18: ASM: class cofh.ensorcellation.common.event.CommonEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		19: ASM: class io.redspace.ironsspellbooks.entity.mobs.wizards.WizardAIEvents onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		20: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		21: ASM: com.github.alexthe666.iceandfire.event.ServerEvents@71740a24 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		22: LOW
+		23: ASM: class cofh.core.common.event.AreaEffectEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		24: ASM: dev.shadowsoffire.apotheosis.ench.EnchModuleEvents@392d8a93 breakSpeed(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		25: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c onBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		26: LOWEST
+		27: ASM: class com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem onBlockDrop(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		28: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@bb4b800
+java.util.NoSuchElementException: minecraft:block_entity
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100)
+	at TRANSFORMER/apotheosis@7.4.8/dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.Block.m_49874_(Block.java:258)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.4.0/net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$261(MinecraftServer.java)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.wrapOperation$zco000$managedBlock(MinecraftServer.java:1856)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[30Jul2025 23:15:21.536] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundPlayerActionPacket@63c917d3, suppressing error
+java.util.NoSuchElementException: minecraft:block_entity
+	at net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80) ~[Apotheosis-1.20.1-7.4.8.jar%23320!/:7.4.8]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.world.level.block.Block.m_49874_(Block.java:258) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543) ~[forge-1.20.1-47.4.0-universal.jar%23528!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$261(MinecraftServer.java) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.wrapOperation$zco000$managedBlock(MinecraftServer.java:1856) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[30Jul2025 23:15:22.846] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: minecraft:block_entity
+	Index: 27
+	Listeners:
+		0: HIGHEST
+		1: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@51bb4588
+		2: ASM: top.theillusivec4.curios.common.event.CuriosEventHandler@38f0368e onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		3: HIGH
+		4: ASM: dev.shadowsoffire.attributeslib.impl.AttributeEvents@7a1b8646 blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		5: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		6: NORMAL
+		7: ASM: class com.jinqinxixi.trinketsandbaubles.capability.event.RaceEventHandler onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		8: ASM: class com.kettle.jlme.enchantment.AdvancedFortuneEnchantment onMining(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		9: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@e1fc65a
+		10: ASM: class com.jtorleonstudios.libraryferret.CommonEvent blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		11: ASM: class codyhuh.ambientadditions.common.ForgeEvents onBlockBroken(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		12: ASM: com.yyon.grapplinghook.common.CommonEventHandlers@2deb6adb onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		13: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@6eb24739
+		14: ASM: com.corosus.zombieawareness.ZAEventHandler@2708250d breakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		15: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@283a88
+		16: ASM: class com.kwpugh.gobber2.util.handlers.AbilityEventHandler onMiningExpDropEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		17: ASM: com.github.L_Ender.cataclysm.event.ServerEventHandler@36384f87 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		18: ASM: class cofh.ensorcellation.common.event.CommonEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		19: ASM: class io.redspace.ironsspellbooks.entity.mobs.wizards.WizardAIEvents onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		20: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		21: ASM: com.github.alexthe666.iceandfire.event.ServerEvents@71740a24 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		22: LOW
+		23: ASM: class cofh.core.common.event.AreaEffectEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		24: ASM: dev.shadowsoffire.apotheosis.ench.EnchModuleEvents@392d8a93 breakSpeed(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		25: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c onBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		26: LOWEST
+		27: ASM: class com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem onBlockDrop(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		28: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@bb4b800
+java.util.NoSuchElementException: minecraft:block_entity
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100)
+	at TRANSFORMER/apotheosis@7.4.8/dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.Block.m_49874_(Block.java:258)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.4.0/net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$261(MinecraftServer.java)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.wrapOperation$zco000$managedBlock(MinecraftServer.java:1856)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[30Jul2025 23:15:22.847] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundPlayerActionPacket@6b62fb5e, suppressing error
+java.util.NoSuchElementException: minecraft:block_entity
+	at net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80) ~[Apotheosis-1.20.1-7.4.8.jar%23320!/:7.4.8]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.world.level.block.Block.m_49874_(Block.java:258) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543) ~[forge-1.20.1-47.4.0-universal.jar%23528!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$261(MinecraftServer.java) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.wrapOperation$zco000$managedBlock(MinecraftServer.java:1856) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[30Jul2025 23:15:24.136] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: minecraft:block_entity
+	Index: 27
+	Listeners:
+		0: HIGHEST
+		1: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@51bb4588
+		2: ASM: top.theillusivec4.curios.common.event.CuriosEventHandler@38f0368e onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		3: HIGH
+		4: ASM: dev.shadowsoffire.attributeslib.impl.AttributeEvents@7a1b8646 blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		5: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		6: NORMAL
+		7: ASM: class com.jinqinxixi.trinketsandbaubles.capability.event.RaceEventHandler onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		8: ASM: class com.kettle.jlme.enchantment.AdvancedFortuneEnchantment onMining(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		9: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@e1fc65a
+		10: ASM: class com.jtorleonstudios.libraryferret.CommonEvent blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		11: ASM: class codyhuh.ambientadditions.common.ForgeEvents onBlockBroken(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		12: ASM: com.yyon.grapplinghook.common.CommonEventHandlers@2deb6adb onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		13: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@6eb24739
+		14: ASM: com.corosus.zombieawareness.ZAEventHandler@2708250d breakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		15: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@283a88
+		16: ASM: class com.kwpugh.gobber2.util.handlers.AbilityEventHandler onMiningExpDropEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		17: ASM: com.github.L_Ender.cataclysm.event.ServerEventHandler@36384f87 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		18: ASM: class cofh.ensorcellation.common.event.CommonEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		19: ASM: class io.redspace.ironsspellbooks.entity.mobs.wizards.WizardAIEvents onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		20: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		21: ASM: com.github.alexthe666.iceandfire.event.ServerEvents@71740a24 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		22: LOW
+		23: ASM: class cofh.core.common.event.AreaEffectEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		24: ASM: dev.shadowsoffire.apotheosis.ench.EnchModuleEvents@392d8a93 breakSpeed(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		25: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c onBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		26: LOWEST
+		27: ASM: class com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem onBlockDrop(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		28: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@bb4b800
+java.util.NoSuchElementException: minecraft:block_entity
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100)
+	at TRANSFORMER/apotheosis@7.4.8/dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.Block.m_49874_(Block.java:258)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.4.0/net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$261(MinecraftServer.java)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.wrapOperation$zco000$managedBlock(MinecraftServer.java:1856)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[30Jul2025 23:15:24.137] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundPlayerActionPacket@7133dac7, suppressing error
+java.util.NoSuchElementException: minecraft:block_entity
+	at net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80) ~[Apotheosis-1.20.1-7.4.8.jar%23320!/:7.4.8]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.world.level.block.Block.m_49874_(Block.java:258) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543) ~[forge-1.20.1-47.4.0-universal.jar%23528!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$261(MinecraftServer.java) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.wrapOperation$zco000$managedBlock(MinecraftServer.java:1856) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[30Jul2025 23:15:25.432] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: minecraft:block_entity
+	Index: 27
+	Listeners:
+		0: HIGHEST
+		1: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@51bb4588
+		2: ASM: top.theillusivec4.curios.common.event.CuriosEventHandler@38f0368e onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		3: HIGH
+		4: ASM: dev.shadowsoffire.attributeslib.impl.AttributeEvents@7a1b8646 blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		5: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		6: NORMAL
+		7: ASM: class com.jinqinxixi.trinketsandbaubles.capability.event.RaceEventHandler onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		8: ASM: class com.kettle.jlme.enchantment.AdvancedFortuneEnchantment onMining(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		9: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@e1fc65a
+		10: ASM: class com.jtorleonstudios.libraryferret.CommonEvent blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		11: ASM: class codyhuh.ambientadditions.common.ForgeEvents onBlockBroken(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		12: ASM: com.yyon.grapplinghook.common.CommonEventHandlers@2deb6adb onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		13: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@6eb24739
+		14: ASM: com.corosus.zombieawareness.ZAEventHandler@2708250d breakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		15: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@283a88
+		16: ASM: class com.kwpugh.gobber2.util.handlers.AbilityEventHandler onMiningExpDropEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		17: ASM: com.github.L_Ender.cataclysm.event.ServerEventHandler@36384f87 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		18: ASM: class cofh.ensorcellation.common.event.CommonEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		19: ASM: class io.redspace.ironsspellbooks.entity.mobs.wizards.WizardAIEvents onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		20: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		21: ASM: com.github.alexthe666.iceandfire.event.ServerEvents@71740a24 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		22: LOW
+		23: ASM: class cofh.core.common.event.AreaEffectEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		24: ASM: dev.shadowsoffire.apotheosis.ench.EnchModuleEvents@392d8a93 breakSpeed(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		25: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c onBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		26: LOWEST
+		27: ASM: class com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem onBlockDrop(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		28: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@bb4b800
+java.util.NoSuchElementException: minecraft:block_entity
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100)
+	at TRANSFORMER/apotheosis@7.4.8/dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.Block.m_49874_(Block.java:258)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.4.0/net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$261(MinecraftServer.java)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.wrapOperation$zco000$managedBlock(MinecraftServer.java:1856)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[30Jul2025 23:15:25.433] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundPlayerActionPacket@527aadc0, suppressing error
+java.util.NoSuchElementException: minecraft:block_entity
+	at net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80) ~[Apotheosis-1.20.1-7.4.8.jar%23320!/:7.4.8]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.world.level.block.Block.m_49874_(Block.java:258) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543) ~[forge-1.20.1-47.4.0-universal.jar%23528!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$261(MinecraftServer.java) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.wrapOperation$zco000$managedBlock(MinecraftServer.java:1856) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[30Jul2025 23:15:26.740] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: minecraft:block_entity
+	Index: 27
+	Listeners:
+		0: HIGHEST
+		1: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@51bb4588
+		2: ASM: top.theillusivec4.curios.common.event.CuriosEventHandler@38f0368e onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		3: HIGH
+		4: ASM: dev.shadowsoffire.attributeslib.impl.AttributeEvents@7a1b8646 blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		5: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		6: NORMAL
+		7: ASM: class com.jinqinxixi.trinketsandbaubles.capability.event.RaceEventHandler onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		8: ASM: class com.kettle.jlme.enchantment.AdvancedFortuneEnchantment onMining(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		9: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@e1fc65a
+		10: ASM: class com.jtorleonstudios.libraryferret.CommonEvent blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		11: ASM: class codyhuh.ambientadditions.common.ForgeEvents onBlockBroken(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		12: ASM: com.yyon.grapplinghook.common.CommonEventHandlers@2deb6adb onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		13: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@6eb24739
+		14: ASM: com.corosus.zombieawareness.ZAEventHandler@2708250d breakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		15: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@283a88
+		16: ASM: class com.kwpugh.gobber2.util.handlers.AbilityEventHandler onMiningExpDropEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		17: ASM: com.github.L_Ender.cataclysm.event.ServerEventHandler@36384f87 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		18: ASM: class cofh.ensorcellation.common.event.CommonEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		19: ASM: class io.redspace.ironsspellbooks.entity.mobs.wizards.WizardAIEvents onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		20: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		21: ASM: com.github.alexthe666.iceandfire.event.ServerEvents@71740a24 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		22: LOW
+		23: ASM: class cofh.core.common.event.AreaEffectEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		24: ASM: dev.shadowsoffire.apotheosis.ench.EnchModuleEvents@392d8a93 breakSpeed(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		25: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c onBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		26: LOWEST
+		27: ASM: class com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem onBlockDrop(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		28: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@bb4b800
+java.util.NoSuchElementException: minecraft:block_entity
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100)
+	at TRANSFORMER/apotheosis@7.4.8/dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.Block.m_49874_(Block.java:258)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.4.0/net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$261(MinecraftServer.java)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.wrapOperation$zco000$managedBlock(MinecraftServer.java:1856)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[30Jul2025 23:15:26.741] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundPlayerActionPacket@502bb81d, suppressing error
+java.util.NoSuchElementException: minecraft:block_entity
+	at net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80) ~[Apotheosis-1.20.1-7.4.8.jar%23320!/:7.4.8]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.world.level.block.Block.m_49874_(Block.java:258) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543) ~[forge-1.20.1-47.4.0-universal.jar%23528!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$261(MinecraftServer.java) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.wrapOperation$zco000$managedBlock(MinecraftServer.java:1856) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[30Jul2025 23:15:28.099] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: minecraft:block_entity
+	Index: 27
+	Listeners:
+		0: HIGHEST
+		1: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@51bb4588
+		2: ASM: top.theillusivec4.curios.common.event.CuriosEventHandler@38f0368e onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		3: HIGH
+		4: ASM: dev.shadowsoffire.attributeslib.impl.AttributeEvents@7a1b8646 blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		5: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		6: NORMAL
+		7: ASM: class com.jinqinxixi.trinketsandbaubles.capability.event.RaceEventHandler onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		8: ASM: class com.kettle.jlme.enchantment.AdvancedFortuneEnchantment onMining(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		9: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@e1fc65a
+		10: ASM: class com.jtorleonstudios.libraryferret.CommonEvent blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		11: ASM: class codyhuh.ambientadditions.common.ForgeEvents onBlockBroken(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		12: ASM: com.yyon.grapplinghook.common.CommonEventHandlers@2deb6adb onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		13: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@6eb24739
+		14: ASM: com.corosus.zombieawareness.ZAEventHandler@2708250d breakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		15: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@283a88
+		16: ASM: class com.kwpugh.gobber2.util.handlers.AbilityEventHandler onMiningExpDropEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		17: ASM: com.github.L_Ender.cataclysm.event.ServerEventHandler@36384f87 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		18: ASM: class cofh.ensorcellation.common.event.CommonEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		19: ASM: class io.redspace.ironsspellbooks.entity.mobs.wizards.WizardAIEvents onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		20: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		21: ASM: com.github.alexthe666.iceandfire.event.ServerEvents@71740a24 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		22: LOW
+		23: ASM: class cofh.core.common.event.AreaEffectEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		24: ASM: dev.shadowsoffire.apotheosis.ench.EnchModuleEvents@392d8a93 breakSpeed(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		25: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c onBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		26: LOWEST
+		27: ASM: class com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem onBlockDrop(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		28: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@bb4b800
+java.util.NoSuchElementException: minecraft:block_entity
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100)
+	at TRANSFORMER/apotheosis@7.4.8/dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.Block.m_49874_(Block.java:258)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.4.0/net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$261(MinecraftServer.java)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.wrapOperation$zco000$managedBlock(MinecraftServer.java:1856)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[30Jul2025 23:15:28.100] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundPlayerActionPacket@60f0992d, suppressing error
+java.util.NoSuchElementException: minecraft:block_entity
+	at net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80) ~[Apotheosis-1.20.1-7.4.8.jar%23320!/:7.4.8]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.world.level.block.Block.m_49874_(Block.java:258) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543) ~[forge-1.20.1-47.4.0-universal.jar%23528!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$261(MinecraftServer.java) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.wrapOperation$zco000$managedBlock(MinecraftServer.java:1856) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[30Jul2025 23:15:30.598] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: minecraft:block_entity
+	Index: 27
+	Listeners:
+		0: HIGHEST
+		1: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@51bb4588
+		2: ASM: top.theillusivec4.curios.common.event.CuriosEventHandler@38f0368e onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		3: HIGH
+		4: ASM: dev.shadowsoffire.attributeslib.impl.AttributeEvents@7a1b8646 blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		5: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		6: NORMAL
+		7: ASM: class com.jinqinxixi.trinketsandbaubles.capability.event.RaceEventHandler onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		8: ASM: class com.kettle.jlme.enchantment.AdvancedFortuneEnchantment onMining(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		9: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@e1fc65a
+		10: ASM: class com.jtorleonstudios.libraryferret.CommonEvent blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		11: ASM: class codyhuh.ambientadditions.common.ForgeEvents onBlockBroken(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		12: ASM: com.yyon.grapplinghook.common.CommonEventHandlers@2deb6adb onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		13: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@6eb24739
+		14: ASM: com.corosus.zombieawareness.ZAEventHandler@2708250d breakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		15: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@283a88
+		16: ASM: class com.kwpugh.gobber2.util.handlers.AbilityEventHandler onMiningExpDropEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		17: ASM: com.github.L_Ender.cataclysm.event.ServerEventHandler@36384f87 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		18: ASM: class cofh.ensorcellation.common.event.CommonEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		19: ASM: class io.redspace.ironsspellbooks.entity.mobs.wizards.WizardAIEvents onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		20: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		21: ASM: com.github.alexthe666.iceandfire.event.ServerEvents@71740a24 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		22: LOW
+		23: ASM: class cofh.core.common.event.AreaEffectEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		24: ASM: dev.shadowsoffire.apotheosis.ench.EnchModuleEvents@392d8a93 breakSpeed(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		25: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c onBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		26: LOWEST
+		27: ASM: class com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem onBlockDrop(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		28: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@bb4b800
+java.util.NoSuchElementException: minecraft:block_entity
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100)
+	at TRANSFORMER/apotheosis@7.4.8/dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.Block.m_49874_(Block.java:258)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.4.0/net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$261(MinecraftServer.java)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.wrapOperation$zco000$managedBlock(MinecraftServer.java:1856)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[30Jul2025 23:15:30.599] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundPlayerActionPacket@338fff25, suppressing error
+java.util.NoSuchElementException: minecraft:block_entity
+	at net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80) ~[Apotheosis-1.20.1-7.4.8.jar%23320!/:7.4.8]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.world.level.block.Block.m_49874_(Block.java:258) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543) ~[forge-1.20.1-47.4.0-universal.jar%23528!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$261(MinecraftServer.java) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.wrapOperation$zco000$managedBlock(MinecraftServer.java:1856) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[30Jul2025 23:15:32.235] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: minecraft:block_entity
+	Index: 27
+	Listeners:
+		0: HIGHEST
+		1: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@51bb4588
+		2: ASM: top.theillusivec4.curios.common.event.CuriosEventHandler@38f0368e onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		3: HIGH
+		4: ASM: dev.shadowsoffire.attributeslib.impl.AttributeEvents@7a1b8646 blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		5: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		6: NORMAL
+		7: ASM: class com.jinqinxixi.trinketsandbaubles.capability.event.RaceEventHandler onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		8: ASM: class com.kettle.jlme.enchantment.AdvancedFortuneEnchantment onMining(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		9: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@e1fc65a
+		10: ASM: class com.jtorleonstudios.libraryferret.CommonEvent blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		11: ASM: class codyhuh.ambientadditions.common.ForgeEvents onBlockBroken(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		12: ASM: com.yyon.grapplinghook.common.CommonEventHandlers@2deb6adb onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		13: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@6eb24739
+		14: ASM: com.corosus.zombieawareness.ZAEventHandler@2708250d breakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		15: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@283a88
+		16: ASM: class com.kwpugh.gobber2.util.handlers.AbilityEventHandler onMiningExpDropEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		17: ASM: com.github.L_Ender.cataclysm.event.ServerEventHandler@36384f87 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		18: ASM: class cofh.ensorcellation.common.event.CommonEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		19: ASM: class io.redspace.ironsspellbooks.entity.mobs.wizards.WizardAIEvents onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		20: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		21: ASM: com.github.alexthe666.iceandfire.event.ServerEvents@71740a24 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		22: LOW
+		23: ASM: class cofh.core.common.event.AreaEffectEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		24: ASM: dev.shadowsoffire.apotheosis.ench.EnchModuleEvents@392d8a93 breakSpeed(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		25: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c onBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		26: LOWEST
+		27: ASM: class com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem onBlockDrop(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		28: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@bb4b800
+java.util.NoSuchElementException: minecraft:block_entity
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100)
+	at TRANSFORMER/apotheosis@7.4.8/dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.Block.m_49874_(Block.java:258)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.4.0/net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[30Jul2025 23:15:32.236] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundPlayerActionPacket@416ed950, suppressing error
+java.util.NoSuchElementException: minecraft:block_entity
+	at net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80) ~[Apotheosis-1.20.1-7.4.8.jar%23320!/:7.4.8]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.world.level.block.Block.m_49874_(Block.java:258) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543) ~[forge-1.20.1-47.4.0-universal.jar%23528!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[30Jul2025 23:15:33.990] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: minecraft:block_entity
+	Index: 27
+	Listeners:
+		0: HIGHEST
+		1: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@51bb4588
+		2: ASM: top.theillusivec4.curios.common.event.CuriosEventHandler@38f0368e onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		3: HIGH
+		4: ASM: dev.shadowsoffire.attributeslib.impl.AttributeEvents@7a1b8646 blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		5: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		6: NORMAL
+		7: ASM: class com.jinqinxixi.trinketsandbaubles.capability.event.RaceEventHandler onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		8: ASM: class com.kettle.jlme.enchantment.AdvancedFortuneEnchantment onMining(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		9: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@e1fc65a
+		10: ASM: class com.jtorleonstudios.libraryferret.CommonEvent blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		11: ASM: class codyhuh.ambientadditions.common.ForgeEvents onBlockBroken(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		12: ASM: com.yyon.grapplinghook.common.CommonEventHandlers@2deb6adb onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		13: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@6eb24739
+		14: ASM: com.corosus.zombieawareness.ZAEventHandler@2708250d breakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		15: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@283a88
+		16: ASM: class com.kwpugh.gobber2.util.handlers.AbilityEventHandler onMiningExpDropEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		17: ASM: com.github.L_Ender.cataclysm.event.ServerEventHandler@36384f87 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		18: ASM: class cofh.ensorcellation.common.event.CommonEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		19: ASM: class io.redspace.ironsspellbooks.entity.mobs.wizards.WizardAIEvents onBlockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		20: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c blockBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		21: ASM: com.github.alexthe666.iceandfire.event.ServerEvents@71740a24 onBreakBlock(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		22: LOW
+		23: ASM: class cofh.core.common.event.AreaEffectEvents handleBlockBreakEvent(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		24: ASM: dev.shadowsoffire.apotheosis.ench.EnchModuleEvents@392d8a93 breakSpeed(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		25: ASM: dev.shadowsoffire.apotheosis.adventure.AdventureEvents@3e57521c onBreak(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		26: LOWEST
+		27: ASM: class com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem onBlockDrop(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V
+		28: net.minecraftforge.eventbus.EventBus$$Lambda$1574/0x000079ff3c62e640@bb4b800
+java.util.NoSuchElementException: minecraft:block_entity
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100)
+	at TRANSFORMER/apotheosis@7.4.8/dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.Block.m_49874_(Block.java:258)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111)
+	at TRANSFORMER/bountifulbaubles@1.6.0/com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.4.0/net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$261(MinecraftServer.java)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.wrapOperation$zco000$managedBlock(MinecraftServer.java:1856)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[30Jul2025 23:15:33.990] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundPlayerActionPacket@2303620b, suppressing error
+java.util.NoSuchElementException: minecraft:block_entity
+	at net.minecraft.world.level.storage.loot.LootParams$Builder.m_287261_(LootParams.java:100) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at dev.shadowsoffire.apotheosis.ench.anvil.ApothAnvilBlock.m_49635_(ApothAnvilBlock.java:80) ~[Apotheosis-1.20.1-7.4.8.jar%23320!/:7.4.8]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_287290_(BlockBehaviour.java:774) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.world.level.block.Block.m_49874_(Block.java:258) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.DragonBreathItem.onBlockDrop(DragonBreathItem.java:111) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at com.jinqinxixi.bountifulbaubles.item.Baubles.__DragonBreathItem_onBlockDrop_BreakEvent.invoke(.dynamic) ~[bountifulbaubles-1.6.0.jar%23337!/:1.6.0]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.common.ForgeHooks.onBlockBreakEvent(ForgeHooks.java:543) ~[forge-1.20.1-47.4.0-universal.jar%23528!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:229) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_215116_(ServerPlayerGameMode.java:218) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_214168_(ServerPlayerGameMode.java:188) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7502_(ServerGamePacketListenerImpl.java:1018) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.m_5797_(ServerboundPlayerActionPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$261(MinecraftServer.java) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.wrapOperation$zco000$managedBlock(MinecraftServer.java:1856) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]

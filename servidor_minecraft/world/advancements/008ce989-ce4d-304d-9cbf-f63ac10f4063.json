@@ -4543,6 +4543,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/misc/deposit_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
+    },
+    "done": true
+  },
   "spartanshields:recipes/steel_tower_shield": {
     "criteria": {
       "has_steel_ingot": "2025-07-30 22:46:03 +0000"
@@ -4591,15 +4597,33 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/misc/filter_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/steel_halberd": {
     "criteria": {
       "has_steel_ingot": "2025-07-30 22:46:03 +0000"
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/misc/feeding_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/silver_warhammer": {
     "criteria": {
       "has_silver_ingot": "2025-07-30 22:47:15 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/battery_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
     },
     "done": true
   },
@@ -4612,6 +4636,12 @@
   "spartanweaponry:recipes/steel_scythe": {
     "criteria": {
       "has_steel_ingot": "2025-07-30 22:46:03 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_1": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
     },
     "done": true
   },
@@ -4633,6 +4663,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/misc/void_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/silver_battleaxe": {
     "criteria": {
       "has_silver_ingot": "2025-07-30 22:47:15 +0000"
@@ -4645,15 +4681,51 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/misc/smelting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/silver_dagger": {
     "criteria": {
       "has_silver_ingot": "2025-07-30 22:47:15 +0000"
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/misc/refill_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/stonecutter_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/chipped/botanist_workbench_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/pickup_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/steel_boomerang": {
     "criteria": {
       "has_steel_ingot": "2025-07-30 22:46:03 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/jukebox_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
     },
     "done": true
   },
@@ -4687,6 +4759,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2025-07-30 23:12:58 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/steel_saber": {
     "criteria": {
       "has_steel_ingot": "2025-07-30 22:46:03 +0000"
@@ -4705,6 +4783,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/misc/pump_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/silver_tomahawk": {
     "criteria": {
       "has_silver_ingot": "2025-07-30 22:47:15 +0000"
@@ -4714,6 +4798,12 @@
   "spartanweaponry:recipes/steel_flanged_mace": {
     "criteria": {
       "has_steel_ingot": "2025-07-30 22:46:03 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/anvil_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
     },
     "done": true
   },
@@ -4729,6 +4819,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/misc/smoking_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/steel_katana": {
     "criteria": {
       "has_steel_ingot": "2025-07-30 22:46:03 +0000"
@@ -4738,6 +4834,24 @@
   "spartanweaponry:recipes/silver_longsword": {
     "criteria": {
       "has_silver_ingot": "2025-07-30 22:47:15 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/everlasting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/chipped/mason_table_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/chipped/carpenters_table_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
     },
     "done": true
   },
@@ -4771,6 +4885,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/misc/chipped/alchemy_bench_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/silver_heavy_crossbow": {
     "criteria": {
       "has_silver_ingot": "2025-07-30 22:47:15 +0000"
@@ -4783,9 +4903,27 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/misc/stack_upgrade_starter_tier": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/steel_tomahawk": {
     "criteria": {
       "has_steel_ingot": "2025-07-30 22:46:03 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/chipped/glassblower_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/chipped/tinkering_table_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
     },
     "done": true
   },
@@ -4798,6 +4936,12 @@
   "minecraft:recipes/combat/turtle_helmet": {
     "criteria": {
       "has_scute": "2025-07-30 22:41:15 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/smithing_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
     },
     "done": true
   },
@@ -4837,6 +4981,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/misc/compacting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/steel_pike": {
     "criteria": {
       "has_steel_ingot": "2025-07-30 22:46:03 +0000"
@@ -4855,6 +5005,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/misc/alchemy_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
+    },
+    "done": true
+  },
   "spartanshields:recipes/steel_basic_shield": {
     "criteria": {
       "has_steel_ingot": "2025-07-30 22:46:03 +0000"
@@ -4864,6 +5020,36 @@
   "spartanweaponry:recipes/silver_throwing_knife": {
     "criteria": {
       "has_silver_ingot": "2025-07-30 22:47:15 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/inception_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/stack_downgrade_tier_1": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/stack_downgrade_tier_3": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/stack_downgrade_tier_2": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/blasting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
     },
     "done": true
   },
@@ -4897,6 +5083,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/misc/chipped/loom_table_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/silver_katana": {
     "criteria": {
       "has_silver_ingot": "2025-07-30 22:47:15 +0000"
@@ -4915,6 +5107,18 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/misc/restock_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/tool_swapper_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/steel_glaive": {
     "criteria": {
       "has_steel_ingot": "2025-07-30 22:46:03 +0000"
@@ -4927,9 +5131,27 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/misc/tank_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/crafting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-07-30 23:11:30 +0000"
+    },
+    "done": true
+  },
   "iceandfire:recipes/combat/armor_bronze_helmet": {
     "criteria": {
       "has_item": "2025-07-30 22:34:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2025-07-30 23:12:58 +0000"
     },
     "done": true
   },
