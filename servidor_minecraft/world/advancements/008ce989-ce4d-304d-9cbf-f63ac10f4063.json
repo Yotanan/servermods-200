@@ -4314,21 +4314,21 @@
     },
     "done": true
   },
-  "born_in_chaos_v1:dark_metallurgy": {
+  "iceandfire:iceandfire/dragonbone_tool": {
     "criteria": {
-      "dark_metallurgy_0": "2025-07-30 20:31:25 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_granite_slab_from_polished_granite_stonecutting": {
-    "criteria": {
-      "has_polished_granite": "2025-07-30 20:30:41 +0000"
+      "tool": "2025-07-30 20:17:06 +0000"
     },
     "done": true
   },
   "sophisticatedbackpacks:recipes/misc/netherite_backpack": {
     "criteria": {
       "has_diamond_backpack": "2025-07-30 20:19:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_polished_granite_stonecutting": {
+    "criteria": {
+      "has_polished_granite": "2025-07-30 20:30:41 +0000"
     },
     "done": true
   },
@@ -4344,15 +4344,27 @@
     },
     "done": true
   },
-  "iceandfire:iceandfire/dragonbone_tool": {
-    "criteria": {
-      "tool": "2025-07-30 20:17:06 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_granite_stairs": {
     "criteria": {
       "has_polished_granite": "2025-07-30 20:30:41 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:dark_metallurgy": {
+    "criteria": {
+      "dark_metallurgy_0": "2025-07-30 20:31:25 +0000"
+    },
+    "done": true
+  },
+  "roughtweaks:recipes/misc/salve": {
+    "criteria": {
+      "has_bowl": "2025-07-30 20:40:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_bowl": "2025-07-30 20:40:50 +0000"
     },
     "done": true
   },

@@ -4406,87 +4406,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/brick_wall": {
-    "criteria": {
-      "has_bricks": "2025-07-30 20:18:16 +0000"
-    },
-    "done": true
-  },
-  "spartanfire:recipes/misc/witherbone_handle_from_wool": {
-    "criteria": {
-      "has_witherbone": "2025-07-30 20:09:39 +0000"
-    },
-    "done": true
-  },
   "bloomingnature:recipes/swamp_oak_wood": {
     "criteria": {
       "has_swamp_oak_log": "2025-07-30 19:56:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/brick_stairs": {
-    "criteria": {
-      "has_bricks": "2025-07-30 20:18:16 +0000"
-    },
-    "done": true
-  },
-  "bloomingnature:recipes/swamp_oak_chest_boat": {
-    "criteria": {
-      "has_swamp_oak_planks": "2025-07-30 19:56:10 +0000"
-    },
-    "done": true
-  },
-  "born_in_chaos_v1:big_boy": {
-    "criteria": {
-      "big_boy_0": "2025-07-30 20:17:02 +0000"
-    },
-    "done": true
-  },
-  "bloomingnature:recipes/swamp_oak_slab": {
-    "criteria": {
-      "has_swamp_oak_planks": "2025-07-30 19:56:10 +0000"
-    },
-    "done": true
-  },
-  "spartanfire:recipes/misc/witherbone_pole_from_leather": {
-    "criteria": {
-      "has_witherbone": "2025-07-30 20:09:39 +0000"
-    },
-    "done": true
-  },
-  "bloomingnature:recipes/swamp_oak_trapdoor": {
-    "criteria": {
-      "has_swamp_oak_planks": "2025-07-30 19:56:10 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/brick_stairs_from_bricks_stonecutting": {
-    "criteria": {
-      "has_bricks": "2025-07-30 20:18:16 +0000"
-    },
-    "done": true
-  },
-  "toughasnails:recipes/food/apple_juice": {
-    "criteria": {
-      "has_apple": "2025-07-30 20:32:09 +0000"
-    },
-    "done": true
-  },
-  "spartanfire:recipes/misc/witherbone_pole_from_string": {
-    "criteria": {
-      "has_witherbone": "2025-07-30 20:09:39 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:rapier": {
-    "criteria": {
-      "has_rapier": "2025-07-30 20:10:31 +0000"
-    },
-    "done": true
-  },
-  "spartanfire:recipes/misc/witherbone_handle_from_string": {
-    "criteria": {
-      "has_witherbone": "2025-07-30 20:09:39 +0000"
     },
     "done": true
   },
@@ -4496,9 +4418,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/brick_slab": {
+  "bloomingnature:recipes/swamp_oak_chest_boat": {
     "criteria": {
-      "has_bricks": "2025-07-30 20:18:16 +0000"
+      "has_swamp_oak_planks": "2025-07-30 19:56:10 +0000"
+    },
+    "done": true
+  },
+  "bloomingnature:recipes/swamp_oak_slab": {
+    "criteria": {
+      "has_swamp_oak_planks": "2025-07-30 19:56:10 +0000"
+    },
+    "done": true
+  },
+  "bloomingnature:recipes/swamp_oak_trapdoor": {
+    "criteria": {
+      "has_swamp_oak_planks": "2025-07-30 19:56:10 +0000"
     },
     "done": true
   },
@@ -4511,30 +4445,6 @@
   "bloomingnature:recipes/swamp_oak_button": {
     "criteria": {
       "has_swamp_oak_planks": "2025-07-30 19:56:10 +0000"
-    },
-    "done": true
-  },
-  "spartanfire:recipes/misc/witherbone_handle_from_leather": {
-    "criteria": {
-      "has_witherbone": "2025-07-30 20:09:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/brick_slab_from_bricks_stonecutting": {
-    "criteria": {
-      "has_bricks": "2025-07-30 20:18:16 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:battleaxe": {
-    "criteria": {
-      "has_battleaxe": "2025-07-30 20:25:18 +0000"
-    },
-    "done": true
-  },
-  "spartanfire:recipes/misc/witherbone_pole_from_wool": {
-    "criteria": {
-      "has_witherbone": "2025-07-30 20:09:39 +0000"
     },
     "done": true
   },
@@ -4574,15 +4484,105 @@
     },
     "done": true
   },
+  "bloomingnature:recipes/swamp_oak_door": {
+    "criteria": {
+      "has_swamp_oak_planks": "2025-07-30 19:56:10 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/misc/witherbone_handle_from_wool": {
+    "criteria": {
+      "has_witherbone": "2025-07-30 20:09:39 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/misc/witherbone_pole_from_leather": {
+    "criteria": {
+      "has_witherbone": "2025-07-30 20:09:39 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/misc/witherbone_pole_from_string": {
+    "criteria": {
+      "has_witherbone": "2025-07-30 20:09:39 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/misc/witherbone_handle_from_string": {
+    "criteria": {
+      "has_witherbone": "2025-07-30 20:09:39 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/misc/witherbone_handle_from_leather": {
+    "criteria": {
+      "has_witherbone": "2025-07-30 20:09:39 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/misc/witherbone_pole_from_wool": {
+    "criteria": {
+      "has_witherbone": "2025-07-30 20:09:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:rapier": {
+    "criteria": {
+      "has_rapier": "2025-07-30 20:10:31 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:big_boy": {
+    "criteria": {
+      "big_boy_0": "2025-07-30 20:17:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brick_wall": {
+    "criteria": {
+      "has_bricks": "2025-07-30 20:18:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs": {
+    "criteria": {
+      "has_bricks": "2025-07-30 20:18:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2025-07-30 20:18:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab": {
+    "criteria": {
+      "has_bricks": "2025-07-30 20:18:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2025-07-30 20:18:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/brick_wall_from_bricks_stonecutting": {
     "criteria": {
       "has_bricks": "2025-07-30 20:18:16 +0000"
     },
     "done": true
   },
-  "bloomingnature:recipes/swamp_oak_door": {
+  "spartanweaponry:battleaxe": {
     "criteria": {
-      "has_swamp_oak_planks": "2025-07-30 19:56:10 +0000"
+      "has_battleaxe": "2025-07-30 20:25:18 +0000"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/food/apple_juice": {
+    "criteria": {
+      "has_apple": "2025-07-30 20:32:09 +0000"
     },
     "done": true
   },
