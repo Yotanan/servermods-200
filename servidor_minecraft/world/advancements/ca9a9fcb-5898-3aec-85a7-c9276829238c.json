@@ -3211,6 +3211,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-07-30 04:16:54 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/diamond_javelin": {
     "criteria": {
       "has_diamond": "2025-07-30 03:49:32 +0000"
@@ -3655,6 +3661,12 @@
     },
     "done": true
   },
+  "spartanweaponry:collect_heads": {
+    "criteria": {
+      "wither_skeleton_skull": "2025-07-30 04:05:39 +0000"
+    },
+    "done": false
+  },
   "shieldsplus:recipes/combat/diamond_shield": {
     "criteria": {
       "has_diamond": "2025-07-30 03:49:32 +0000"
@@ -3949,6 +3961,12 @@
     },
     "done": true
   },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2025-07-30 04:05:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobbled_deepslate_stairs": {
     "criteria": {
       "has_cobbled_deepslate": "2025-07-30 02:55:43 +0000"
@@ -4042,6 +4060,12 @@
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2025-07-30 03:49:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2025-07-30 04:05:39 +0000"
     },
     "done": true
   },

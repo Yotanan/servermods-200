@@ -1203,7 +1203,8 @@
   },
   "dungeons_enhanced:ambitious_explorer": {
     "criteria": {
-      "entered_druid_circle": "2025-07-29 04:37:19 +0000"
+      "entered_druid_circle": "2025-07-29 04:37:19 +0000",
+      "entered_ruined_building": "2025-07-30 04:11:56 +0000"
     },
     "done": false
   },
@@ -3775,9 +3776,21 @@
     },
     "done": true
   },
+  "spartanweaponry:rapier": {
+    "criteria": {
+      "has_rapier": "2025-07-30 04:15:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_button": {
     "criteria": {
       "has_planks": "2025-07-30 04:02:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-07-30 04:05:21 +0000"
     },
     "done": true
   },
@@ -3808,6 +3821,12 @@
   "spartanweaponry:recipes/copper_bolt": {
     "criteria": {
       "has_feather": "2025-07-30 03:51:29 +0000"
+    },
+    "done": true
+  },
+  "battletowers:defeat_boss": {
+    "criteria": {
+      "kill": "2025-07-30 04:08:50 +0000"
     },
     "done": true
   },
@@ -3856,6 +3875,12 @@
   "minecraft:recipes/redstone/spruce_fence_gate": {
     "criteria": {
       "has_planks": "2025-07-30 04:02:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-07-30 04:05:21 +0000"
     },
     "done": true
   },

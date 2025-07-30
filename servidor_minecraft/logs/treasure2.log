@@ -695,3 +695,6 @@
 2025-07-30 03:54:58,530 [Server thread] INFO treasure2 | PitChestFeatureGenerator.java:130 | CHEATER! COMMON chest at coords: 1019 63 1148
 2025-07-30 04:03:00,246 [Server thread] WARN treasure2 | DeferredGeneratorBlockEntity.java:121 | unable to locate rarity config for rarity - >COMMON
 2025-07-30 04:08:00,983 [Server thread] WARN treasure2 | DeferredGeneratorBlockEntity.java:121 | unable to locate rarity config for rarity - >UNCOMMON
+2025-07-30 04:08:53,506 [Server thread] INFO treasure2 | AbstractTreasureChestBlock.java:162 | AbstractTreasureChestBlock | newBlockEntity | lockStates -> [LockState [slot=LockSlot [index=0, face=EAST, xOffset=0.72, yOffset=0.18, zOffset=0.5, rotation=90.0], lockItem=null]]
+2025-07-30 04:08:53,506 [Server thread] INFO treasure2 | AbstractTreasureChestBlock.java:163 | AbstractTreasureChestBlock | newBlockEntity | tileEntity -> mod.gottsch.forge.treasure2.core.block.entity.GoldSkullChestBlockEntity@41f1140 @ BlockPos{x=904, y=35, z=631}
+2025-07-30 04:08:53,551 [Server thread] INFO treasure2 | PitChestFeatureGenerator.java:130 | CHEATER! GOLD_SKULL chest at coords: 904 71 631

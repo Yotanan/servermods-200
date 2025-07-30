@@ -3199,3 +3199,76 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [30Jul2025 04:05:22.565] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
 [30Jul2025 04:05:22.566] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
 [30Jul2025 04:05:39.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 has made the advancement [Spooky Scary Skeleton]
+[30Jul2025 04:08:18.807] [Worker-Main-2/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=719, y=12, z=804}
+[30Jul2025 04:08:18.808] [Worker-Main-2/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=719, y=12, z=803}
+[30Jul2025 04:08:18.808] [Worker-Main-2/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=719, y=12, z=803}
+[30Jul2025 04:08:18.808] [Worker-Main-2/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=719, y=12, z=804}
+[30Jul2025 04:08:18.808] [Worker-Main-2/ERROR] [Dungeon Crawl/]: Failed to fetch a mob spawner at (719, 12, 804)
+[30Jul2025 04:08:34.880] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[30Jul2025 04:08:50.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [May Thy Tower Crumble]
+[30Jul2025 04:08:50.760] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Tower Guardian'/23862, l='ServerLevel[world]', x=75.30, y=156.38, z=1100.30] died: Tower Guardian was slain by Yonatan_nXD
+[30Jul2025 04:08:55.589] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=904, y=71, z=631} but found not block entity block Block{minecraft:air} at location
+[30Jul2025 04:08:55.589] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:air} but failed at location BlockPos{x=904, y=71, z=631}
+[30Jul2025 04:09:07.904] [Netty Epoll Server IO #7/ERROR] [net.bettercombat.network.ServerNetwork/]: Server handling Packets.C2S_AttackRequest - No current attack hand!
+[30Jul2025 04:09:07.904] [Netty Epoll Server IO #7/ERROR] [net.bettercombat.network.ServerNetwork/]: Combo count: 0 is dual wielding: false
+[30Jul2025 04:09:07.904] [Netty Epoll Server IO #7/ERROR] [net.bettercombat.network.ServerNetwork/]: Main-hand stack: 1 iron_pickaxe
+[30Jul2025 04:09:07.904] [Netty Epoll Server IO #7/ERROR] [net.bettercombat.network.ServerNetwork/]: Off-hand stack: 1 shield
+[30Jul2025 04:09:07.905] [Netty Epoll Server IO #7/ERROR] [net.bettercombat.network.ServerNetwork/]: Selected slot server: 1 | client: 0
+[30Jul2025 04:09:08.701] [Netty Epoll Server IO #7/ERROR] [net.bettercombat.network.ServerNetwork/]: Server handling Packets.C2S_AttackRequest - No current attack hand!
+[30Jul2025 04:09:08.701] [Netty Epoll Server IO #7/ERROR] [net.bettercombat.network.ServerNetwork/]: Combo count: 1 is dual wielding: false
+[30Jul2025 04:09:08.701] [Netty Epoll Server IO #7/ERROR] [net.bettercombat.network.ServerNetwork/]: Main-hand stack: 1 iron_pickaxe
+[30Jul2025 04:09:08.702] [Netty Epoll Server IO #7/ERROR] [net.bettercombat.network.ServerNetwork/]: Off-hand stack: 1 shield
+[30Jul2025 04:09:08.702] [Netty Epoll Server IO #7/ERROR] [net.bettercombat.network.ServerNetwork/]: Selected slot server: 1 | client: 0
+[30Jul2025 04:09:09.312] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3471ms or 69 ticks behind
+[30Jul2025 04:09:09.378] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: shebastian11 moved too quickly! 7.206815539276704,1.083077817806469,7.129152239517111
+[30Jul2025 04:09:09.384] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yonatan_nXD moved too quickly! -9.321572425314699,1.8798592603093027,3.2113409649850837
+[30Jul2025 04:10:14.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 was turned into KFC by a dragon
+[30Jul2025 04:10:15.359] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 04:10:15.360] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[30Jul2025 04:10:15.361] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 04:10:25.768] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.40998977811796067
+[30Jul2025 04:10:25.821] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.8557122721281303
+[30Jul2025 04:10:25.882] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.3230866848422238
+[30Jul2025 04:10:25.920] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.7133935653378671
+[30Jul2025 04:11:34.740] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler:lambda$handlePacket$13:74]: [SERVER] 处理数据包: PacketHandler$$Lambda$36757/0x00007278700f7938
+[30Jul2025 04:11:34.740] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler$RequestPlayerListPacket:handle:117]: [SERVER] 收到玩家列表请求 fromPotion=false
+[30Jul2025 04:11:34.741] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler$RequestPlayerListPacket:sendPlayerList:146]: [SERVER] 发送玩家列表给 DarkZero369: [Yonatan_nXD, shebastian11]
+[30Jul2025 04:11:36.126] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler:lambda$handlePacket$13:74]: [SERVER] 处理数据包: PacketHandler$$Lambda$36763/0x00007278700f8000
+[30Jul2025 04:11:36.126] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.item.Baubles.WormholeMirrorItem:setCooldown:221]: [SERVER] 发送冷却包给 DarkZero369
+[30Jul2025 04:11:44.515] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler:lambda$handlePacket$13:74]: [SERVER] 处理数据包: PacketHandler$$Lambda$36757/0x00007278700f7938
+[30Jul2025 04:11:44.515] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler$RequestPlayerListPacket:handle:117]: [SERVER] 收到玩家列表请求 fromPotion=false
+[30Jul2025 04:11:44.515] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler$RequestPlayerListPacket:sendPlayerList:146]: [SERVER] 发送玩家列表给 shebastian11: [DarkZero369, Yonatan_nXD]
+[30Jul2025 04:11:45.718] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler:lambda$handlePacket$13:74]: [SERVER] 处理数据包: PacketHandler$$Lambda$36763/0x00007278700f8000
+[30Jul2025 04:11:45.718] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.item.Baubles.WormholeMirrorItem:setCooldown:221]: [SERVER] 发送冷却包给 shebastian11
+[30Jul2025 04:11:50.818] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler:lambda$handlePacket$13:74]: [SERVER] 处理数据包: PacketHandler$$Lambda$36757/0x00007278700f7938
+[30Jul2025 04:11:50.819] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler$RequestPlayerListPacket:handle:117]: [SERVER] 收到玩家列表请求 fromPotion=false
+[30Jul2025 04:11:50.819] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler$RequestPlayerListPacket:sendPlayerList:146]: [SERVER] 发送玩家列表给 DarkZero369: [Yonatan_nXD, shebastian11]
+[30Jul2025 04:11:52.167] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler:lambda$handlePacket$13:74]: [SERVER] 处理数据包: PacketHandler$$Lambda$36763/0x00007278700f8000
+[30Jul2025 04:11:52.168] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.item.Baubles.WormholeMirrorItem:setCooldown:221]: [SERVER] 发送冷却包给 DarkZero369
+[30Jul2025 04:12:23.559] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkZero369 moved too quickly! -170.76069388071232,-35.0,130.2228162410397
+[30Jul2025 04:13:10.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkZero369> duerme
+[30Jul2025 04:13:11.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkZero369> duerme
+[30Jul2025 04:13:12.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkZero369> duerme
+[30Jul2025 04:13:13.917] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/48101, l='ServerLevel[world]', x=186.68, y=81.00, z=860.41] died, message: 'Nitwit was slain by Restless Spirit'
+[30Jul2025 04:13:17.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <shebastian11> zzzzzzzzzzzzz
+[30Jul2025 04:15:24.572] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Undead Knight'/48492, l='ServerLevel[world]', x=331.70, y=104.00, z=903.37] died: Undead Knight was slain by DarkZero369
+[30Jul2025 04:15:32.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [En Garde!]
+[30Jul2025 04:15:48.206] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/46729, l='ServerLevel[world]', x=236.79, y=77.94, z=884.56] died, message: 'Farmer was slain by The Moonflower'
+[30Jul2025 04:16:45.072] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.2716660677684217
+[30Jul2025 04:16:45.111] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.8278151915089325
+[30Jul2025 04:16:45.172] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 1.3880275959948563
+[30Jul2025 04:16:45.215] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 1.882191264121957
+[30Jul2025 04:16:45.273] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 2.2237955049495213
+[30Jul2025 04:16:54.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 has made the advancement [Take Aim]
+[30Jul2025 04:17:31.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD burned to death
+[30Jul2025 04:17:33.109] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 04:17:33.109] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[30Jul2025 04:17:33.110] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 04:17:33.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 was killed by magic
+[30Jul2025 04:17:34.419] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 04:17:34.419] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[30Jul2025 04:17:34.420] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 04:18:28.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 was slain by Fire Dragon
+[30Jul2025 04:18:30.264] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 04:18:30.264] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[30Jul2025 04:18:30.265] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.

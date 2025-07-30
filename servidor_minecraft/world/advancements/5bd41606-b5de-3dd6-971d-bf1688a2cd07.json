@@ -114,6 +114,7 @@
       "minecraft:snowy_taiga": "2025-07-29 04:13:29 +0000",
       "minecraft:cold_ocean": "2025-07-29 05:06:16 +0000",
       "minecraft:forest": "2025-07-29 03:52:31 +0000",
+      "minecraft:ocean": "2025-07-30 04:05:00 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-07-29 03:54:16 +0000",
       "minecraft:plains": "2025-07-29 05:12:21 +0000"
     },
@@ -3495,9 +3496,21 @@
     },
     "done": true
   },
+  "spartanweaponry:recipes/cestus": {
+    "criteria": {
+      "has_wool": "2025-07-30 04:15:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_quartz_slab": {
     "criteria": {
       "has_smooth_quartz": "2025-07-30 03:57:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2025-07-30 04:15:33 +0000"
     },
     "done": true
   },
@@ -3549,6 +3562,12 @@
     },
     "done": true
   },
+  "wooltostring:recipes/misc/wool": {
+    "criteria": {
+      "has_ingredient": "2025-07-30 04:15:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_sword": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
@@ -3564,6 +3583,12 @@
   "minecraft:recipes/combat/diamond_chestplate": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/grease_ball": {
+    "criteria": {
+      "has_meat": "2025-07-30 04:15:33 +0000"
     },
     "done": true
   },
@@ -3675,6 +3700,12 @@
     },
     "done": true
   },
+  "toughasnails:recipes/combat/wool_helmet": {
+    "criteria": {
+      "has_wool": "2025-07-30 04:15:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_hoe": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
@@ -3705,6 +3736,12 @@
     },
     "done": true
   },
+  "bloomingnature:recipes/blue_dye_from_bluebell": {
+    "criteria": {
+      "has_bluebell": "2025-07-30 04:03:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/quartz_stairs": {
     "criteria": {
       "has_quartz_block": "2025-07-30 03:15:03 +0000"
@@ -3726,6 +3763,12 @@
   "spartanweaponry:recipes/diamond_longbow": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/conan_suit": {
+    "criteria": {
+      "has_wool": "2025-07-30 04:15:33 +0000"
     },
     "done": true
   },
@@ -3813,6 +3856,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2025-07-30 04:15:33 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/dog_plushie_toy_item": {
+    "criteria": {
+      "has_white_wool": "2025-07-30 04:15:33 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/diamond_dagger": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
@@ -3840,6 +3895,18 @@
   "spartanweaponry:recipes/diamond_glaive": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/combat/wool_leggings": {
+    "criteria": {
+      "has_wool": "2025-07-30 04:15:33 +0000"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/combat/wool_chestplate": {
+    "criteria": {
+      "has_wool": "2025-07-30 04:15:33 +0000"
     },
     "done": true
   },
@@ -3933,6 +4000,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2025-07-30 04:15:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/composter": {
     "criteria": {
       "has_wood_slab": "2025-07-30 03:50:43 +0000"
@@ -3960,6 +4033,12 @@
   "spartanweaponry:recipes/diamond_scythe": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/lab_coat": {
+    "criteria": {
+      "has_wool": "2025-07-30 04:15:33 +0000"
     },
     "done": true
   },
@@ -3993,6 +4072,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2025-07-30 04:15:33 +0000"
+    },
+    "done": true
+  },
   "too_many_bows:root": {
     "criteria": {
       "has_any_bow": "2025-07-30 03:31:13 +0000"
@@ -4017,6 +4102,12 @@
     },
     "done": true
   },
+  "doggytalents:recipes/decorations/beastars_uniform_male": {
+    "criteria": {
+      "has_wool": "2025-07-30 04:15:33 +0000"
+    },
+    "done": true
+  },
   "apotheosis:affix/random": {
     "criteria": {
       "sword": "2025-07-30 04:00:42 +0000"
@@ -4035,6 +4126,12 @@
     },
     "done": true
   },
+  "toughasnails:recipes/combat/wool_boots": {
+    "criteria": {
+      "has_wool": "2025-07-30 04:15:33 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/diamond_heavy_crossbow": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
@@ -4047,9 +4144,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2025-07-30 04:15:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
     "criteria": {
       "has_lily_of_the_valley": "2025-07-30 03:50:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2025-07-30 04:15:33 +0000"
     },
     "done": true
   },
@@ -4068,6 +4177,12 @@
   "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
       "has_soul_sand": "2025-07-30 02:49:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2025-07-30 04:15:33 +0000"
     },
     "done": true
   },
@@ -4101,6 +4216,12 @@
     },
     "done": true
   },
+  "doggytalents:recipes/building_blocks/dog_bed_def": {
+    "criteria": {
+      "has_wool": "2025-07-30 04:15:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
@@ -4110,6 +4231,12 @@
   "apotheosis:spawner/root": {
     "criteria": {
       "spawner": "2025-07-30 03:22:18 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/beastars_uniform_female": {
+    "criteria": {
+      "has_wool": "2025-07-30 04:15:33 +0000"
     },
     "done": true
   },
