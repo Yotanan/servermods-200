@@ -242,6 +242,7 @@
       "minecraft:skeleton": "2025-07-29 04:11:12 +0000",
       "minecraft:spider": "2025-07-29 03:50:48 +0000",
       "minecraft:phantom": "2025-07-30 02:57:10 +0000",
+      "minecraft:wither_skeleton": "2025-07-30 03:17:07 +0000",
       "minecraft:enderman": "2025-07-30 02:58:32 +0000",
       "minecraft:stray": "2025-07-30 02:41:44 +0000",
       "minecraft:zombie": "2025-07-29 04:03:23 +0000"
@@ -2607,6 +2608,7 @@
   },
   "too_many_bows:master_bow_collector": {
     "criteria": {
+      "torchbearer": "2025-07-30 03:19:46 +0000",
       "emerald_sage_bow": "2025-07-29 05:24:26 +0000"
     },
     "done": false
@@ -3097,6 +3099,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-07-30 03:22:34 +0000"
+    },
+    "done": true
+  },
   "potionring:recipes/brewing/ring_of_speed": {
     "criteria": {
       "has_ring": "2025-07-30 02:40:05 +0000"
@@ -3241,6 +3249,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2025-07-30 03:13:57 +0000"
+    },
+    "done": true
+  },
   "potionring:recipes/brewing/ring_of_conduit_power": {
     "criteria": {
       "has_ring": "2025-07-30 02:40:05 +0000"
@@ -3274,6 +3288,18 @@
   "minecraft:recipes/misc/iron_ingot_from_nuggets": {
     "criteria": {
       "has_iron_nugget": "2025-07-30 03:04:08 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/tools/throw_stick": {
+    "criteria": {
+      "has_slime_ball": "2025-07-30 03:13:57 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/frisbee": {
+    "criteria": {
+      "has_slime_ball": "2025-07-30 03:13:57 +0000"
     },
     "done": true
   },
@@ -3391,6 +3417,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2025-07-30 03:13:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/nether_brick_fence": {
     "criteria": {
       "has_nether_bricks": "2025-07-30 02:55:19 +0000"
@@ -3418,6 +3450,12 @@
   "minecraft:recipes/building_blocks/polished_deepslate_slab_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-07-30 02:55:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2025-07-30 03:13:57 +0000"
     },
     "done": true
   },
@@ -3454,6 +3492,12 @@
   "minecraft:recipes/building_blocks/cobbled_deepslate_stairs": {
     "criteria": {
       "has_cobbled_deepslate": "2025-07-30 02:55:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template": {
+    "criteria": {
+      "has_eye_armor_trim_smithing_template": "2025-07-30 03:22:34 +0000"
     },
     "done": true
   },

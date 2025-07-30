@@ -2417,6 +2417,7 @@
       "minecraft:creeper": "2025-07-30 02:07:09 +0000",
       "minecraft:phantom": "2025-07-30 02:06:19 +0000",
       "minecraft:wither_skeleton": "2025-07-30 03:06:46 +0000",
+      "minecraft:cave_spider": "2025-07-30 03:18:21 +0000",
       "minecraft:stray": "2025-07-29 05:23:38 +0000",
       "minecraft:enderman": "2025-07-30 03:07:52 +0000",
       "minecraft:zombie": "2025-07-29 05:18:50 +0000",
@@ -3486,6 +3487,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-07-30 03:15:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 03:15:03 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/diamond_katana": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
@@ -3507,6 +3520,12 @@
   "spartanweaponry:recipes/huge_quiver_brace": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 03:15:03 +0000"
     },
     "done": true
   },
@@ -3624,6 +3643,12 @@
     },
     "done": true
   },
+  "born_in_chaos_v1:dark_metallurgy": {
+    "criteria": {
+      "dark_metallurgy_0": "2025-07-30 03:13:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_hoe": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
@@ -3651,6 +3676,12 @@
   "spartanweaponry:recipes/diamond_pike": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 03:15:03 +0000"
     },
     "done": true
   },
@@ -3714,9 +3745,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 03:15:03 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/copper_bolt": {
     "criteria": {
       "has_feather": "2025-07-30 02:57:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 03:15:03 +0000"
     },
     "done": true
   },
@@ -3804,6 +3847,12 @@
     },
     "done": true
   },
+  "roughtweaks:recipes/misc/salve": {
+    "criteria": {
+      "has_bowl": "2025-07-30 03:17:38 +0000"
+    },
+    "done": true
+  },
   "shieldsplus:recipes/combat/diamond_shield": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
@@ -3852,6 +3901,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_pillar_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 03:15:03 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/diamond_scythe": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
@@ -3864,9 +3919,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_pillar": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 03:15:03 +0000"
+    },
+    "done": true
+  },
   "bloomingnature:recipes/red_brick": {
     "criteria": {
       "has_brick": "2025-07-30 02:54:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 03:15:03 +0000"
     },
     "done": true
   },
@@ -3882,9 +3949,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_quartz": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 03:15:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 03:15:03 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/diamond_heavy_crossbow": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 03:15:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template": {
+    "criteria": {
+      "has_eye_armor_trim_smithing_template": "2025-07-30 03:15:09 +0000"
     },
     "done": true
   },
@@ -3909,6 +4000,12 @@
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:spawner/root": {
+    "criteria": {
+      "spawner": "2025-07-30 03:22:18 +0000"
     },
     "done": true
   },

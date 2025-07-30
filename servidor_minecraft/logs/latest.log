@@ -3061,3 +3061,11 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [30Jul2025 03:13:41.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has made the advancement [Dark Metallurgy]
 [30Jul2025 03:15:58.459] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Scribe'/212, l='ServerLevel[world]', x=217.45, y=62.51, z=819.93] died, message: 'Scribe was slain by Corpse Fly'
 [30Jul2025 03:16:49.909] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/298, l='ServerLevel[world]', x=157.21, y=69.00, z=821.07] died, message: 'Nitwit was led to the grave by Priest'
+[30Jul2025 03:18:10.925] [Server thread/WARN] [Scaling Health/]: Another mod seems to have canceled healing from a heart container (player literal{shebastian11})
+[30Jul2025 03:19:51.143] [Server thread/ERROR] [placebo/]: Failed to locate any gear sets matching the following predicates: 
+[30Jul2025 03:19:51.144] [Server thread/ERROR] [placebo/]: SetPredicate[#irons_spellbooks]
+[30Jul2025 03:20:25.986] [Server thread/WARN] [Scaling Health/]: Another mod seems to have canceled healing from a heart container (player literal{shebastian11})
+[30Jul2025 03:20:26.530] [Server thread/WARN] [Scaling Health/]: Another mod seems to have canceled healing from a heart container (player literal{shebastian11})
+[30Jul2025 03:20:26.934] [Server thread/WARN] [Scaling Health/]: Another mod seems to have canceled healing from a heart container (player literal{shebastian11})
+[30Jul2025 03:20:59.238] [Server thread/WARN] [Scaling Health/]: Another mod seems to have canceled healing from a heart container (player literal{shebastian11})
+[30Jul2025 03:22:18.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has made the advancement [Apothic Spawners]
