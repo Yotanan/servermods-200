@@ -3059,3 +3059,65 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [30Jul2025 02:21:44.231] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
 [30Jul2025 02:21:44.233] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
 [30Jul2025 02:21:59.485] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=180, y=64, z=811} BlockPos{x=181, y=62, z=811}
+[30Jul2025 02:23:28.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [Isn't It Iron Pick]
+[30Jul2025 02:23:56.671] [Server thread/INFO] [Scaling Health/]: Blight Skeleton has died
+[30Jul2025 02:24:32.979] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:32.979] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:32.980] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:32.980] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:35.994] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:35.995] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:35.995] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:35.996] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:37.169] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:37.169] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:37.169] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:37.169] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:40.766] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:40.766] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:40.767] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:40.767] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:42.177] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:42.178] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:42.178] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:42.178] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:43.628] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:43.628] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:43.628] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:43.628] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:45.470] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:45.471] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:45.471] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:45.471] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:45.672] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:45.672] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:45.673] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:45.673] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:46.524] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:46.524] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:46.525] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:46.525] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:47.927] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:47.927] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:47.927] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:47.928] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:24:48.225] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yonatan_nXD moved too quickly! -43.52936644927456,0.0,-73.86011588693191
+[30Jul2025 02:26:46.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [Halberdier]
+[30Jul2025 02:27:06.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has made the advancement [Not a Diamond]
+[30Jul2025 02:27:21.428] [Server thread/WARN] [Scaling Health/]: Another mod seems to have canceled healing from a heart container (player literal{shebastian11})
+[30Jul2025 02:28:14.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has made the advancement [A Bigger Blade]
+[30Jul2025 02:28:40.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [shebastian11: Triggered [darkdeath]]
+[30Jul2025 02:28:46.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 died
+[30Jul2025 02:28:47.783] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 02:28:47.784] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[30Jul2025 02:28:47.785] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 02:30:47.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [Cover Me with Diamonds]
+[30Jul2025 02:31:17.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yonatan_nXD: Triggered [darkdeath]]
+[30Jul2025 02:31:23.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD died
+[30Jul2025 02:31:24.428] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 02:31:24.428] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[30Jul2025 02:31:24.429] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 02:33:07.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD withered away
+[30Jul2025 02:33:09.026] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 02:33:09.027] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[30Jul2025 02:33:09.028] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.

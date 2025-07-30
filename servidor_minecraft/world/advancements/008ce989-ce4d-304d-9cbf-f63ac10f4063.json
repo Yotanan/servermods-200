@@ -1042,7 +1042,9 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "bread": "2025-07-29 04:34:23 +0000"
+      "cooked_beef": "2025-07-30 02:22:34 +0000",
+      "bread": "2025-07-29 04:34:23 +0000",
+      "golden_apple": "2025-07-30 02:25:11 +0000"
     },
     "done": false
   },
@@ -2594,15 +2596,57 @@
     },
     "done": true
   },
+  "potionring:recipes/brewing/ring_of_speed": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:25:37 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:halberd": {
+    "criteria": {
+      "has_halberd": "2025-07-30 02:26:46 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_invisibility": {
+    "criteria": {
+      "has_potion_ring": "2025-07-30 02:25:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-07-30 02:21:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_diorite": {
     "criteria": {
       "has_diorite": "2025-07-30 02:17:58 +0000"
     },
     "done": true
   },
+  "potionring:recipes/brewing/ring_of_haste": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:25:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_shovel": "2025-07-30 02:21:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2025-07-30 02:18:02 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_luck": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:25:37 +0000"
     },
     "done": true
   },
@@ -2615,6 +2659,12 @@
   "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2025-07-30 02:18:02 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_fire_resistance": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:25:37 +0000"
     },
     "done": true
   },
@@ -2636,15 +2686,39 @@
     },
     "done": true
   },
+  "potionring:recipes/brewing/ring_of_resistance": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:25:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
     "criteria": {
       "has_mossy_cobblestone": "2025-07-30 02:17:57 +0000"
     },
     "done": true
   },
+  "potionring:recipes/brewing/ring_of_weakness": {
+    "criteria": {
+      "has_potion_ring": "2025-07-30 02:25:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
     "criteria": {
       "has_mossy_cobblestone": "2025-07-30 02:17:57 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/food/golden_a_five_wagyu": {
+    "criteria": {
+      "has_cooked_beef": "2025-07-30 02:22:27 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_regeneration": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:25:37 +0000"
     },
     "done": true
   },
@@ -2684,9 +2758,21 @@
     },
     "done": true
   },
+  "potionring:recipes/brewing/ring_of_wither": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:25:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
     "criteria": {
       "has_mossy_cobblestone": "2025-07-30 02:17:57 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_conduit_power": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:25:37 +0000"
     },
     "done": true
   },
@@ -2696,9 +2782,57 @@
     },
     "done": true
   },
+  "potionring:recipes/brewing/ring_of_slow_falling": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:25:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2025-07-30 02:18:02 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_night_vision": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:25:37 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/food/super_treat": {
+    "criteria": {
+      "has_golden_apple": "2025-07-30 02:23:48 +0000"
+    },
+    "done": true
+  },
+  "spartanshields:recipes/lapis_lazuli_basic_shield": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-07-30 02:21:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-07-30 02:21:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-07-30 02:23:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_shovel": "2025-07-30 02:21:14 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_levitation": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:25:37 +0000"
     },
     "done": true
   },
@@ -2708,9 +2842,75 @@
     },
     "done": true
   },
+  "potionring:recipes/brewing/ring_of_darkness": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:25:37 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_poison": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:25:37 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_unluck": {
+    "criteria": {
+      "has_potion_ring": "2025-07-30 02:25:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/diorite_wall": {
     "criteria": {
       "has_diorite": "2025-07-30 02:17:58 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_mining_fatigue": {
+    "criteria": {
+      "has_potion_ring": "2025-07-30 02:25:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2025-07-30 02:21:13 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_water_breathing": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:25:37 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_blindness": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:25:37 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_jump_boost": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:25:37 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_slowness": {
+    "criteria": {
+      "has_potion_ring": "2025-07-30 02:25:37 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_hunger": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:25:37 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_glowing": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:25:37 +0000"
     },
     "done": true
   },
@@ -2738,9 +2938,27 @@
     },
     "done": true
   },
+  "potionring:recipes/brewing/ring_of_strengh": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:25:37 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_nausea": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:25:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2025-07-30 02:17:58 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_saturation": {
+    "criteria": {
+      "has_potion_ring": "2025-07-30 02:25:37 +0000"
     },
     "done": true
   },
@@ -2753,6 +2971,12 @@
   "minecraft:recipes/building_blocks/diorite_stairs": {
     "criteria": {
       "has_diorite": "2025-07-30 02:17:58 +0000"
+    },
+    "done": true
+  },
+  "potionring:recipes/brewing/ring_of_dolphins_grace": {
+    "criteria": {
+      "has_ring": "2025-07-30 02:25:37 +0000"
     },
     "done": true
   },
