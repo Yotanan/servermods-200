@@ -4586,5 +4586,11 @@
     },
     "done": true
   },
+  "apotheosis:affix/mythic_gem": {
+    "criteria": {
+      "gem": "2025-07-30 21:03:27 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

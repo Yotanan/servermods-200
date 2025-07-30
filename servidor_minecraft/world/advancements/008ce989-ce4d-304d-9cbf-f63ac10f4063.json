@@ -4368,5 +4368,47 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-07-30 21:05:56 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/gold_nugget": {
+    "criteria": {
+      "has_zombie_heart": "2025-07-30 21:04:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2025-07-30 21:05:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-07-30 21:05:56 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/rotten_flesh": {
+    "criteria": {
+      "has_zombie_heart": "2025-07-30 21:04:12 +0000"
+    },
+    "done": true
+  },
+  "celestisynth:recipes/misc/celestial_core": {
+    "criteria": {
+      "has_item": "2025-07-30 21:05:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2025-07-30 21:05:56 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
