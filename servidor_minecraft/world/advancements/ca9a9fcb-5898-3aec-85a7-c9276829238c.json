@@ -3423,6 +3423,12 @@
     },
     "done": true
   },
+  "reliquary:recipes/misc/phoenix_down": {
+    "criteria": {
+      "has_angelic_feather": "2025-07-30 03:24:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/nether_brick_fence": {
     "criteria": {
       "has_nether_bricks": "2025-07-30 02:55:19 +0000"

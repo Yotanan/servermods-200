@@ -3937,6 +3937,12 @@
     },
     "done": true
   },
+  "too_many_bows:root": {
+    "criteria": {
+      "has_any_bow": "2025-07-30 03:31:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/decorated_pot_simple": {
     "criteria": {
       "has_brick": "2025-07-30 02:54:24 +0000"
@@ -3984,6 +3990,12 @@
       "has_soul_sand": "2025-07-30 02:49:49 +0000"
     },
     "done": true
+  },
+  "too_many_bows:master_bow_collector": {
+    "criteria": {
+      "aethers_call": "2025-07-30 03:31:13 +0000"
+    },
+    "done": false
   },
   "spartanweaponry:recipes/diamond_rapier": {
     "criteria": {
