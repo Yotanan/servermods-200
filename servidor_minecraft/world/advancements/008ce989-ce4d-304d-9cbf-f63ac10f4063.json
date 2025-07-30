@@ -3178,6 +3178,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-07-30 03:10:17 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/diamond_battleaxe": {
     "criteria": {
       "has_diamond": "2025-07-30 02:55:10 +0000"
@@ -3202,6 +3208,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-07-30 03:10:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/stone_pressure_plate": {
     "criteria": {
       "has_stone": "2025-07-30 02:56:14 +0000"
@@ -3211,6 +3223,12 @@
   "spartanfire:recipes/misc/witherbone_pole_from_string": {
     "criteria": {
       "has_witherbone": "2025-07-30 02:39:47 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/sulfur_chunk": {
+    "criteria": {
+      "sulfur_chunk": "2025-07-30 03:05:55 +0000"
     },
     "done": true
   },
@@ -3382,6 +3400,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-07-30 03:10:17 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/diamond_dagger": {
     "criteria": {
       "has_diamond": "2025-07-30 02:55:10 +0000"
@@ -3397,6 +3421,12 @@
   "spartanweaponry:recipes/diamond_glaive": {
     "criteria": {
       "has_diamond": "2025-07-30 02:55:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-07-30 03:10:17 +0000"
     },
     "done": true
   },
@@ -3439,6 +3469,12 @@
   "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-07-30 03:01:28 +0000"
+    },
+    "done": true
+  },
+  "celestial_core:recipes/misc/storage/virtual_gold_ingot": {
+    "criteria": {
+      "has_virtual_gold_nugget": "2025-07-30 03:09:30 +0000"
     },
     "done": true
   },
@@ -3604,6 +3640,12 @@
     },
     "done": true
   },
+  "scguns:main/anthralite": {
+    "criteria": {
+      "anthralite_ingot": "2025-07-30 03:04:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2025-07-30 02:56:14 +0000"
@@ -3646,6 +3688,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-07-30 03:10:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
       "has_soul_sand": "2025-07-30 02:54:43 +0000"
@@ -3685,6 +3733,12 @@
   "minecraft:recipes/building_blocks/deepslate_tiles_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-07-30 03:01:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-07-30 03:10:17 +0000"
     },
     "done": true
   },

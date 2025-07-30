@@ -301,6 +301,7 @@
       "sweet_berries": "2025-07-29 03:59:53 +0000",
       "cooked_beef": "2025-07-29 05:06:37 +0000",
       "apple": "2025-07-30 02:16:41 +0000",
+      "golden_apple": "2025-07-30 03:10:04 +0000",
       "rotten_flesh": "2025-07-29 03:52:14 +0000",
       "cooked_chicken": "2025-07-29 03:53:14 +0000"
     },
@@ -3261,6 +3262,18 @@
   "potionring:recipes/brewing/ring_of_night_vision": {
     "criteria": {
       "has_ring": "2025-07-30 02:40:05 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:the_wind_darkening": {
+    "criteria": {
+      "the_wind_darkening_0": "2025-07-30 03:07:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2025-07-30 03:04:08 +0000"
     },
     "done": true
   },

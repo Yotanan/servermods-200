@@ -2416,7 +2416,9 @@
       "minecraft:spider": "2025-07-30 02:27:05 +0000",
       "minecraft:creeper": "2025-07-30 02:07:09 +0000",
       "minecraft:phantom": "2025-07-30 02:06:19 +0000",
+      "minecraft:wither_skeleton": "2025-07-30 03:06:46 +0000",
       "minecraft:stray": "2025-07-29 05:23:38 +0000",
+      "minecraft:enderman": "2025-07-30 03:07:52 +0000",
       "minecraft:zombie": "2025-07-29 05:18:50 +0000",
       "minecraft:zombie_villager": "2025-07-29 04:41:31 +0000"
     },
@@ -3568,6 +3570,12 @@
     },
     "done": true
   },
+  "scguns:main/iron/m3_carabine": {
+    "criteria": {
+      "m3_carabine": "2025-07-30 03:10:44 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/diamond_javelin": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
@@ -3781,6 +3789,12 @@
   "minecraft:recipes/misc/blue_dye": {
     "criteria": {
       "has_lapis_lazuli": "2025-07-30 02:40:59 +0000"
+    },
+    "done": true
+  },
+  "celestial_core:recipes/misc/storage/virtual_gold_ingot": {
+    "criteria": {
+      "has_virtual_gold_nugget": "2025-07-30 03:07:35 +0000"
     },
     "done": true
   },

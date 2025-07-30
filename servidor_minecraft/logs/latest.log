@@ -3029,3 +3029,35 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [30Jul2025 02:57:14.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has made the advancement [Diamonds!]
 [30Jul2025 03:05:01.226] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkZero369 moved too quickly! -15.028913289503578,9.125,-5.982156877445732
 [30Jul2025 03:07:02.121] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: shebastian11 moved too quickly! -2.637555520442845,0.09999999999999998,21.008258086499154
+[30Jul2025 03:07:39.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 has made the advancement [The Wind Darkening]
+[30Jul2025 03:08:04.675] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler:lambda$handlePacket$13:74]: [SERVER] 处理数据包: PacketHandler$$Lambda$36757/0x00007278700f7938
+[30Jul2025 03:08:04.675] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler$RequestPlayerListPacket:handle:117]: [SERVER] 收到玩家列表请求 fromPotion=false
+[30Jul2025 03:08:04.676] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler$RequestPlayerListPacket:sendPlayerList:146]: [SERVER] 发送玩家列表给 Yonatan_nXD: [DarkZero369, shebastian11]
+[30Jul2025 03:08:05.624] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler:lambda$handlePacket$13:74]: [SERVER] 处理数据包: PacketHandler$$Lambda$36763/0x00007278700f8000
+[30Jul2025 03:08:05.626] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.item.Baubles.WormholeMirrorItem:setCooldown:221]: [SERVER] 发送冷却包给 Yonatan_nXD
+[30Jul2025 03:08:34.457] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/245, l='ServerLevel[world]', x=209.66, y=62.59, z=750.01] died, message: 'Villager was slain by The Rabidus'
+[30Jul2025 03:08:58.113] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 03:08:58.114] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 03:08:58.115] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 03:08:58.115] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 03:09:01.063] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 03:09:01.064] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 03:09:04.113] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 03:09:04.113] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 03:09:07.917] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 03:09:07.917] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 03:10:37.458] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yonatan_nXD lost connection: Disconnected
+[30Jul2025 03:10:37.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD left the game
+[30Jul2025 03:10:41.513] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Scribe'/256, l='ServerLevel[world]', x=182.82, y=64.17, z=766.49] died, message: 'Scribe was slain by The Rabidus'
+[30Jul2025 03:11:09.812] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/255, l='ServerLevel[world]', x=190.11, y=63.00, z=769.78] died, message: 'Villager died of rabies whilst trying to escape The Rabidus'
+[30Jul2025 03:12:08.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 died of thirst
+[30Jul2025 03:12:10.119] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 03:12:10.120] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[30Jul2025 03:12:10.121] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 03:12:42.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 was killed by magic
+[30Jul2025 03:12:44.060] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 03:12:44.061] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[30Jul2025 03:12:44.061] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 03:13:41.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has made the advancement [Dark Metallurgy]
+[30Jul2025 03:15:58.459] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Scribe'/212, l='ServerLevel[world]', x=217.45, y=62.51, z=819.93] died, message: 'Scribe was slain by Corpse Fly'
+[30Jul2025 03:16:49.909] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/298, l='ServerLevel[world]', x=157.21, y=69.00, z=821.07] died, message: 'Nitwit was led to the grave by Priest'
