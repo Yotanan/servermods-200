@@ -4405,6 +4405,12 @@
     },
     "done": true
   },
+  "spartanfire:recipes/misc/witherbone_handle_from_wool": {
+    "criteria": {
+      "has_witherbone": "2025-07-30 20:09:39 +0000"
+    },
+    "done": true
+  },
   "bloomingnature:recipes/swamp_oak_wood": {
     "criteria": {
       "has_swamp_oak_log": "2025-07-30 19:56:04 +0000"
@@ -4423,9 +4429,33 @@
     },
     "done": true
   },
+  "spartanfire:recipes/misc/witherbone_pole_from_leather": {
+    "criteria": {
+      "has_witherbone": "2025-07-30 20:09:39 +0000"
+    },
+    "done": true
+  },
   "bloomingnature:recipes/swamp_oak_trapdoor": {
     "criteria": {
       "has_swamp_oak_planks": "2025-07-30 19:56:10 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/misc/witherbone_pole_from_string": {
+    "criteria": {
+      "has_witherbone": "2025-07-30 20:09:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:rapier": {
+    "criteria": {
+      "has_rapier": "2025-07-30 20:10:31 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/misc/witherbone_handle_from_string": {
+    "criteria": {
+      "has_witherbone": "2025-07-30 20:09:39 +0000"
     },
     "done": true
   },
@@ -4444,6 +4474,18 @@
   "bloomingnature:recipes/swamp_oak_button": {
     "criteria": {
       "has_swamp_oak_planks": "2025-07-30 19:56:10 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/misc/witherbone_handle_from_leather": {
+    "criteria": {
+      "has_witherbone": "2025-07-30 20:09:39 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/misc/witherbone_pole_from_wool": {
+    "criteria": {
+      "has_witherbone": "2025-07-30 20:09:39 +0000"
     },
     "done": true
   },

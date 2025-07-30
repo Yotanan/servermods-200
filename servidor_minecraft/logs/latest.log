@@ -3008,3 +3008,29 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [30Jul2025 20:07:27.507] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.item.Baubles.WormholeMirrorItem:setCooldown:221]: [SERVER] 发送冷却包给 Yonatan_nXD
 [30Jul2025 20:08:09.427] [Server thread/ERROR] [placebo/]: Failed to locate any gear sets matching the following predicates: 
 [30Jul2025 20:08:09.428] [Server thread/ERROR] [placebo/]: SetPredicate[#irons_spellbooks]
+[30Jul2025 20:10:31.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has made the advancement [En Garde!]
+[30Jul2025 20:12:49.694] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yonatan_nXD moved too quickly! 45.80000001192093,8.0,-173.46527593228961
+[30Jul2025 20:14:59.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yonatan_nXD: Triggered [darkdeath]]
+[30Jul2025 20:15:06.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD died
+[30Jul2025 20:15:07.420] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 20:15:07.420] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[30Jul2025 20:15:07.421] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 20:16:45.366] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Honeyed Archer'/7199, l='ServerLevel[world]', x=808.09, y=68.00, z=802.56] died: Honeyed Archer died whilst trying to escape Yonatan_nXD
+[30Jul2025 20:17:02.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has reached the goal [Big Boy]
+[30Jul2025 20:17:06.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [Splintering II]
+[30Jul2025 20:17:11.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 burned to death
+[30Jul2025 20:17:12.310] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 20:17:12.310] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[30Jul2025 20:17:12.311] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 20:18:00.973] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler:lambda$handlePacket$13:74]: [SERVER] 处理数据包: PacketHandler$$Lambda$36439/0x000078a52c09e448
+[30Jul2025 20:18:00.973] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler$RequestPlayerListPacket:handle:117]: [SERVER] 收到玩家列表请求 fromPotion=false
+[30Jul2025 20:18:00.973] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler$RequestPlayerListPacket:sendPlayerList:146]: [SERVER] 发送玩家列表给 shebastian11: [Yonatan_nXD]
+[30Jul2025 20:18:01.659] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler:lambda$handlePacket$13:74]: [SERVER] 处理数据包: PacketHandler$$Lambda$36445/0x000078a52c09f1b0
+[30Jul2025 20:18:01.659] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.item.Baubles.WormholeMirrorItem:setCooldown:221]: [SERVER] 发送冷却包给 shebastian11
+[30Jul2025 20:19:46.992] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
+[30Jul2025 20:19:55.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [shebastian11: Triggered [darkdeath]]
+[30Jul2025 20:20:02.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 was killed by magic
+[30Jul2025 20:20:03.816] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 20:20:03.817] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[30Jul2025 20:20:03.818] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 20:20:11.646] [Server thread/WARN] [Scaling Health/]: Another mod seems to have canceled healing from a heart container (player literal{Yonatan_nXD})
