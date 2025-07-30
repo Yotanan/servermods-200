@@ -6,11 +6,11 @@
 	#Range: 1 ~ 100
 	"(Client Only) Max Charging time (ticks) to Form the Biggest Magic Circle underfoot when charging" = 60
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Basic Damage dealt by The Incinerator's Skill" = 6.0
+	"Basic Damage dealt by The Incinerator's Skill" = 9.0
 	#Range: 0.0 ~ 100.0
-	"Max Health Damage Percentage dealt by The Incinerator's Skill" = 2.0
+	"Max Health Damage Percentage dealt by The Incinerator's Skill" = 6.0
 	#Range: 0.0 ~ 100.0
-	"The Radius of the ignis circles released by The Incinerator's Skill" = 1.0
+	"The Radius of the ignis circles released by The Incinerator's Skill" = 1.3
 
 ["The Immolator"]
 	#Range: 1 ~ 100
@@ -30,7 +30,7 @@
 
 ["Tidal Claws"]
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Tentacle Damage released by Tidal Claws" = 3.0
+	"Tentacle Damage released by Tidal Claws" = 4.2
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Tentacle's First Detection Range released by Tidal Claws" = 16.0
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -42,7 +42,7 @@
 
 ["Gauntlet of Bulwark"]
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Charge Damage Multiplier Of Gauntlet Of Bulwark" = 1.2
+	"Charge Damage Multiplier Of Gauntlet Of Bulwark" = 1.5
 
 ["Bloom Stone Pauldrons"]
 	#Range: > 1
