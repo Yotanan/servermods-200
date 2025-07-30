@@ -3001,3 +3001,32 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [30Jul2025 22:21:42.750] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in com/mrcrayfish/goblintraders/Hooks
 [30Jul2025 22:21:50.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [Enchanter]
 [30Jul2025 22:23:03.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 has made the advancement [Enchanter]
+[30Jul2025 22:25:02.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has made the advancement [Take Aim, Chaps!]
+[30Jul2025 22:25:22.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has made the advancement [The Secrets of Enchanting]
+[30Jul2025 22:25:43.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Yonatan_nXD> zzz
+[30Jul2025 22:28:14.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [shebastian11: Triggered [darkdeath]]
+[30Jul2025 22:28:20.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 died
+[30Jul2025 22:28:21.477] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 22:28:21.477] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[30Jul2025 22:28:21.478] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 22:28:42.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 was killed by magic
+[30Jul2025 22:28:43.728] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 22:28:43.728] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[30Jul2025 22:28:43.729] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 22:28:46.076] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=372, y=131, z=935} BlockPos{x=371, y=131, z=936}
+[30Jul2025 22:28:49.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has made the advancement [My Name is Nobody]
+[30Jul2025 22:30:55.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has completed the challenge [I'm not sugar coating it]
+[30Jul2025 22:31:52.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [shebastian11: Triggered [darkdeath]]
+[30Jul2025 22:31:58.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 died
+[30Jul2025 22:32:00.142] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 22:32:00.142] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[30Jul2025 22:32:00.143] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 22:32:28.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkZero369: Triggered [darkdeath]]
+[30Jul2025 22:32:34.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 died
+[30Jul2025 22:32:35.587] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 22:32:35.587] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[30Jul2025 22:32:35.588] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 22:34:46.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has made the advancement [Dragonslayer]
+[30Jul2025 22:35:01.677] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=410, y=72, z=781} BlockPos{x=409, y=71, z=780}
+[30Jul2025 22:35:02.027] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=409, y=72, z=782} BlockPos{x=409, y=71, z=783}
+[30Jul2025 22:35:02.527] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=411, y=73, z=782} BlockPos{x=410, y=72, z=783}
