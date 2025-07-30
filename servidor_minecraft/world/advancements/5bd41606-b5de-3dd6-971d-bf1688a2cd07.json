@@ -4864,6 +4864,18 @@
     },
     "done": true
   },
+  "iceandfire:recipes/building_blocks/ash": {
+    "criteria": {
+      "has_item": "2025-07-30 22:36:23 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_if_dragon": {
+    "criteria": {
+      "killed_fire_dragon": "2025-07-30 22:34:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/leather_horse_armor": {
     "criteria": {
       "has_leather": "2025-07-30 22:28:50 +0000"
@@ -4951,6 +4963,12 @@
   "iceandfire:recipes/misc/blindfold": {
     "criteria": {
       "has_item": "2025-07-30 22:28:50 +0000"
+    },
+    "done": true
+  },
+  "undead_revamp2:sugarcoat": {
+    "criteria": {
+      "sugarcoat_0": "2025-07-30 22:30:55 +0000"
     },
     "done": true
   },

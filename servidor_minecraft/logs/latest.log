@@ -3030,3 +3030,12 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [30Jul2025 22:35:01.677] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=410, y=72, z=781} BlockPos{x=409, y=71, z=780}
 [30Jul2025 22:35:02.027] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=409, y=72, z=782} BlockPos{x=409, y=71, z=783}
 [30Jul2025 22:35:02.527] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=411, y=73, z=782} BlockPos{x=410, y=72, z=783}
+[30Jul2025 22:36:12.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 has made the advancement [Splintering II]
+[30Jul2025 22:36:26.523] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: shebastian11 lost connection: Disconnected
+[30Jul2025 22:36:26.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 left the game
+[30Jul2025 22:37:02.975] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkZero369 moved too quickly! -50.135770085302966,43.32054184011446,122.23843575932835
+[30Jul2025 22:37:12.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has completed the challenge [+PARRY]
+[30Jul2025 22:43:39.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 has made the advancement [The Cursed Soul]
+[30Jul2025 22:43:54.244] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkZero369 moved wrongly!
+[30Jul2025 22:44:27.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 has made the advancement [Spooky Scary Skeletons]
+[30Jul2025 22:44:28.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [Spooky Scary Skeletons]
