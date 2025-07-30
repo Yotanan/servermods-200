@@ -105,11 +105,13 @@
     "criteria": {
       "minecraft:snowy_slopes": "2025-07-30 03:40:26 +0000",
       "minecraft:taiga": "2025-07-29 04:01:33 +0000",
+      "minecraft:sunflower_plains": "2025-07-30 04:28:10 +0000",
       "minecraft:beach": "2025-07-29 04:12:22 +0000",
       "minecraft:river": "2025-07-29 04:12:04 +0000",
       "minecraft:stony_shore": "2025-07-29 04:33:47 +0000",
       "minecraft:cold_ocean": "2025-07-29 04:14:51 +0000",
       "minecraft:forest": "2025-07-29 04:12:09 +0000",
+      "minecraft:flower_forest": "2025-07-30 04:22:04 +0000",
       "minecraft:plains": "2025-07-29 04:28:38 +0000"
     },
     "done": false
@@ -3818,6 +3820,12 @@
     },
     "done": true
   },
+  "naturescompass:natures_compass_sapling": {
+    "criteria": {
+      "has_sapling": "2025-07-30 04:27:01 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/copper_bolt": {
     "criteria": {
       "has_feather": "2025-07-30 03:51:29 +0000"
@@ -3833,6 +3841,12 @@
   "minecraft:recipes/building_blocks/bookshelf": {
     "criteria": {
       "has_book": "2025-07-30 03:41:13 +0000"
+    },
+    "done": true
+  },
+  "undead_revamp2:oneskelly": {
+    "criteria": {
+      "oneskelly_0": "2025-07-30 04:24:39 +0000"
     },
     "done": true
   },
@@ -3860,6 +3874,12 @@
     },
     "done": true
   },
+  "apotheosis:affix/random": {
+    "criteria": {
+      "sword": "2025-07-30 04:25:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_trapdoor": {
     "criteria": {
       "has_planks": "2025-07-30 04:02:40 +0000"
@@ -3875,6 +3895,12 @@
   "minecraft:recipes/redstone/spruce_fence_gate": {
     "criteria": {
       "has_planks": "2025-07-30 04:02:40 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_ghost": {
+    "criteria": {
+      "killed_fire_dragon": "2025-07-30 04:23:27 +0000"
     },
     "done": true
   },
