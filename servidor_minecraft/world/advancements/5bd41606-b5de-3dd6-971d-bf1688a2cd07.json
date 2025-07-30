@@ -3493,45 +3493,111 @@
     },
     "done": true
   },
-  "spartanfire:recipes/flamed_dragon_bone_heavy_crossbow": {
+  "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
-      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
+      "has_lapis_lazuli": "2025-07-30 02:40:59 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/eye_armor_trim_smithing_template_smithing_trim": {
+  "spartanshields:recipes/lapis_lazuli_basic_shield": {
     "criteria": {
-      "has_smithing_trim_template": "2025-07-30 03:15:09 +0000"
+      "has_lapis_lazuli": "2025-07-30 02:40:59 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/cestus": {
+  "minecraft:recipes/misc/blue_dye": {
     "criteria": {
-      "has_wool": "2025-07-30 04:15:33 +0000"
+      "has_lapis_lazuli": "2025-07-30 02:40:59 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/smooth_quartz_slab": {
+  "minecraft:adventure/shoot_arrow": {
     "criteria": {
-      "has_smooth_quartz": "2025-07-30 03:57:23 +0000"
+      "shot_arrow": "2025-07-30 02:45:05 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+  "minecraft:recipes/misc/coal": {
     "criteria": {
-      "has_mutton": "2025-07-30 04:15:33 +0000"
+      "has_coal_block": "2025-07-30 02:48:38 +0000"
     },
     "done": true
   },
-  "iceandfire:recipes/misc/ash_to_charcoal": {
+  "minecraft:recipes/decorations/soul_torch": {
     "criteria": {
-      "has_item": "2025-07-30 03:49:19 +0000"
+      "has_soul_sand": "2025-07-30 02:49:49 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/quartz_slab": {
+  "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
-      "has_quartz_block": "2025-07-30 03:15:03 +0000"
+      "has_soul_sand": "2025-07-30 02:49:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2025-07-30 02:50:49 +0000"
+    },
+    "done": true
+  },
+  "simplyswords:thunderbrand": {
+    "criteria": {
+      "requirement": "2025-07-30 02:52:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_pickaxe": "2025-07-30 02:52:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_pickaxe": "2025-07-30 02:52:36 +0000"
+    },
+    "done": true
+  },
+  "bloomingnature:recipes/flower_box": {
+    "criteria": {
+      "has_brick": "2025-07-30 02:54:24 +0000"
+    },
+    "done": true
+  },
+  "bloomingnature:recipes/flower_pot_big": {
+    "criteria": {
+      "has_brick": "2025-07-30 02:54:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2025-07-30 02:54:24 +0000"
+    },
+    "done": true
+  },
+  "bloomingnature:recipes/red_brick": {
+    "criteria": {
+      "has_brick": "2025-07-30 02:54:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/decorated_pot_simple": {
+    "criteria": {
+      "has_brick": "2025-07-30 02:54:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2025-07-30 02:54:24 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/treated_brass_blueprint": {
+    "criteria": {
+      "treated_brass_blueprint": "2025-07-30 02:54:25 +0000"
     },
     "done": true
   },
@@ -3553,33 +3619,9 @@
     },
     "done": true
   },
-  "spartanfire:recipes/flamed_dragon_bone_pike": {
-    "criteria": {
-      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/huge_quiver_brace": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_bricks": {
-    "criteria": {
-      "has_quartz_block": "2025-07-30 03:15:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/lapis_block": {
-    "criteria": {
-      "has_lapis_lazuli": "2025-07-30 02:40:59 +0000"
-    },
-    "done": true
-  },
-  "wooltostring:recipes/misc/wool": {
-    "criteria": {
-      "has_ingredient": "2025-07-30 04:15:33 +0000"
     },
     "done": true
   },
@@ -3595,27 +3637,9 @@
     },
     "done": true
   },
-  "spartanfire:recipes/flamed_dragon_bone_flanged_mace": {
-    "criteria": {
-      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
-    },
-    "done": true
-  },
-  "spartanfire:recipes/flamed_dragon_bone_battle_hammer": {
-    "criteria": {
-      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/diamond_chestplate": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/grease_ball": {
-    "criteria": {
-      "has_meat": "2025-07-30 04:15:33 +0000"
     },
     "done": true
   },
@@ -3631,63 +3655,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_nugget_from_blasting": {
-    "criteria": {
-      "has_golden_pickaxe": "2025-07-30 02:52:36 +0000"
-    },
-    "done": true
-  },
   "spartanshields:recipes/diamond_basic_shield": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/coal": {
-    "criteria": {
-      "has_coal_block": "2025-07-30 02:48:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/shoot_arrow": {
-    "criteria": {
-      "shot_arrow": "2025-07-30 02:45:05 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/iron/m3_carabine": {
-    "criteria": {
-      "m3_carabine": "2025-07-30 03:10:44 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/diamond_javelin": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/shiny_gear": {
-    "criteria": {
-      "diamond_helmet": "2025-07-30 02:50:49 +0000"
-    },
-    "done": true
-  },
-  "spartanfire:recipes/flamed_dragon_bone_halberd": {
-    "criteria": {
-      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/golden_carrot": {
-    "criteria": {
-      "has_gold_nugget": "2025-07-30 03:01:34 +0000"
-    },
-    "done": true
-  },
-  "spartanfire:recipes/flamed_dragon_bone_longsword": {
-    "criteria": {
-      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
     },
     "done": true
   },
@@ -3709,48 +3685,6 @@
     },
     "done": true
   },
-  "spartanfire:recipes/flamed_dragon_bone_battleaxe": {
-    "criteria": {
-      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
-    },
-    "done": true
-  },
-  "simplyswords:thunderbrand": {
-    "criteria": {
-      "requirement": "2025-07-30 02:52:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/soul_torch": {
-    "criteria": {
-      "has_soul_sand": "2025-07-30 02:49:49 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/bread": {
-    "criteria": {
-      "has_wheat": "2025-07-30 03:41:52 +0000"
-    },
-    "done": true
-  },
-  "born_in_chaos_v1:dark_metallurgy": {
-    "criteria": {
-      "dark_metallurgy_0": "2025-07-30 03:13:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/hay_block": {
-    "criteria": {
-      "has_wheat": "2025-07-30 03:41:52 +0000"
-    },
-    "done": true
-  },
-  "toughasnails:recipes/combat/wool_helmet": {
-    "criteria": {
-      "has_wool": "2025-07-30 04:15:33 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/diamond_hoe": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
@@ -3763,21 +3697,9 @@
     },
     "done": true
   },
-  "spartanfire:recipes/flamed_dragon_bone_warhammer": {
-    "criteria": {
-      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/diamond_flanged_mace": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
-    },
-    "done": true
-  },
-  "bloomingnature:recipes/flower_box": {
-    "criteria": {
-      "has_brick": "2025-07-30 02:54:24 +0000"
     },
     "done": true
   },
@@ -3787,45 +3709,15 @@
     },
     "done": true
   },
-  "bloomingnature:recipes/blue_dye_from_bluebell": {
-    "criteria": {
-      "has_bluebell": "2025-07-30 04:03:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_stairs": {
-    "criteria": {
-      "has_quartz_block": "2025-07-30 03:15:03 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/diamond_halberd": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
     },
     "done": true
   },
-  "doggytalents:recipes/tools/feathered_mantle": {
-    "criteria": {
-      "has_feather": "2025-07-30 02:57:38 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/diamond_longbow": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
-    },
-    "done": true
-  },
-  "doggytalents:recipes/decorations/conan_suit": {
-    "criteria": {
-      "has_wool": "2025-07-30 04:15:33 +0000"
-    },
-    "done": true
-  },
-  "spartanfire:recipes/flamed_dragon_bone_quarterstaff": {
-    "criteria": {
-      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
     },
     "done": true
   },
@@ -3841,12 +3733,6 @@
     },
     "done": true
   },
-  "spartanweaponry:recipes/bolt": {
-    "criteria": {
-      "has_feather": "2025-07-30 02:57:38 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/diamond_lance": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
@@ -3859,51 +3745,9 @@
     },
     "done": true
   },
-  "iceandfire:recipes/food/gold_pile": {
-    "criteria": {
-      "has_item": "2025-07-30 03:01:34 +0000"
-    },
-    "done": true
-  },
-  "spartanfire:recipes/flamed_dragon_bone_spear": {
-    "criteria": {
-      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/cauldron": {
-    "criteria": {
-      "has_water_bucket": "2025-07-30 03:33:34 +0000"
-    },
-    "done": true
-  },
   "celestial_core:recipes/transformation/heart_of_the_sea": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
-    "criteria": {
-      "has_quartz_block": "2025-07-30 03:15:03 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/copper_bolt": {
-    "criteria": {
-      "has_feather": "2025-07-30 02:57:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
-    "criteria": {
-      "has_quartz_block": "2025-07-30 03:15:03 +0000"
-    },
-    "done": true
-  },
-  "spartanfire:recipes/flamed_dragon_bone_boomerang": {
-    "criteria": {
-      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
     },
     "done": true
   },
@@ -3925,27 +3769,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/white_bed": {
-    "criteria": {
-      "has_white_wool": "2025-07-30 04:15:33 +0000"
-    },
-    "done": true
-  },
-  "doggytalents:recipes/decorations/dog_plushie_toy_item": {
-    "criteria": {
-      "has_white_wool": "2025-07-30 04:15:33 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/diamond_dagger": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
-    },
-    "done": true
-  },
-  "bloomingnature:recipes/flower_pot_big": {
-    "criteria": {
-      "has_brick": "2025-07-30 02:54:24 +0000"
     },
     "done": true
   },
@@ -3955,69 +3781,9 @@
     },
     "done": true
   },
-  "spartanfire:recipes/flamed_dragon_bone_parrying_dagger": {
-    "criteria": {
-      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_quartz_stairs": {
-    "criteria": {
-      "has_smooth_quartz": "2025-07-30 03:57:23 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/diamond_glaive": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
-    },
-    "done": true
-  },
-  "toughasnails:recipes/combat/wool_leggings": {
-    "criteria": {
-      "has_wool": "2025-07-30 04:15:33 +0000"
-    },
-    "done": true
-  },
-  "toughasnails:recipes/combat/wool_chestplate": {
-    "criteria": {
-      "has_wool": "2025-07-30 04:15:33 +0000"
-    },
-    "done": true
-  },
-  "spartanfire:recipes/flamed_dragon_bone_saber": {
-    "criteria": {
-      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
-    },
-    "done": true
-  },
-  "spartanfire:recipes/flamed_dragon_bone_katana": {
-    "criteria": {
-      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
-    "criteria": {
-      "has_iron_nugget": "2025-07-30 03:02:27 +0000"
-    },
-    "done": true
-  },
-  "spartanfire:recipes/flamed_dragon_bone_lance": {
-    "criteria": {
-      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
-    },
-    "done": true
-  },
-  "spartanshields:recipes/lapis_lazuli_basic_shield": {
-    "criteria": {
-      "has_lapis_lazuli": "2025-07-30 02:40:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_quartz_slab_from_smooth_quartz_stonecutting": {
-    "criteria": {
-      "has_smooth_quartz": "2025-07-30 03:57:23 +0000"
     },
     "done": true
   },
@@ -4033,57 +3799,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/blue_dye": {
-    "criteria": {
-      "has_lapis_lazuli": "2025-07-30 02:40:59 +0000"
-    },
-    "done": true
-  },
-  "celestial_core:recipes/misc/storage/virtual_gold_ingot": {
-    "criteria": {
-      "has_virtual_gold_nugget": "2025-07-30 03:07:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_nugget_from_smelting": {
-    "criteria": {
-      "has_golden_pickaxe": "2025-07-30 02:52:36 +0000"
-    },
-    "done": true
-  },
-  "spartanfire:recipes/flamed_dragon_bone_tomahawk": {
-    "criteria": {
-      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
-    },
-    "done": true
-  },
-  "spartanfire:recipes/flamed_dragon_bone_javelin": {
-    "criteria": {
-      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
-    },
-    "done": true
-  },
-  "roughtweaks:recipes/misc/salve": {
-    "criteria": {
-      "has_bowl": "2025-07-30 03:17:38 +0000"
-    },
-    "done": true
-  },
   "shieldsplus:recipes/combat/diamond_shield": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
-    "criteria": {
-      "has_gold_nugget": "2025-07-30 03:01:34 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/diamond_backpack": {
-    "criteria": {
-      "has_gold_backpack": "2025-07-30 03:00:02 +0000"
     },
     "done": true
   },
@@ -4099,51 +3817,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/bricks": {
-    "criteria": {
-      "has_brick": "2025-07-30 02:54:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/painting": {
-    "criteria": {
-      "has_wool": "2025-07-30 04:15:33 +0000"
-    },
-    "done": true
-  },
-  "spartanfire:recipes/flamed_dragon_bone_dagger": {
-    "criteria": {
-      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/composter": {
-    "criteria": {
-      "has_wood_slab": "2025-07-30 03:50:43 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/diamond_bolt": {
-    "criteria": {
-      "has_feather": "2025-07-30 02:57:38 +0000"
-    },
-    "done": true
-  },
-  "spartanfire:recipes/flamed_dragon_bone_rapier": {
-    "criteria": {
-      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/diamond_boomerang": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_pillar_from_quartz_block_stonecutting": {
-    "criteria": {
-      "has_quartz_block": "2025-07-30 03:15:03 +0000"
     },
     "done": true
   },
@@ -4153,69 +3829,9 @@
     },
     "done": true
   },
-  "doggytalents:recipes/decorations/lab_coat": {
-    "criteria": {
-      "has_wool": "2025-07-30 04:15:33 +0000"
-    },
-    "done": true
-  },
   "spartanshields:recipes/diamond_tower_shield": {
     "criteria": {
       "has_diamond": "2025-07-30 02:57:14 +0000"
-    },
-    "done": true
-  },
-  "dummmmmmy:recipes/dummy_crafting": {
-    "criteria": {
-      "has_hay_block": "2025-07-30 03:41:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_pillar": {
-    "criteria": {
-      "has_quartz_block": "2025-07-30 03:15:03 +0000"
-    },
-    "done": true
-  },
-  "bloomingnature:recipes/red_brick": {
-    "criteria": {
-      "has_brick": "2025-07-30 02:54:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting": {
-    "criteria": {
-      "has_quartz_block": "2025-07-30 03:15:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_carpet": {
-    "criteria": {
-      "has_white_wool": "2025-07-30 04:15:33 +0000"
-    },
-    "done": true
-  },
-  "too_many_bows:root": {
-    "criteria": {
-      "has_any_bow": "2025-07-30 03:31:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_quartz_stairs_from_smooth_quartz_stonecutting": {
-    "criteria": {
-      "has_smooth_quartz": "2025-07-30 03:57:23 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/decorated_pot_simple": {
-    "criteria": {
-      "has_brick": "2025-07-30 02:54:24 +0000"
-    },
-    "done": true
-  },
-  "spartanfire:recipes/flamed_dragon_bone_throwing_knife": {
-    "criteria": {
-      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
     },
     "done": true
   },
@@ -4225,15 +3841,141 @@
     },
     "done": true
   },
-  "doggytalents:recipes/decorations/beastars_uniform_male": {
+  "spartanweaponry:recipes/diamond_heavy_crossbow": {
     "criteria": {
-      "has_wool": "2025-07-30 04:15:33 +0000"
+      "has_diamond": "2025-07-30 02:57:14 +0000"
     },
     "done": true
   },
-  "apotheosis:affix/random": {
+  "spartanweaponry:recipes/diamond_rapier": {
     "criteria": {
-      "sword": "2025-07-30 04:00:42 +0000"
+      "has_diamond": "2025-07-30 02:57:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2025-07-30 02:57:14 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/tools/feathered_mantle": {
+    "criteria": {
+      "has_feather": "2025-07-30 02:57:38 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/bolt": {
+    "criteria": {
+      "has_feather": "2025-07-30 02:57:38 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/copper_bolt": {
+    "criteria": {
+      "has_feather": "2025-07-30 02:57:38 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_bolt": {
+    "criteria": {
+      "has_feather": "2025-07-30 02:57:38 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/diamond_backpack": {
+    "criteria": {
+      "has_gold_backpack": "2025-07-30 03:00:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2025-07-30 03:01:34 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/food/gold_pile": {
+    "criteria": {
+      "has_item": "2025-07-30 03:01:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2025-07-30 03:01:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2025-07-30 03:02:27 +0000"
+    },
+    "done": true
+  },
+  "celestial_core:recipes/misc/storage/virtual_gold_ingot": {
+    "criteria": {
+      "has_virtual_gold_nugget": "2025-07-30 03:07:35 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/iron/m3_carabine": {
+    "criteria": {
+      "m3_carabine": "2025-07-30 03:10:44 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:dark_metallurgy": {
+    "criteria": {
+      "dark_metallurgy_0": "2025-07-30 03:13:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 03:15:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 03:15:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 03:15:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 03:15:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 03:15:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 03:15:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 03:15:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 03:15:03 +0000"
     },
     "done": true
   },
@@ -4243,15 +3985,231 @@
     },
     "done": true
   },
-  "spartanfire:recipes/flamed_dragon_bone_scythe": {
-    "criteria": {
-      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/chiseled_quartz_block": {
     "criteria": {
       "has_quartz_block": "2025-07-30 03:15:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 03:15:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-07-30 03:15:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template": {
+    "criteria": {
+      "has_eye_armor_trim_smithing_template": "2025-07-30 03:15:09 +0000"
+    },
+    "done": true
+  },
+  "roughtweaks:recipes/misc/salve": {
+    "criteria": {
+      "has_bowl": "2025-07-30 03:17:38 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:spawner/root": {
+    "criteria": {
+      "spawner": "2025-07-30 03:22:18 +0000"
+    },
+    "done": true
+  },
+  "too_many_bows:root": {
+    "criteria": {
+      "has_any_bow": "2025-07-30 03:31:13 +0000"
+    },
+    "done": true
+  },
+  "too_many_bows:master_bow_collector": {
+    "criteria": {
+      "aethers_call": "2025-07-30 03:31:13 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-07-30 03:33:34 +0000"
+    },
+    "done": true
+  },
+  "dummmmmmy:recipes/dummy_crafting": {
+    "criteria": {
+      "has_hay_block": "2025-07-30 03:41:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2025-07-30 03:41:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2025-07-30 03:41:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2025-07-30 03:41:52 +0000"
+    },
+    "done": true
+  },
+  "dungeons_and_combat:the_cursed_soul": {
+    "criteria": {
+      "the_cursed_soul_0": "2025-07-30 03:46:58 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/ash_to_charcoal": {
+    "criteria": {
+      "has_item": "2025-07-30 03:49:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-07-30 03:50:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
+    "criteria": {
+      "has_lily_of_the_valley": "2025-07-30 03:50:49 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_small_blimp": {
+    "criteria": {
+      "location0": "2025-07-30 03:55:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_slab": {
+    "criteria": {
+      "has_smooth_quartz": "2025-07-30 03:57:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs": {
+    "criteria": {
+      "has_smooth_quartz": "2025-07-30 03:57:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_slab_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_smooth_quartz": "2025-07-30 03:57:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_smooth_quartz": "2025-07-30 03:57:23 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:affix/random": {
+    "criteria": {
+      "sword": "2025-07-30 04:00:42 +0000"
+    },
+    "done": true
+  },
+  "bloomingnature:recipes/blue_dye_from_bluebell": {
+    "criteria": {
+      "has_bluebell": "2025-07-30 04:03:42 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/cestus": {
+    "criteria": {
+      "has_wool": "2025-07-30 04:15:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2025-07-30 04:15:33 +0000"
+    },
+    "done": true
+  },
+  "wooltostring:recipes/misc/wool": {
+    "criteria": {
+      "has_ingredient": "2025-07-30 04:15:33 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/grease_ball": {
+    "criteria": {
+      "has_meat": "2025-07-30 04:15:33 +0000"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/combat/wool_helmet": {
+    "criteria": {
+      "has_wool": "2025-07-30 04:15:33 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/conan_suit": {
+    "criteria": {
+      "has_wool": "2025-07-30 04:15:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2025-07-30 04:15:33 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/dog_plushie_toy_item": {
+    "criteria": {
+      "has_white_wool": "2025-07-30 04:15:33 +0000"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/combat/wool_leggings": {
+    "criteria": {
+      "has_wool": "2025-07-30 04:15:33 +0000"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/combat/wool_chestplate": {
+    "criteria": {
+      "has_wool": "2025-07-30 04:15:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2025-07-30 04:15:33 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/lab_coat": {
+    "criteria": {
+      "has_wool": "2025-07-30 04:15:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2025-07-30 04:15:33 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/beastars_uniform_male": {
+    "criteria": {
+      "has_wool": "2025-07-30 04:15:33 +0000"
     },
     "done": true
   },
@@ -4261,15 +4219,165 @@
     },
     "done": true
   },
-  "spartanweaponry:recipes/diamond_heavy_crossbow": {
+  "minecraft:recipes/food/cooked_mutton": {
     "criteria": {
-      "has_diamond": "2025-07-30 02:57:14 +0000"
+      "has_mutton": "2025-07-30 04:15:33 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
+  "minecraft:recipes/decorations/white_banner": {
     "criteria": {
-      "has_quartz_block": "2025-07-30 03:15:03 +0000"
+      "has_white_wool": "2025-07-30 04:15:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2025-07-30 04:15:33 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/building_blocks/dog_bed_def": {
+    "criteria": {
+      "has_wool": "2025-07-30 04:15:33 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/beastars_uniform_female": {
+    "criteria": {
+      "has_wool": "2025-07-30 04:15:33 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:battle_hammer": {
+    "criteria": {
+      "has_battle_hammer": "2025-07-30 04:26:32 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/flamed_dragon_bone_heavy_crossbow": {
+    "criteria": {
+      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/flamed_dragon_bone_pike": {
+    "criteria": {
+      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/flamed_dragon_bone_flanged_mace": {
+    "criteria": {
+      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/flamed_dragon_bone_battle_hammer": {
+    "criteria": {
+      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/flamed_dragon_bone_halberd": {
+    "criteria": {
+      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/flamed_dragon_bone_longsword": {
+    "criteria": {
+      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/flamed_dragon_bone_battleaxe": {
+    "criteria": {
+      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/flamed_dragon_bone_warhammer": {
+    "criteria": {
+      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/flamed_dragon_bone_quarterstaff": {
+    "criteria": {
+      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/flamed_dragon_bone_spear": {
+    "criteria": {
+      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/flamed_dragon_bone_boomerang": {
+    "criteria": {
+      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/flamed_dragon_bone_parrying_dagger": {
+    "criteria": {
+      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/flamed_dragon_bone_saber": {
+    "criteria": {
+      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/flamed_dragon_bone_katana": {
+    "criteria": {
+      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/flamed_dragon_bone_lance": {
+    "criteria": {
+      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/flamed_dragon_bone_tomahawk": {
+    "criteria": {
+      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/flamed_dragon_bone_javelin": {
+    "criteria": {
+      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/flamed_dragon_bone_dagger": {
+    "criteria": {
+      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/flamed_dragon_bone_rapier": {
+    "criteria": {
+      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/flamed_dragon_bone_throwing_knife": {
+    "criteria": {
+      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
+    },
+    "done": true
+  },
+  "spartanfire:recipes/flamed_dragon_bone_scythe": {
+    "criteria": {
+      "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
     },
     "done": true
   },
@@ -4285,123 +4393,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_mutton": {
-    "criteria": {
-      "has_mutton": "2025-07-30 04:15:33 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
-    "criteria": {
-      "has_lily_of_the_valley": "2025-07-30 03:50:49 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_banner": {
-    "criteria": {
-      "has_white_wool": "2025-07-30 04:15:33 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/eye_armor_trim_smithing_template": {
-    "criteria": {
-      "has_eye_armor_trim_smithing_template": "2025-07-30 03:15:09 +0000"
-    },
-    "done": true
-  },
-  "dungeons_arise:find_small_blimp": {
-    "criteria": {
-      "location0": "2025-07-30 03:55:50 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:battle_hammer": {
-    "criteria": {
-      "has_battle_hammer": "2025-07-30 04:26:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/soul_campfire": {
-    "criteria": {
-      "has_soul_sand": "2025-07-30 02:49:49 +0000"
-    },
-    "done": true
-  },
   "spartanfire:recipes/flamed_dragon_bone_greatsword": {
     "criteria": {
       "has_fire_dragon_blood": "2025-07-30 04:35:14 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
-    "criteria": {
-      "has_mutton": "2025-07-30 04:15:33 +0000"
-    },
-    "done": true
-  },
-  "too_many_bows:master_bow_collector": {
-    "criteria": {
-      "aethers_call": "2025-07-30 03:31:13 +0000"
-    },
-    "done": false
-  },
-  "dungeons_and_combat:the_cursed_soul": {
-    "criteria": {
-      "the_cursed_soul_0": "2025-07-30 03:46:58 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/diamond_rapier": {
-    "criteria": {
-      "has_diamond": "2025-07-30 02:57:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/flower_pot": {
-    "criteria": {
-      "has_brick": "2025-07-30 02:54:24 +0000"
-    },
-    "done": true
-  },
   "iceandfire:recipes/combat/dragonbone_sword_fire": {
     "criteria": {
       "has_item": "2025-07-30 04:35:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/wheat": {
-    "criteria": {
-      "has_hay_block": "2025-07-30 03:41:37 +0000"
-    },
-    "done": true
-  },
-  "doggytalents:recipes/building_blocks/dog_bed_def": {
-    "criteria": {
-      "has_wool": "2025-07-30 04:15:33 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/diamond_axe": {
-    "criteria": {
-      "has_diamond": "2025-07-30 02:57:14 +0000"
-    },
-    "done": true
-  },
-  "apotheosis:spawner/root": {
-    "criteria": {
-      "spawner": "2025-07-30 03:22:18 +0000"
-    },
-    "done": true
-  },
-  "doggytalents:recipes/decorations/beastars_uniform_female": {
-    "criteria": {
-      "has_wool": "2025-07-30 04:15:33 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/treated_brass_blueprint": {
-    "criteria": {
-      "treated_brass_blueprint": "2025-07-30 02:54:25 +0000"
     },
     "done": true
   },
