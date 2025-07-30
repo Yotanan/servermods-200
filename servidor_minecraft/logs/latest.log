@@ -3092,3 +3092,81 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [30Jul2025 03:37:26.080] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.7697459597431617
 [30Jul2025 03:37:26.152] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.28613408244495986
 [30Jul2025 03:37:26.187] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.7187088909121258
+[30Jul2025 03:37:53.590] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.26550181369890424
+[30Jul2025 03:37:53.638] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.6730683543729867
+[30Jul2025 03:37:53.682] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 1.1566508979864238
+[30Jul2025 03:37:53.736] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 1.4419564571882688
+[30Jul2025 03:38:25.878] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.31638453409811973
+[30Jul2025 03:38:25.929] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.7182346808704096
+[30Jul2025 03:38:29.105] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/301, l='ServerLevel[world]', x=151.47, y=69.00, z=820.00] died, message: 'Villager was incinerated by Fire Dragon'
+[30Jul2025 03:38:46.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 was slain by Fire Dragon
+[30Jul2025 03:38:47.833] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 03:38:47.833] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[30Jul2025 03:38:47.834] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 03:38:50.953] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/299, l='ServerLevel[world]', x=155.84, y=69.00, z=818.90] died, message: 'Villager burned to death'
+[30Jul2025 03:39:33.330] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.37752355021390827
+[30Jul2025 03:40:10.082] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 03:40:10.082] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 03:40:10.082] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 03:40:10.082] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 03:40:10.082] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 03:40:10.082] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 03:40:10.638] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=565, y=89, z=839} but found not block entity block Block{minecraft:air} at location
+[30Jul2025 03:40:10.638] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:air} but failed at location BlockPos{x=565, y=89, z=839}
+[30Jul2025 03:40:19.183] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.28192939345524337
+[30Jul2025 03:40:19.235] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.7117748656025924
+[30Jul2025 03:40:19.283] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 1.2085669408091917
+[30Jul2025 03:40:19.327] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 1.7246274545199185
+[30Jul2025 03:40:23.723] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.31445975382291635
+[30Jul2025 03:40:23.827] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.7929580438969879
+[30Jul2025 03:40:33.243] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[30Jul2025 03:40:45.490] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkZero369 moved too quickly! -309.8001268756572,-25.88125873673995,-30.878688815896453
+[30Jul2025 03:43:59.519] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-156, y=-40, z=970}
+[30Jul2025 03:43:59.519] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-156, y=-40, z=969}
+[30Jul2025 03:44:38.977] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-230, y=70, z=776} but found not block entity block Block{minecraft:air} at location
+[30Jul2025 03:44:38.978] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:air} but failed at location BlockPos{x=-230, y=70, z=776}
+[30Jul2025 03:44:54.772] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkZero369 moved too quickly! 236.692217384125,-3.0,-159.86619792201714
+[30Jul2025 03:45:01.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkZero369> :blobcatmorning::blobcatmorning::blobcatmorning:
+[30Jul2025 03:45:14.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkZero369> :blobcatmorning::blobcatmorning::blobcatmorning:
+[30Jul2025 03:45:20.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkZero369> :peped::monka::monka_gun::peped::monka::monka_gun:
+[30Jul2025 03:45:25.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkZero369> :peped::peped::monka_gun::monka_gun::monka_gun:
+[30Jul2025 03:45:36.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkZero369> :thonkbutcool::thonkbutcool::thonkbutcool:
+[30Jul2025 03:45:44.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkZero369> :blobwhoa::blobwhoa::blobwhoa:
+[30Jul2025 03:45:57.289] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.5535703922599282
+[30Jul2025 03:45:57.424] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 1.136275452813777
+[30Jul2025 03:45:57.425] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 1.7299668253546088
+[30Jul2025 03:45:57.465] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 2.329496669687785
+[30Jul2025 03:45:59.375] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.27026009517629745
+[30Jul2025 03:45:59.428] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.7473584325736624
+[30Jul2025 03:45:59.525] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.4040660304942776
+[30Jul2025 03:45:59.724] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 1.1297647660755388
+[30Jul2025 03:45:59.725] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.3996504710891031
+[30Jul2025 03:45:59.773] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.8270048751213039
+[30Jul2025 03:45:59.827] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.33987935756454135
+[30Jul2025 03:45:59.875] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.8992612539158245
+[30Jul2025 03:46:00.269] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.2862029250161413
+[30Jul2025 03:46:00.327] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.7340271121105189
+[30Jul2025 03:46:00.368] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.36307401755027513
+[30Jul2025 03:46:00.424] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.5152819267516406
+[30Jul2025 03:46:01.026] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.45927194042121755
+[30Jul2025 03:46:01.075] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.9910804774905273
+[30Jul2025 03:46:01.134] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.5463481320348365
+[30Jul2025 03:46:17.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Yonatan_nXD> zzz
+[30Jul2025 03:46:58.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has made the advancement [The Cursed Soul]
+[30Jul2025 03:47:34.754] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/18335, l='ServerLevel[world]', x=423.57, y=133.20, z=945.99] died, message: 'Farmer was slain by Cyclops'
+[30Jul2025 03:48:15.088] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: shebastian11 moved too quickly! -55.24402471025036,-68.9,-209.78370629402116
+[30Jul2025 03:48:30.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 was killed by magic
+[30Jul2025 03:48:31.467] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 03:48:31.467] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[30Jul2025 03:48:31.468] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 03:48:59.436] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-283, y=5, z=766}
+[30Jul2025 03:48:59.437] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-285, y=5, z=766}
+[30Jul2025 03:49:32.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 has made the advancement [Diamonds!]
+[30Jul2025 03:50:46.384] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.28557336926536436
+[30Jul2025 03:50:46.433] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 0.8691482575560769
+[30Jul2025 03:50:46.480] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 1.4659424275712354
+[30Jul2025 03:50:46.524] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Yonatan_nXD) moved wrongly! 2.0702133495293538
+[30Jul2025 03:51:35.054] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Fisk of the Sand'/13431, l='ServerLevel[world]', x=445.50, y=134.20, z=986.88] died: Fisk of the Sand was slain by Cyclops
+[30Jul2025 03:52:11.682] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=730, y=27, z=950}
+[30Jul2025 03:56:19.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has reached the goal [Flawless Crystals]
+[30Jul2025 03:57:14.727] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkZero369 moved too quickly! 366.5508683376236,-32.5,-238.39716334823788
