@@ -4531,6 +4531,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-07-30 23:25:41 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/steel_spear": {
     "criteria": {
       "has_steel_ingot": "2025-07-30 22:46:03 +0000"
@@ -5098,6 +5104,12 @@
   "spartanweaponry:recipes/silver_rapier": {
     "criteria": {
       "has_silver_ingot": "2025-07-30 22:47:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template": {
+    "criteria": {
+      "has_eye_armor_trim_smithing_template": "2025-07-30 23:25:41 +0000"
     },
     "done": true
   },

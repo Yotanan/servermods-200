@@ -4684,3 +4684,15 @@ java.util.NoSuchElementException: minecraft:block_entity
 	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
 	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23523!/:?]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[30Jul2025 23:26:43.932] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vindicator['Klaudius Bloodglare'/14102, l='ServerLevel[world]', x=204.80, y=35.55, z=1005.70] died: Klaudius Bloodglare was shot by DarkZero369
+[30Jul2025 23:30:24.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 was killed by magic
+[30Jul2025 23:30:25.587] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 23:30:25.588] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[30Jul2025 23:30:25.588] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 23:33:57.183] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yonatan_nXD lost connection: Disconnected
+[30Jul2025 23:33:57.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD left the game
+[30Jul2025 23:33:57.249] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[30Jul2025 23:34:30.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 was killed by magic
+[30Jul2025 23:34:31.966] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 23:34:31.967] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[30Jul2025 23:34:31.967] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
