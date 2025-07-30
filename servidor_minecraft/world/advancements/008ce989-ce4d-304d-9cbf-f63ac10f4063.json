@@ -4555,6 +4555,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2025-07-30 23:25:08 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/steel_longbow": {
     "criteria": {
       "has_steel_ingot": "2025-07-30 22:46:03 +0000"
@@ -4630,6 +4636,12 @@
   "apotheosis:enchanting/enchanter": {
     "criteria": {
       "enchanting_table": "2025-07-30 22:20:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2025-07-30 23:25:08 +0000"
     },
     "done": true
   },
@@ -4774,6 +4786,12 @@
   "spartanshields:recipes/silver_basic_shield": {
     "criteria": {
       "has_silver_ingot": "2025-07-30 22:47:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2025-07-30 23:25:08 +0000"
     },
     "done": true
   },
@@ -5002,6 +5020,12 @@
   "spartanweaponry:recipes/silver_halberd": {
     "criteria": {
       "has_silver_ingot": "2025-07-30 22:47:15 +0000"
+    },
+    "done": true
+  },
+  "celestial_core:recipes/misc/storage/virtual_gold_nugget": {
+    "criteria": {
+      "has_virtual_gold_ingot": "2025-07-30 23:21:09 +0000"
     },
     "done": true
   },
