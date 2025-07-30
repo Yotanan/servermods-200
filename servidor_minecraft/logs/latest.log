@@ -2998,3 +2998,9 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [30Jul2025 21:45:25.471] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Yonatan_nXD[/127.170.17.50:58103] logged in with entity id 3839 at (786.7562652377449, 3.0, 688.6695168061099)
 [30Jul2025 21:45:25.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD joined the game
 [30Jul2025 21:49:22.044] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=819, y=-12, z=441}
+[30Jul2025 21:50:16.745] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler:lambda$handlePacket$13:74]: [SERVER] 处理数据包: PacketHandler$$Lambda$36267/0x000078e8a0072660
+[30Jul2025 21:50:16.745] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler$RequestPlayerListPacket:handle:117]: [SERVER] 收到玩家列表请求 fromPotion=false
+[30Jul2025 21:50:16.746] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler$RequestPlayerListPacket:sendPlayerList:146]: [SERVER] 发送玩家列表给 shebastian11: [Yonatan_nXD]
+[30Jul2025 21:50:17.927] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler:lambda$handlePacket$13:74]: [SERVER] 处理数据包: PacketHandler$$Lambda$36273/0x000078e8a00733c8
+[30Jul2025 21:50:17.929] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.item.Baubles.WormholeMirrorItem:setCooldown:221]: [SERVER] 发送冷却包给 shebastian11
+[30Jul2025 21:57:45.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has made the advancement [Best Friends Forever]
