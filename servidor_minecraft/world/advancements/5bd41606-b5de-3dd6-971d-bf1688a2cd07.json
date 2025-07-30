@@ -4840,15 +4840,33 @@
     },
     "done": true
   },
+  "reliquary:recipes/misc/uncrafting/bone": {
+    "criteria": {
+      "has_rib_bone": "2025-07-30 22:18:02 +0000"
+    },
+    "done": true
+  },
   "reliquary:recipes/misc/uncrafting/gold_nugget": {
     "criteria": {
       "has_zombie_heart": "2025-07-30 22:06:50 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2025-07-30 22:20:14 +0000"
+    },
+    "done": true
+  },
   "reliquary:recipes/misc/uncrafting/rotten_flesh": {
     "criteria": {
       "has_zombie_heart": "2025-07-30 22:06:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2025-07-30 22:20:14 +0000"
     },
     "done": true
   },

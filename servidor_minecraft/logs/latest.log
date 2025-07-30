@@ -2976,3 +2976,28 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [30Jul2025 22:13:09.996] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
 [30Jul2025 22:13:09.997] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
 [30Jul2025 22:14:25.927] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
+[30Jul2025 22:14:45.572] [Worker-Main-2/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[30Jul2025 22:16:08.630] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DarkZero369[/127.78.113.140:52723] logged in with entity id 4087 at (868.1264705004561, 77.0, 851.3000000119209)
+[30Jul2025 22:16:08.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 joined the game
+[30Jul2025 22:16:44.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 burned to death
+[30Jul2025 22:16:45.469] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 22:16:45.470] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[30Jul2025 22:16:45.470] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 22:17:23.697] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler:lambda$handlePacket$13:74]: [SERVER] 处理数据包: PacketHandler$$Lambda$36597/0x000079ff400d26e8
+[30Jul2025 22:17:23.697] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler$RequestPlayerListPacket:handle:117]: [SERVER] 收到玩家列表请求 fromPotion=false
+[30Jul2025 22:17:23.698] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler$RequestPlayerListPacket:sendPlayerList:146]: [SERVER] 发送玩家列表给 Yonatan_nXD: [DarkZero369, shebastian11]
+[30Jul2025 22:17:24.941] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler:lambda$handlePacket$13:74]: [SERVER] 处理数据包: PacketHandler$$Lambda$36603/0x000079ff400d3450
+[30Jul2025 22:17:24.943] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.item.Baubles.WormholeMirrorItem:setCooldown:221]: [SERVER] 发送冷却包给 Yonatan_nXD
+[30Jul2025 22:17:45.345] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yonatan_nXD moved too quickly! 409.6600326520108,40.0,929.5029497926043
+[30Jul2025 22:17:47.219] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler:lambda$handlePacket$13:74]: [SERVER] 处理数据包: PacketHandler$$Lambda$36597/0x000079ff400d26e8
+[30Jul2025 22:17:47.219] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler$RequestPlayerListPacket:handle:117]: [SERVER] 收到玩家列表请求 fromPotion=false
+[30Jul2025 22:17:47.219] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler$RequestPlayerListPacket:sendPlayerList:146]: [SERVER] 发送玩家列表给 shebastian11: [Yonatan_nXD, DarkZero369]
+[30Jul2025 22:17:48.486] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler:lambda$handlePacket$13:74]: [SERVER] 处理数据包: PacketHandler$$Lambda$36603/0x000079ff400d3450
+[30Jul2025 22:17:48.487] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.item.Baubles.WormholeMirrorItem:setCooldown:221]: [SERVER] 发送冷却包给 shebastian11
+[30Jul2025 22:19:47.481] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=435, y=127, z=956} BlockPos{x=434, y=128, z=956}
+[30Jul2025 22:20:53.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [The Secrets of Enchanting]
+[30Jul2025 22:21:12.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has made the advancement [Enchanter]
+[30Jul2025 22:21:22.691] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SmeltItemFunction/]: Couldn't smelt 1 bison_fur because there is no smelting recipe
+[30Jul2025 22:21:42.750] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in com/mrcrayfish/goblintraders/Hooks
+[30Jul2025 22:21:50.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [Enchanter]
+[30Jul2025 22:23:03.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 has made the advancement [Enchanter]
