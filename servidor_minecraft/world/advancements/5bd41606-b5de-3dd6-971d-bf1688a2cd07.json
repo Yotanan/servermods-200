@@ -4466,6 +4466,12 @@
     },
     "done": true
   },
+  "toughasnails:recipes/food/apple_juice": {
+    "criteria": {
+      "has_apple": "2025-07-30 20:32:09 +0000"
+    },
+    "done": true
+  },
   "spartanfire:recipes/misc/witherbone_pole_from_string": {
     "criteria": {
       "has_witherbone": "2025-07-30 20:09:39 +0000"

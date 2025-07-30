@@ -3061,3 +3061,19 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [30Jul2025 20:30:01.707] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
 [30Jul2025 20:30:01.707] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
 [30Jul2025 20:30:01.708] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 20:30:41.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 was killed by magic
+[30Jul2025 20:30:42.899] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 20:30:42.899] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[30Jul2025 20:30:42.900] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 20:31:25.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [Dark Metallurgy]
+[30Jul2025 20:35:17.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [shebastian11: Triggered [darkdeath]]
+[30Jul2025 20:35:22.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 died
+[30Jul2025 20:35:24.020] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 20:35:24.020] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[30Jul2025 20:35:24.021] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 20:38:12.796] [Server thread/WARN] [Scaling Health/]: Another mod seems to have canceled healing from a heart container (player literal{shebastian11})
+[30Jul2025 20:40:26.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD was killed by magic
+[30Jul2025 20:40:27.557] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 20:40:27.557] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[30Jul2025 20:40:27.557] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 20:40:31.158] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: shebastian11 moved wrongly!
