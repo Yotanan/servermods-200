@@ -251,7 +251,8 @@
       "minecraft:enderman": "2025-07-30 02:58:32 +0000",
       "minecraft:silverfish": "2025-07-30 03:49:26 +0000",
       "minecraft:stray": "2025-07-30 02:41:44 +0000",
-      "minecraft:zombie": "2025-07-29 04:03:23 +0000"
+      "minecraft:zombie": "2025-07-29 04:03:23 +0000",
+      "minecraft:zombie_villager": "2025-07-30 22:57:05 +0000"
     },
     "done": false
   },
@@ -4334,6 +4335,12 @@
   "spartanweaponry:recipes/steel_scythe": {
     "criteria": {
       "has_steel_ingot": "2025-07-30 22:43:10 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/bone": {
+    "criteria": {
+      "has_rib_bone": "2025-07-30 22:58:11 +0000"
     },
     "done": true
   },

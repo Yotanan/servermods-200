@@ -4561,9 +4561,21 @@
     },
     "done": true
   },
+  "scguns:main/iron_blueprint": {
+    "criteria": {
+      "iron_blueprint": "2025-07-30 22:58:19 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/silver_javelin": {
     "criteria": {
       "has_silver_ingot": "2025-07-30 22:47:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye_from_pitcher_plant": {
+    "criteria": {
+      "has_pitcher_plant": "2025-07-30 23:00:06 +0000"
     },
     "done": true
   },
@@ -4855,6 +4867,12 @@
     },
     "done": true
   },
+  "simplyswords:simplyswords": {
+    "criteria": {
+      "requirement": "2025-07-30 22:59:49 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/silver_lance": {
     "criteria": {
       "has_silver_ingot": "2025-07-30 22:47:15 +0000"
@@ -4888,6 +4906,12 @@
   "spartanweaponry:recipes/silver_pike": {
     "criteria": {
       "has_silver_ingot": "2025-07-30 22:47:15 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/diamond_hippogryph_armor": {
+    "criteria": {
+      "has_item": "2025-07-30 22:58:35 +0000"
     },
     "done": true
   },

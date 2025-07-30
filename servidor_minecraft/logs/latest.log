@@ -3076,3 +3076,19 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [30Jul2025 22:45:24.368] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
 [30Jul2025 22:45:24.368] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
 [30Jul2025 22:50:40.469] [Server thread/INFO] [Scaling Health/]: Blight Seal has died
+[30Jul2025 22:56:35.924] [Server thread/INFO] [STDOUT/]: [com.yyon.grapplinghook.entities.grapplehook.SegmentHandler:updateSegment:243]: Warning: number recursions exceeded
+[30Jul2025 23:00:54.525] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=247, y=64, z=1026} BlockPos{x=248, y=62, z=1027}
+[30Jul2025 23:00:56.076] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=247, y=64, z=1026} BlockPos{x=248, y=61, z=1026}
+[30Jul2025 23:00:56.154] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=247, y=64, z=1025} BlockPos{x=247, y=62, z=1026}
+[30Jul2025 23:02:43.778] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=240, y=54, z=1009} BlockPos{x=239, y=54, z=1010}
+[30Jul2025 23:02:43.800] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=240, y=54, z=1009} BlockPos{x=239, y=54, z=1010}
+[30Jul2025 23:02:44.250] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=240, y=54, z=1009} BlockPos{x=240, y=53, z=1010}
+[30Jul2025 23:02:44.450] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=240, y=54, z=1009} BlockPos{x=240, y=53, z=1010}
+[30Jul2025 23:02:44.652] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=240, y=54, z=1009} BlockPos{x=240, y=53, z=1010}
+[30Jul2025 23:02:44.727] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=240, y=54, z=1009} BlockPos{x=240, y=53, z=1010}
+[30Jul2025 23:02:45.176] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=240, y=54, z=1009} BlockPos{x=239, y=54, z=1010}
+[30Jul2025 23:02:45.275] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=240, y=54, z=1009} BlockPos{x=239, y=54, z=1010}
+[30Jul2025 23:02:45.476] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=240, y=54, z=1009} BlockPos{x=239, y=54, z=1010}
+[30Jul2025 23:02:45.928] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=240, y=54, z=1009} BlockPos{x=240, y=53, z=1009}
+[30Jul2025 23:02:45.951] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=240, y=54, z=1009} BlockPos{x=240, y=53, z=1009}
+[30Jul2025 23:05:38.827] [Server thread/INFO] [Scaling Health/]: Blight Corpse Maggot has died
