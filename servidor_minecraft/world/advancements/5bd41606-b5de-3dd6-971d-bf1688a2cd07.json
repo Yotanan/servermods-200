@@ -2417,6 +2417,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-07-30 21:20:41 +0000",
       "minecraft:skeleton": "2025-07-29 05:19:37 +0000",
       "minecraft:guardian": "2025-07-30 20:22:59 +0000",
       "minecraft:magma_cube": "2025-07-30 03:59:20 +0000",
@@ -4586,33 +4587,21 @@
     },
     "done": true
   },
-  "celestisynth:recipes/misc/lunar_scrap_smelting": {
-    "criteria": {
-      "has_item": "2025-07-30 21:12:59 +0000"
-    },
-    "done": true
-  },
   "apotheosis:affix/mythic_gem": {
     "criteria": {
       "gem": "2025-07-30 21:03:27 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/nether_bricks": {
+    "criteria": {
+      "has_nether_brick": "2025-07-30 21:10:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/activator_rail": {
     "criteria": {
       "has_rail": "2025-07-30 21:12:57 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:greatsword": {
-    "criteria": {
-      "has_greatsword": "2025-07-30 21:17:14 +0000"
-    },
-    "done": true
-  },
-  "celestisynth:recipes/combat/lunar_stone_helmet": {
-    "criteria": {
-      "has_item": "2025-07-30 21:12:59 +0000"
     },
     "done": true
   },
@@ -4628,33 +4617,39 @@
     },
     "done": true
   },
-  "celestisynth:recipes/combat/lunar_stone_chestplate": {
-    "criteria": {
-      "has_item": "2025-07-30 21:12:59 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/detector_rail": {
     "criteria": {
       "has_rail": "2025-07-30 21:12:57 +0000"
     },
     "done": true
   },
-  "celestisynth:recipes/combat/lunar_stone_leggings": {
+  "too_many_bows:repair_crystal": {
+    "criteria": {
+      "get_repair": "2025-07-30 21:12:57 +0000"
+    },
+    "done": true
+  },
+  "celestisynth:recipes/misc/lunar_scrap_smelting": {
     "criteria": {
       "has_item": "2025-07-30 21:12:59 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/nether_bricks": {
+  "celestisynth:recipes/combat/lunar_stone_helmet": {
     "criteria": {
-      "has_nether_brick": "2025-07-30 21:10:17 +0000"
+      "has_item": "2025-07-30 21:12:59 +0000"
     },
     "done": true
   },
-  "too_many_bows:repair_crystal": {
+  "celestisynth:recipes/combat/lunar_stone_chestplate": {
     "criteria": {
-      "get_repair": "2025-07-30 21:12:57 +0000"
+      "has_item": "2025-07-30 21:12:59 +0000"
+    },
+    "done": true
+  },
+  "celestisynth:recipes/combat/lunar_stone_leggings": {
+    "criteria": {
+      "has_item": "2025-07-30 21:12:59 +0000"
     },
     "done": true
   },
@@ -4667,6 +4662,18 @@
   "celestisynth:recipes/misc/lunar_scrap_blasting": {
     "criteria": {
       "has_item": "2025-07-30 21:12:59 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:greatsword": {
+    "criteria": {
+      "has_greatsword": "2025-07-30 21:17:14 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:deceived_hopes": {
+    "criteria": {
+      "deceived_hopes_0": "2025-07-30 21:18:10 +0000"
     },
     "done": true
   },

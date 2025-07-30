@@ -4368,27 +4368,21 @@
     },
     "done": true
   },
-  "scguns:main/copper_blueprint": {
+  "reliquary:recipes/misc/uncrafting/gold_nugget": {
     "criteria": {
-      "copper_blueprint": "2025-07-30 21:16:58 +0000"
+      "has_zombie_heart": "2025-07-30 21:04:12 +0000"
     },
     "done": true
   },
-  "spartanshields:recipes/obsidian_basic_shield": {
+  "reliquary:recipes/misc/uncrafting/rotten_flesh": {
     "criteria": {
-      "has_obsidian": "2025-07-30 21:09:50 +0000"
+      "has_zombie_heart": "2025-07-30 21:04:12 +0000"
     },
     "done": true
   },
   "minecraft:recipes/tools/spyglass": {
     "criteria": {
       "has_amethyst_shard": "2025-07-30 21:05:56 +0000"
-    },
-    "done": true
-  },
-  "reliquary:recipes/misc/uncrafting/gold_nugget": {
-    "criteria": {
-      "has_zombie_heart": "2025-07-30 21:04:12 +0000"
     },
     "done": true
   },
@@ -4404,25 +4398,43 @@
     },
     "done": true
   },
-  "minecraft:story/form_obsidian": {
-    "criteria": {
-      "obsidian": "2025-07-30 21:09:50 +0000"
-    },
-    "done": true
-  },
-  "reliquary:recipes/misc/uncrafting/rotten_flesh": {
-    "criteria": {
-      "has_zombie_heart": "2025-07-30 21:04:12 +0000"
-    },
-    "done": true
-  },
   "celestisynth:recipes/misc/celestial_core": {
     "criteria": {
       "has_item": "2025-07-30 21:05:56 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2025-07-30 21:05:56 +0000"
+    },
+    "done": true
+  },
+  "spartanshields:recipes/obsidian_basic_shield": {
+    "criteria": {
+      "has_obsidian": "2025-07-30 21:09:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-07-30 21:09:50 +0000"
+    },
+    "done": true
+  },
   "spartanshields:recipes/obsidian_tower_shield": {
+    "criteria": {
+      "has_obsidian": "2025-07-30 21:09:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/crying_obsidian": {
+    "criteria": {
+      "has_obsidian": "2025-07-30 21:09:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
     "criteria": {
       "has_obsidian": "2025-07-30 21:09:50 +0000"
     },
@@ -4434,21 +4446,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/crying_obsidian": {
+  "scguns:main/copper_blueprint": {
     "criteria": {
-      "has_obsidian": "2025-07-30 21:09:50 +0000"
+      "copper_blueprint": "2025-07-30 21:16:58 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/amethyst_block": {
+  "too_many_bows:repair_crystal": {
     "criteria": {
-      "has_amethyst_shard": "2025-07-30 21:05:56 +0000"
+      "get_repair": "2025-07-30 21:18:49 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/enchanting_table": {
+  "born_in_chaos_v1:the_wind_darkening": {
     "criteria": {
-      "has_obsidian": "2025-07-30 21:09:50 +0000"
+      "the_wind_darkening_0": "2025-07-30 21:19:33 +0000"
     },
     "done": true
   },
