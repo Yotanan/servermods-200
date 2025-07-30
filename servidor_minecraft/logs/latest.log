@@ -2989,3 +2989,12 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [30Jul2025 21:39:24.045] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
 [30Jul2025 21:39:24.046] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
 [30Jul2025 21:39:24.046] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 21:39:41.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has made the advancement [Tools of the Trade]
+[30Jul2025 21:39:47.581] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: shebastian11 moved wrongly!
+[30Jul2025 21:40:18.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has made the advancement [Halberdier]
+[30Jul2025 21:42:39.680] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: shebastian11 moved wrongly!
+[30Jul2025 21:44:38.984] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: shebastian11 moved wrongly!
+[30Jul2025 21:45:07.694] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: shebastian11 moved wrongly!
+[30Jul2025 21:45:25.471] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Yonatan_nXD[/127.170.17.50:58103] logged in with entity id 3839 at (786.7562652377449, 3.0, 688.6695168061099)
+[30Jul2025 21:45:25.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD joined the game
+[30Jul2025 21:49:22.044] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=819, y=-12, z=441}
