@@ -3001,3 +3001,29 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [30Jul2025 02:46:34.776] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
 [30Jul2025 02:46:34.776] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
 [30Jul2025 02:46:34.777] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 02:47:07.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 was killed by magic
+[30Jul2025 02:47:08.977] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 02:47:08.977] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[30Jul2025 02:47:08.978] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 02:47:32.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 was killed by magic
+[30Jul2025 02:47:34.022] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 02:47:34.022] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[30Jul2025 02:47:34.023] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 02:50:29.120] [Server thread/WARN] [Scaling Health/]: Another mod seems to have canceled healing from a heart container (player literal{shebastian11})
+[30Jul2025 02:50:49.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has made the advancement [Cover Me with Diamonds]
+[30Jul2025 02:51:25.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 was killed by magic whilst trying to escape Zombie
+[30Jul2025 02:51:26.219] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 02:51:26.219] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[30Jul2025 02:51:26.220] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 02:52:18.553] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:52:18.553] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:52:20.568] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:52:22.564] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:52:24.566] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:52:26.569] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:52:29.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has made the advancement [Thunder Time]
+[30Jul2025 02:53:55.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 has made the advancement [Cover Me with Diamonds]
+[30Jul2025 02:55:10.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [Diamonds!]
+[30Jul2025 02:56:20.700] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:56:20.700] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 02:57:14.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has made the advancement [Diamonds!]

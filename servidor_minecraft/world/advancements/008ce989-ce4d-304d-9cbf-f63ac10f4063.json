@@ -978,6 +978,7 @@
       "minecraft:spider": "2025-07-29 05:22:13 +0000",
       "minecraft:creeper": "2025-07-29 04:31:22 +0000",
       "minecraft:wither_skeleton": "2025-07-30 02:29:39 +0000",
+      "minecraft:stray": "2025-07-30 02:44:24 +0000",
       "minecraft:zombie": "2025-07-29 04:31:42 +0000"
     },
     "done": false
@@ -1046,7 +1047,8 @@
     "criteria": {
       "cooked_beef": "2025-07-30 02:22:34 +0000",
       "bread": "2025-07-29 04:34:23 +0000",
-      "golden_apple": "2025-07-30 02:25:11 +0000"
+      "golden_apple": "2025-07-30 02:25:11 +0000",
+      "rotten_flesh": "2025-07-30 02:46:20 +0000"
     },
     "done": false
   },
@@ -3042,6 +3044,12 @@
     },
     "done": true
   },
+  "scguns:main/iron/m3_carabine": {
+    "criteria": {
+      "m3_carabine": "2025-07-30 02:50:50 +0000"
+    },
+    "done": true
+  },
   "spartanfire:recipes/misc/witherbone_pole_from_string": {
     "criteria": {
       "has_witherbone": "2025-07-30 02:39:47 +0000"
@@ -3054,15 +3062,81 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-07-30 02:43:35 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:root": {
+    "criteria": {
+      "has_pole": "2025-07-30 02:48:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-07-30 02:43:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_bricks": "2025-07-30 02:43:35 +0000"
+    },
+    "done": true
+  },
   "spartanfire:recipes/misc/witherbone_handle_from_leather": {
     "criteria": {
       "has_witherbone": "2025-07-30 02:39:47 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_bricks": "2025-07-30 02:43:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2025-07-30 02:48:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_bricks": "2025-07-30 02:43:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-07-30 02:43:35 +0000"
+    },
+    "done": true
+  },
   "spartanfire:recipes/misc/witherbone_pole_from_wool": {
     "criteria": {
       "has_witherbone": "2025-07-30 02:39:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_bricks": "2025-07-30 02:43:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2025-07-30 02:43:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-07-30 02:43:35 +0000"
     },
     "done": true
   },
