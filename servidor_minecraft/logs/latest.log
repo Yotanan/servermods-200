@@ -2985,3 +2985,22 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [30Jul2025 21:07:43.443] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.item.Baubles.WormholeMirrorItem:setCooldown:221]: [SERVER] 发送冷却包给 Yonatan_nXD
 [30Jul2025 21:09:50.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [Ice Bucket Challenge]
 [30Jul2025 21:10:02.788] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: shebastian11 moved wrongly!
+[30Jul2025 21:12:18.300] [Worker-Main-1/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[30Jul2025 21:12:57.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has completed the challenge [Power Crystal]
+[30Jul2025 21:13:01.185] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 21:13:06.038] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 21:13:08.134] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 21:13:11.083] [Server thread/WARN] [firstaid/]: Failed to lookup healer for item air
+[30Jul2025 21:14:01.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [Deceived Hopes]
+[30Jul2025 21:14:19.191] [Server thread/WARN] [Scaling Health/]: Another mod seems to have canceled healing from a heart container (player literal{shebastian11})
+[30Jul2025 21:17:14.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has made the advancement [A Cut Above the Rest]
+[30Jul2025 21:17:22.125] [Server thread/ERROR] [placebo/]: Failed to locate any gear sets matching the following predicates: 
+[30Jul2025 21:17:22.125] [Server thread/ERROR] [placebo/]: SetPredicate[#irons_spellbooks]
+[30Jul2025 21:18:04.295] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler:lambda$handlePacket$13:74]: [SERVER] 处理数据包: PacketHandler$$Lambda$35971/0x00007cfa40014000
+[30Jul2025 21:18:04.296] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler$RequestPlayerListPacket:handle:117]: [SERVER] 收到玩家列表请求 fromPotion=false
+[30Jul2025 21:18:04.296] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler$RequestPlayerListPacket:sendPlayerList:146]: [SERVER] 发送玩家列表给 shebastian11: [Yonatan_nXD]
+[30Jul2025 21:18:04.911] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler:lambda$handlePacket$13:74]: [SERVER] 处理数据包: PacketHandler$$Lambda$35977/0x00007cfa40014d68
+[30Jul2025 21:18:04.911] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.item.Baubles.WormholeMirrorItem:setCooldown:221]: [SERVER] 发送冷却包给 shebastian11
+[30Jul2025 21:18:10.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has made the advancement [Deceived Hopes]
+[30Jul2025 21:18:49.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has completed the challenge [Power Crystal]
+[30Jul2025 21:19:33.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [The Wind Darkening]
