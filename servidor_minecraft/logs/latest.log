@@ -3034,3 +3034,30 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [30Jul2025 20:20:03.817] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
 [30Jul2025 20:20:03.818] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
 [30Jul2025 20:20:11.646] [Server thread/WARN] [Scaling Health/]: Another mod seems to have canceled healing from a heart container (player literal{Yonatan_nXD})
+[30Jul2025 20:24:30.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 was slain by Corpse Fly
+[30Jul2025 20:24:31.042] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yonatan_nXD moved too quickly! -36.63387191036452,20.0,-47.80000001192093
+[30Jul2025 20:24:31.696] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 20:24:31.697] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[30Jul2025 20:24:31.698] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 20:24:36.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Yonatan_nXD> a
+[30Jul2025 20:24:56.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD died of thirst
+[30Jul2025 20:24:58.168] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 20:24:58.168] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[30Jul2025 20:24:58.169] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 20:25:18.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 has made the advancement [...And My Axe!]
+[30Jul2025 20:25:57.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 was killed by magic whilst trying to escape Zombie
+[30Jul2025 20:25:58.991] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 20:25:58.991] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[30Jul2025 20:25:58.992] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 20:27:08.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 was killed by magic
+[30Jul2025 20:27:10.060] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 20:27:10.060] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[30Jul2025 20:27:10.061] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 20:27:53.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 was killed by magic whilst trying to escape Skeleton
+[30Jul2025 20:27:55.103] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 20:27:55.103] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[30Jul2025 20:27:55.104] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[30Jul2025 20:30:00.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shebastian11 was killed by magic
+[30Jul2025 20:30:01.707] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[30Jul2025 20:30:01.707] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[30Jul2025 20:30:01.708] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.

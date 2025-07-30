@@ -4314,5 +4314,17 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/misc/netherite_backpack": {
+    "criteria": {
+      "has_diamond_backpack": "2025-07-30 20:19:12 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/dragonbone_tool": {
+    "criteria": {
+      "tool": "2025-07-30 20:17:06 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

@@ -2418,6 +2418,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-07-29 05:19:37 +0000",
+      "minecraft:guardian": "2025-07-30 20:22:59 +0000",
       "minecraft:magma_cube": "2025-07-30 03:59:20 +0000",
       "minecraft:spider": "2025-07-30 02:27:05 +0000",
       "minecraft:creeper": "2025-07-30 02:07:09 +0000",
@@ -4405,6 +4406,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/brick_wall": {
+    "criteria": {
+      "has_bricks": "2025-07-30 20:18:16 +0000"
+    },
+    "done": true
+  },
   "spartanfire:recipes/misc/witherbone_handle_from_wool": {
     "criteria": {
       "has_witherbone": "2025-07-30 20:09:39 +0000"
@@ -4417,9 +4424,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/brick_stairs": {
+    "criteria": {
+      "has_bricks": "2025-07-30 20:18:16 +0000"
+    },
+    "done": true
+  },
   "bloomingnature:recipes/swamp_oak_chest_boat": {
     "criteria": {
       "has_swamp_oak_planks": "2025-07-30 19:56:10 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:big_boy": {
+    "criteria": {
+      "big_boy_0": "2025-07-30 20:17:02 +0000"
     },
     "done": true
   },
@@ -4438,6 +4457,12 @@
   "bloomingnature:recipes/swamp_oak_trapdoor": {
     "criteria": {
       "has_swamp_oak_planks": "2025-07-30 19:56:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2025-07-30 20:18:16 +0000"
     },
     "done": true
   },
@@ -4465,6 +4490,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/brick_slab": {
+    "criteria": {
+      "has_bricks": "2025-07-30 20:18:16 +0000"
+    },
+    "done": true
+  },
   "bloomingnature:recipes/swamp_oak_stairs": {
     "criteria": {
       "has_swamp_oak_planks": "2025-07-30 19:56:10 +0000"
@@ -4480,6 +4511,18 @@
   "spartanfire:recipes/misc/witherbone_handle_from_leather": {
     "criteria": {
       "has_witherbone": "2025-07-30 20:09:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2025-07-30 20:18:16 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:battleaxe": {
+    "criteria": {
+      "has_battleaxe": "2025-07-30 20:25:18 +0000"
     },
     "done": true
   },
@@ -4522,6 +4565,12 @@
   "bloomingnature:recipes/swamp_oak_sign": {
     "criteria": {
       "has_swamp_oak_planks": "2025-07-30 19:56:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brick_wall_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2025-07-30 20:18:16 +0000"
     },
     "done": true
   },
