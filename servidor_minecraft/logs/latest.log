@@ -2973,3 +2973,13 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [31Jul2025 02:25:39.704] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
 [31Jul2025 02:43:04.367] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DarkZero369[/127.78.113.140:42711] logged in with entity id 3186 at (238.9199613681391, 34.0, 1078.5765720513202)
 [31Jul2025 02:43:04.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 joined the game
+[31Jul2025 02:44:38.641] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Yonatan_nXD[/127.170.17.50:56329] logged in with entity id 3554 at (229.80429350699148, 34.0, 1053.500756016544)
+[31Jul2025 02:44:38.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD joined the game
+[31Jul2025 02:45:36.664] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yonatan_nXD lost connection: Timed out
+[31Jul2025 02:45:36.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD left the game
+[31Jul2025 02:45:36.714] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[31Jul2025 02:51:16.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 was killed by magic
+[31Jul2025 02:51:18.126] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[31Jul2025 02:51:18.127] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[31Jul2025 02:51:18.147] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[31Jul2025 02:52:45.511] [Server thread/WARN] [Scaling Health/]: Another mod seems to have canceled healing from a heart container (player literal{DarkZero369})
