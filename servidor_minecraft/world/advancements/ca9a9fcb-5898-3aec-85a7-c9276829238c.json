@@ -111,6 +111,7 @@
       "minecraft:beach": "2025-07-29 02:33:23 +0000",
       "minecraft:river": "2025-07-29 02:33:13 +0000",
       "minecraft:stony_shore": "2025-07-29 04:41:51 +0000",
+      "minecraft:snowy_plains": "2025-07-31 03:45:34 +0000",
       "minecraft:snowy_taiga": "2025-07-29 04:12:09 +0000",
       "minecraft:cold_ocean": "2025-07-29 04:45:40 +0000",
       "minecraft:forest": "2025-07-29 02:33:26 +0000",
@@ -4607,6 +4608,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2025-07-31 03:52:32 +0000"
+    },
+    "done": true
+  },
   "doggytalents:recipes/tools/radio_collar": {
     "criteria": {
       "has_redstone": "2025-07-31 03:25:34 +0000"
@@ -4634,6 +4641,12 @@
   "doggytalents:recipes/decorations/smarty_glasses": {
     "criteria": {
       "has_redstone": "2025-07-31 03:25:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-07-31 03:46:19 +0000"
     },
     "done": true
   },
@@ -4673,9 +4686,33 @@
     },
     "done": true
   },
+  "iceandfire:recipes/misc/skull_to_bone_meal": {
+    "criteria": {
+      "has_item": "2025-07-31 03:47:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2025-07-31 03:46:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-07-31 03:46:19 +0000"
+    },
+    "done": true
+  },
   "reliquary:recipes/misc/uncrafting/slime_ball": {
     "criteria": {
       "has_slime_pearl": "2025-07-31 03:35:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2025-07-31 03:52:30 +0000"
     },
     "done": true
   },
@@ -4694,6 +4731,12 @@
   "celestial_core:recipes/misc/storage/virtual_gold_ingot": {
     "criteria": {
       "has_virtual_gold_nugget": "2025-07-31 03:05:40 +0000"
+    },
+    "done": true
+  },
+  "celestisynth:recipes/misc/celestial_core": {
+    "criteria": {
+      "has_item": "2025-07-31 03:46:19 +0000"
     },
     "done": true
   },
@@ -4724,6 +4767,18 @@
   "minecraft:recipes/redstone/note_block": {
     "criteria": {
       "has_redstone": "2025-07-31 03:25:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2025-07-31 03:52:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2025-07-31 03:52:32 +0000"
     },
     "done": true
   },
@@ -4778,6 +4833,18 @@
   "toughasnails:recipes/tools/thermometer": {
     "criteria": {
       "has_redstone": "2025-07-31 03:25:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2025-07-31 03:46:19 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragon_stick": {
+    "criteria": {
+      "has_item": "2025-07-31 03:47:17 +0000"
     },
     "done": true
   },
