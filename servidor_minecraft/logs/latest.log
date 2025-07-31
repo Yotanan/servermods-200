@@ -2961,3 +2961,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [31Jul2025 01:54:52.441] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
 [31Jul2025 01:54:52.444] [Server thread/WARN] [ModernFix/]: Dedicated server took 52.319 seconds to load
 [31Jul2025 01:54:53.035] [Server thread/INFO] [dev.corgitaco.enhancedcelestials.EnhancedCelestials/]: Possible lunar events for dimension "minecraft:overworld" are [enhancedcelestials:super_moon, enhancedcelestials:harvest_moon, enhancedcelestials:blood_moon, enhancedcelestials:super_blood_moon, enhancedcelestials:blue_moon, enhancedcelestials:super_blue_moon, enhancedcelestials:super_harvest_moon].
+[31Jul2025 02:06:16.547] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DarkZero369[/127.78.113.140:40309] logged in with entity id 4 at (240.17129548800068, 34.0, 1078.708391505907)
+[31Jul2025 02:06:16.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 joined the game
+[31Jul2025 02:06:17.765] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2421ms or 48 ticks behind
+[31Jul2025 02:11:36.661] [Server thread/WARN] [Scaling Health/]: Another mod seems to have canceled healing from a heart container (player literal{DarkZero369})
