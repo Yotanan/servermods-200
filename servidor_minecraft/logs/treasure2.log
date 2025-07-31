@@ -1148,3 +1148,11 @@
 2025-07-31 01:54:51,462 [Server thread] INFO treasure2 | WorldEventHandler.java:64 | In world load event for dimension minecraft:the_nether
 2025-07-31 01:54:51,477 [Server thread] INFO treasure2 | WorldEventHandler.java:54 | In world load event
 2025-07-31 01:54:51,477 [Server thread] INFO treasure2 | WorldEventHandler.java:64 | In world load event for dimension minecraft:the_end
+2025-07-31 03:43:21,117 [Server thread] WARN treasure2 | DeferredGeneratorBlockEntity.java:121 | unable to locate rarity config for rarity - >UNCOMMON
+2025-07-31 03:44:02,288 [Server thread] INFO treasure2 | AbstractTreasureChestBlock.java:162 | AbstractTreasureChestBlock | newBlockEntity | lockStates -> [LockState [slot=LockSlot [index=0, face=NORTH, xOffset=0.5, yOffset=0.55, zOffset=0.17, rotation=0.0], lockItem=null]]
+2025-07-31 03:44:02,288 [Server thread] INFO treasure2 | AbstractTreasureChestBlock.java:163 | AbstractTreasureChestBlock | newBlockEntity | tileEntity -> mod.gottsch.forge.treasure2.core.block.entity.VikingChestBlockEntity@4a880f03 @ BlockPos{x=-104, y=77, z=1520}
+2025-07-31 03:44:02,331 [Server thread] INFO treasure2 | PitChestFeatureGenerator.java:130 | CHEATER! UNCOMMON chest at coords: -98 87 1520
+2025-07-31 03:45:19,631 [Worker-Main-54] INFO treasure2 | WellGenerator.java:198 | CHEATER! Wishing Well at coords: -101 86 1669
+2025-07-31 03:45:26,021 [Worker-Main-97] INFO treasure2 | AbstractTreasureChestBlock.java:162 | AbstractTreasureChestBlock | newBlockEntity | lockStates -> [LockState [slot=LockSlot [index=0, face=NORTH, xOffset=0.5, yOffset=0.3, zOffset=0.05, rotation=0.0], lockItem=null], LockState [slot=LockSlot [index=1, face=EAST, xOffset=0.95, yOffset=0.3, zOffset=0.5, rotation=90.0], lockItem=null], LockState [slot=LockSlot [index=2, face=WEST, xOffset=0.05, yOffset=0.3, zOffset=0.5, rotation=-90.0], lockItem=null]]
+2025-07-31 03:45:26,022 [Worker-Main-97] INFO treasure2 | AbstractTreasureChestBlock.java:163 | AbstractTreasureChestBlock | newBlockEntity | tileEntity -> mod.gottsch.forge.treasure2.core.block.entity.DreadPirateChestBlockEntity@1d11ffc3 @ BlockPos{x=155, y=85, z=1697}
+2025-07-31 03:45:26,054 [Worker-Main-97] INFO treasure2 | SimpleSurfaceChestFeatureGenerator.java:87 | CHEATER! LEGENDARY chest at coords: 155 85 1697

@@ -4673,6 +4673,12 @@
     },
     "done": true
   },
+  "reliquary:recipes/misc/uncrafting/slime_ball": {
+    "criteria": {
+      "has_slime_pearl": "2025-07-31 03:35:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_redstone": "2025-07-31 03:25:34 +0000"
@@ -4745,6 +4751,12 @@
     },
     "done": true
   },
+  "reliquary:recipes/misc/fertile_essence": {
+    "criteria": {
+      "has_slime_pearl": "2025-07-31 03:35:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dropper": {
     "criteria": {
       "has_redstone": "2025-07-31 03:25:34 +0000"
@@ -4772,6 +4784,12 @@
   "minecraft:recipes/redstone/piston": {
     "criteria": {
       "has_redstone": "2025-07-31 03:25:34 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/infernal_claw": {
+    "criteria": {
+      "has_slime_pearl": "2025-07-31 03:35:35 +0000"
     },
     "done": true
   },

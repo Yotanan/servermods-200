@@ -3010,3 +3010,6 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [31Jul2025 03:19:50.118] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.item.Baubles.WormholeMirrorItem:setCooldown:221]: [SERVER] 发送冷却包给 Yonatan_nXD
 [31Jul2025 03:28:36.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 has made the advancement [It Belongs in a Museum]
 [31Jul2025 03:29:00.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [It Belongs in a Museum]
+[31Jul2025 03:37:41.864] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkZero369 moved too quickly! 47.90564254152602,27.0,80.98209738265712
+[31Jul2025 03:38:39.567] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yonatan_nXD moved too quickly! 168.36705365976664,97.0,-51.92744369321974
+[31Jul2025 03:41:06.176] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=268, y=-47, z=1404}
