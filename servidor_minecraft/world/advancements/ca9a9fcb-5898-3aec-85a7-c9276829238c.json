@@ -4061,7 +4061,9 @@
   },
   "spartanweaponry:collect_heads": {
     "criteria": {
-      "wither_skeleton_skull": "2025-07-30 04:05:39 +0000"
+      "zombie_head": "2025-07-31 03:07:26 +0000",
+      "wither_skeleton_skull": "2025-07-30 04:05:39 +0000",
+      "skeleton_skull": "2025-07-31 03:06:50 +0000"
     },
     "done": false
   },
@@ -4596,6 +4598,24 @@
   "gobber2:root": {
     "criteria": {
       "gobber2_globette": "2025-07-31 02:17:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-07-31 03:03:08 +0000"
+    },
+    "done": true
+  },
+  "celestial_core:recipes/misc/storage/virtual_gold_ingot": {
+    "criteria": {
+      "has_virtual_gold_nugget": "2025-07-31 03:05:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-07-31 03:03:08 +0000"
     },
     "done": true
   },

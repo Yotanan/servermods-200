@@ -2985,3 +2985,19 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [31Jul2025 02:52:45.511] [Server thread/WARN] [Scaling Health/]: Another mod seems to have canceled healing from a heart container (player literal{DarkZero369})
 [31Jul2025 03:03:25.326] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Yonatan_nXD[/127.170.17.50:40015] logged in with entity id 7017 at (229.80429350699148, 34.0, 1053.500756016544)
 [31Jul2025 03:03:25.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD joined the game
+[31Jul2025 03:05:56.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [What a Deal!]
+[31Jul2025 03:08:18.215] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler:lambda$handlePacket$13:74]: [SERVER] 处理数据包: PacketHandler$$Lambda$36635/0x00007346800e3260
+[31Jul2025 03:08:18.216] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler$RequestPlayerListPacket:handle:117]: [SERVER] 收到玩家列表请求 fromPotion=false
+[31Jul2025 03:08:18.217] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler$RequestPlayerListPacket:sendPlayerList:146]: [SERVER] 发送玩家列表给 Yonatan_nXD: [DarkZero369]
+[31Jul2025 03:08:18.865] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler:lambda$handlePacket$13:74]: [SERVER] 处理数据包: PacketHandler$$Lambda$36641/0x00007346800e6000
+[31Jul2025 03:08:18.866] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.item.Baubles.WormholeMirrorItem:setCooldown:221]: [SERVER] 发送冷却包给 Yonatan_nXD
+[31Jul2025 03:12:18.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has reached the goal [Exorcism]
+[31Jul2025 03:13:10.816] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler:lambda$handlePacket$13:74]: [SERVER] 处理数据包: PacketHandler$$Lambda$36635/0x00007346800e3260
+[31Jul2025 03:13:10.816] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler$RequestPlayerListPacket:handle:117]: [SERVER] 收到玩家列表请求 fromPotion=false
+[31Jul2025 03:13:10.816] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler$RequestPlayerListPacket:sendPlayerList:146]: [SERVER] 发送玩家列表给 Yonatan_nXD: [DarkZero369]
+[31Jul2025 03:13:11.521] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler:lambda$handlePacket$13:74]: [SERVER] 处理数据包: PacketHandler$$Lambda$36641/0x00007346800e6000
+[31Jul2025 03:13:11.521] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.item.Baubles.WormholeMirrorItem:setCooldown:221]: [SERVER] 发送冷却包给 Yonatan_nXD
+[31Jul2025 03:14:08.469] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=172, y=3, z=956} BlockPos{x=172, y=2, z=956}
+[31Jul2025 03:14:08.517] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=172, y=3, z=956} BlockPos{x=172, y=2, z=956}
+[31Jul2025 03:14:08.564] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=172, y=3, z=956} BlockPos{x=172, y=2, z=956}
+[31Jul2025 03:14:08.615] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=173, y=3, z=956} BlockPos{x=172, y=2, z=956}

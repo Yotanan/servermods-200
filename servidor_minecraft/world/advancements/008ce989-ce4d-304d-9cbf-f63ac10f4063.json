@@ -5197,5 +5197,23 @@
     },
     "done": true
   },
+  "gobber2:root": {
+    "criteria": {
+      "gobber2_globette": "2025-07-31 03:11:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2025-07-31 03:05:56 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:exorcism": {
+    "criteria": {
+      "exorcism_0": "2025-07-31 03:12:18 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
