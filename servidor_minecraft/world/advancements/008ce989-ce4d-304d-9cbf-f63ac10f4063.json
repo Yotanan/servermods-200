@@ -981,6 +981,7 @@
       "minecraft:spider": "2025-07-29 05:22:13 +0000",
       "minecraft:creeper": "2025-07-29 04:31:22 +0000",
       "minecraft:phantom": "2025-07-30 02:53:30 +0000",
+      "minecraft:witch": "2025-07-31 03:20:53 +0000",
       "minecraft:wither_skeleton": "2025-07-30 02:29:39 +0000",
       "minecraft:cave_spider": "2025-07-30 03:53:22 +0000",
       "minecraft:enderman": "2025-07-30 02:59:44 +0000",
@@ -5200,6 +5201,18 @@
   "gobber2:root": {
     "criteria": {
       "gobber2_globette": "2025-07-31 03:11:44 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:junior_summoner": {
+    "criteria": {
+      "junior_summoner_0": "2025-07-31 03:18:50 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/food/energizer_stick": {
+    "criteria": {
+      "has_sugar": "2025-07-31 03:21:49 +0000"
     },
     "done": true
   },
