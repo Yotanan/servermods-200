@@ -2971,3 +2971,5 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [31Jul2025 02:25:39.657] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkZero369 lost connection: Disconnected
 [31Jul2025 02:25:39.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 left the game
 [31Jul2025 02:25:39.704] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[31Jul2025 02:43:04.367] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DarkZero369[/127.78.113.140:42711] logged in with entity id 3186 at (238.9199613681391, 34.0, 1078.5765720513202)
+[31Jul2025 02:43:04.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 joined the game
