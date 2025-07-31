@@ -2965,3 +2965,6 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [31Jul2025 02:06:16.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 joined the game
 [31Jul2025 02:06:17.765] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2421ms or 48 ticks behind
 [31Jul2025 02:11:36.661] [Server thread/WARN] [Scaling Health/]: Another mod seems to have canceled healing from a heart container (player literal{DarkZero369})
+[31Jul2025 02:14:30.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkZero369> sebas es un cabrito
+[31Jul2025 02:14:49.359] [Server thread/WARN] [Scaling Health/]: Another mod seems to have canceled healing from a heart container (player literal{DarkZero369})
+[31Jul2025 02:15:30.677] [Worker-Main-37/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
