@@ -2983,3 +2983,5 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [31Jul2025 02:51:18.127] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
 [31Jul2025 02:51:18.147] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
 [31Jul2025 02:52:45.511] [Server thread/WARN] [Scaling Health/]: Another mod seems to have canceled healing from a heart container (player literal{DarkZero369})
+[31Jul2025 03:03:25.326] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Yonatan_nXD[/127.170.17.50:40015] logged in with entity id 7017 at (229.80429350699148, 34.0, 1053.500756016544)
+[31Jul2025 03:03:25.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD joined the game
