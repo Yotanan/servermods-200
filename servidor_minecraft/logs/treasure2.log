@@ -1253,3 +1253,181 @@
 2025-08-01 03:51:45,382 [Server thread] INFO treasure2 | WorldEventHandler.java:64 | In world load event for dimension minecraft:the_end
 2025-08-01 03:51:45,391 [Server thread] INFO treasure2 | WorldEventHandler.java:54 | In world load event
 2025-08-01 03:51:45,391 [Server thread] INFO treasure2 | WorldEventHandler.java:64 | In world load event for dimension minecraft:the_nether
+2025-08-01 04:25:02,841 [modloading-worker-0] WARN treasure2 | TreasureLootTableRegistry.java:173 | unable to locate file in jar -> data/treasure2/loot_tables/injects
+2025-08-01 04:25:15,368 [main] INFO treasure2 | TreasureTags.java:135 | in tags updated event
+2025-08-01 04:25:15,369 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:stone_key by rarity -> COMMON
+2025-08-01 04:25:15,369 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:leaf_key by rarity -> UNCOMMON
+2025-08-01 04:25:15,369 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:gold_key by rarity -> SCARCE
+2025-08-01 04:25:15,369 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:diamond_key by rarity -> RARE
+2025-08-01 04:25:15,369 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:thiefs_lock_pick by rarity -> UNCOMMON
+2025-08-01 04:25:15,369 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:ember_key by rarity -> SCARCE
+2025-08-01 04:25:15,369 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:wood_key by rarity -> COMMON
+2025-08-01 04:25:15,370 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:metallurgists_key by rarity -> RARE
+2025-08-01 04:25:15,370 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:skeleton_key by rarity -> RARE
+2025-08-01 04:25:15,370 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:jewelled_key by rarity -> EPIC
+2025-08-01 04:25:15,370 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:ruby_key by rarity -> EPIC
+2025-08-01 04:25:15,370 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:onyx_key by rarity -> SCARCE
+2025-08-01 04:25:15,370 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:emerald_key by rarity -> RARE
+2025-08-01 04:25:15,370 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:lightning_key by rarity -> SCARCE
+2025-08-01 04:25:15,370 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:topaz_key by rarity -> SCARCE
+2025-08-01 04:25:15,370 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:sapphire_key by rarity -> EPIC
+2025-08-01 04:25:15,371 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:pilferers_lock_pick by rarity -> COMMON
+2025-08-01 04:25:15,371 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:iron_key by rarity -> UNCOMMON
+2025-08-01 04:25:15,371 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:wither_key by rarity -> RARE
+2025-08-01 04:25:15,371 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:spider_key by rarity -> SCARCE
+2025-08-01 04:25:15,371 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:one_key by rarity -> MYTHICAL
+2025-08-01 04:25:15,371 [main] INFO treasure2 | TreasureTags.java:167 | registering lock -> treasure2:onyx_lock by rarity -> SCARCE
+2025-08-01 04:25:15,371 [main] INFO treasure2 | TreasureTags.java:167 | registering lock -> treasure2:spider_lock by rarity -> SCARCE
+2025-08-01 04:25:15,371 [main] INFO treasure2 | TreasureTags.java:167 | registering lock -> treasure2:emerald_lock by rarity -> RARE
+2025-08-01 04:25:15,371 [main] INFO treasure2 | TreasureTags.java:167 | registering lock -> treasure2:ruby_lock by rarity -> EPIC
+2025-08-01 04:25:15,372 [main] INFO treasure2 | TreasureTags.java:167 | registering lock -> treasure2:stone_lock by rarity -> COMMON
+2025-08-01 04:25:15,372 [main] INFO treasure2 | TreasureTags.java:167 | registering lock -> treasure2:leaf_lock by rarity -> UNCOMMON
+2025-08-01 04:25:15,372 [main] INFO treasure2 | TreasureTags.java:167 | registering lock -> treasure2:sapphire_lock by rarity -> EPIC
+2025-08-01 04:25:15,372 [main] INFO treasure2 | TreasureTags.java:167 | registering lock -> treasure2:diamond_lock by rarity -> RARE
+2025-08-01 04:25:15,372 [main] INFO treasure2 | TreasureTags.java:167 | registering lock -> treasure2:ember_lock by rarity -> SCARCE
+2025-08-01 04:25:15,372 [main] INFO treasure2 | TreasureTags.java:167 | registering lock -> treasure2:gold_lock by rarity -> SCARCE
+2025-08-01 04:25:15,372 [main] INFO treasure2 | TreasureTags.java:167 | registering lock -> treasure2:wood_lock by rarity -> COMMON
+2025-08-01 04:25:15,372 [main] INFO treasure2 | TreasureTags.java:167 | registering lock -> treasure2:iron_lock by rarity -> UNCOMMON
+2025-08-01 04:25:15,372 [main] INFO treasure2 | TreasureTags.java:167 | registering lock -> treasure2:topaz_lock by rarity -> SCARCE
+2025-08-01 04:25:15,373 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:barrel_chest by rarity -> UNCOMMON
+2025-08-01 04:25:15,373 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:viking_chest by rarity -> UNCOMMON
+2025-08-01 04:25:15,373 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:pirate_chest by rarity -> SCARCE
+2025-08-01 04:25:15,373 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:safe by rarity -> RARE
+2025-08-01 04:25:15,373 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:cauldron_chest by rarity -> CAULDRON
+2025-08-01 04:25:15,373 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:crate_chest by rarity -> UNCOMMON
+2025-08-01 04:25:15,373 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:crate_chest_moldy by rarity -> COMMON
+2025-08-01 04:25:15,373 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:dread_pirate_chest by rarity -> EPIC
+2025-08-01 04:25:15,373 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:spider_chest by rarity -> RARE
+2025-08-01 04:25:15,374 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:ironbound_chest by rarity -> UNCOMMON
+2025-08-01 04:25:15,374 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:skull_chest by rarity -> SKULL
+2025-08-01 04:25:15,374 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:milk_crate by rarity -> COMMON
+2025-08-01 04:25:15,374 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:vanilla_chest by rarity -> COMMON
+2025-08-01 04:25:15,374 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:gold_skull_chest by rarity -> GOLD_SKULL
+2025-08-01 04:25:15,374 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:gold_strongbox by rarity -> RARE
+2025-08-01 04:25:15,374 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:iron_strongbox by rarity -> SCARCE
+2025-08-01 04:25:15,374 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:crystal_skull_chest by rarity -> CRYSTAL_SKULL
+2025-08-01 04:25:15,374 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:wood_chest by rarity -> COMMON
+2025-08-01 04:25:15,374 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:wither_chest by rarity -> WITHER
+2025-08-01 04:25:15,374 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:compressor_chest by rarity -> EPIC
+2025-08-01 04:25:15,374 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:cardboard_box by rarity -> COMMON
+2025-08-01 04:25:15,375 [main] INFO treasure2 | TreasureTags.java:201 | registering wishable -> treasure2:onyx by rarity -> RARE
+2025-08-01 04:25:15,375 [main] INFO treasure2 | TreasureTags.java:201 | registering wishable -> treasure2:ruby by rarity -> RARE
+2025-08-01 04:25:15,375 [main] INFO treasure2 | TreasureTags.java:201 | registering wishable -> treasure2:white_pearl by rarity -> RARE
+2025-08-01 04:25:15,375 [main] INFO treasure2 | TreasureTags.java:201 | registering wishable -> treasure2:sapphire by rarity -> EPIC
+2025-08-01 04:25:15,375 [main] INFO treasure2 | TreasureTags.java:201 | registering wishable -> treasure2:black_pearl by rarity -> EPIC
+2025-08-01 04:25:15,375 [main] INFO treasure2 | TreasureTags.java:201 | registering wishable -> treasure2:gold_coin by rarity -> SCARCE
+2025-08-01 04:25:15,375 [main] INFO treasure2 | TreasureTags.java:201 | registering wishable -> treasure2:topaz by rarity -> SCARCE
+2025-08-01 04:25:15,375 [main] INFO treasure2 | TreasureTags.java:201 | registering wishable -> minecraft:diamond by rarity -> SCARCE
+2025-08-01 04:25:15,376 [main] INFO treasure2 | TreasureTags.java:201 | registering wishable -> minecraft:emerald by rarity -> SCARCE
+2025-08-01 04:25:15,376 [main] INFO treasure2 | TreasureTags.java:201 | registering wishable -> treasure2:silver_coin by rarity -> UNCOMMON
+2025-08-01 04:25:15,376 [main] INFO treasure2 | TreasureTags.java:201 | registering wishable -> treasure2:copper_coin by rarity -> COMMON
+2025-08-01 04:25:15,907 [Server thread] INFO treasure2 | Config.java:760 | transforming mob set config...
+2025-08-01 04:25:15,916 [Server thread] INFO treasure2 | Config.java:769 | adding mobset to map -> MobSet{name='treasure2:wishing_well_group', category='wishing_wells', biomeWhitelist=[], biomeBlacklist=[], count=IntegerRange [min=1, max=3], mobs=[WeightedMob{name='minecraft:zombie', weight=35}, WeightedMob{name='minecraft:zombie_villager', weight=10}, WeightedMob{name='minecraft:skeleton', weight=35}, WeightedMob{name='minecraft:vex', weight=20}, WeightedMob{name='minecraft:creeper', weight=15}, WeightedMob{name='minecraft:slime', weight=5}]}
+2025-08-01 04:25:15,916 [Server thread] INFO treasure2 | Config.java:769 | adding mobset to map -> MobSet{name='treasure2:wither_tree_group', category='wither_trees', biomeWhitelist=[], biomeBlacklist=[], count=IntegerRange [min=1, max=3], mobs=[WeightedMob{name='minecraft:wither_skeleton', weight=90}, WeightedMob{name='minecraft:skeleton', weight=10}]}
+2025-08-01 04:25:15,916 [Server thread] INFO treasure2 | Config.java:769 | adding mobset to map -> MobSet{name='treasure2:small_zombie_group', category='zombies', biomeWhitelist=[], biomeBlacklist=[], count=IntegerRange [min=1, max=3], mobs=[WeightedMob{name='minecraft:zombie', weight=90}, WeightedMob{name='minecraft:zombie_villager', weight=10}]}
+2025-08-01 04:25:15,916 [Server thread] INFO treasure2 | Config.java:769 | adding mobset to map -> MobSet{name='treasure2:medium_zombie_group', category='zombies', biomeWhitelist=[], biomeBlacklist=[], count=IntegerRange [min=2, max=5], mobs=[WeightedMob{name='minecraft:zombie', weight=90}, WeightedMob{name='minecraft:zombie_villager', weight=10}]}
+2025-08-01 04:25:17,153 [Server thread] INFO treasure2 | WorldEventHandler.java:54 | In world load event
+2025-08-01 04:25:17,154 [Server thread] INFO treasure2 | WorldEventHandler.java:64 | In world load event for dimension minecraft:overworld
+2025-08-01 04:25:17,162 [Server thread] INFO treasure2 | MobSetRegistry.java:37 | mobSetConfig optional ...
+2025-08-01 04:25:17,163 [Server thread] INFO treasure2 | MobSetRegistry.java:39 | mobSetConfig is present
+2025-08-01 04:25:17,670 [Server thread] WARN treasure2 | TreasureTemplateRegistry.java:791 | biome -> 'minecraft:desert' is not registgered
+2025-08-01 04:25:17,670 [Server thread] WARN treasure2 | TreasureTemplateRegistry.java:791 | biome -> 'minecraft:desert' is not registgered
+2025-08-01 04:25:17,670 [Server thread] WARN treasure2 | TreasureTemplateRegistry.java:791 | biome -> 'minecraft:desert' is not registgered
+2025-08-01 04:25:17,671 [Server thread] WARN treasure2 | TreasureTemplateRegistry.java:791 | biome -> 'minecraft:desert' is not registgered
+2025-08-01 04:25:17,671 [Server thread] WARN treasure2 | TreasureTemplateRegistry.java:791 | biome -> 'minecraft:desert' is not registgered
+2025-08-01 04:25:17,671 [Server thread] WARN treasure2 | TreasureTemplateRegistry.java:791 | biome -> 'minecraft:desert' is not registgered
+2025-08-01 04:25:17,671 [Server thread] WARN treasure2 | TreasureTemplateRegistry.java:791 | biome -> 'minecraft:desert' is not registgered
+2025-08-01 04:25:17,671 [Server thread] WARN treasure2 | TreasureTemplateRegistry.java:791 | biome -> 'minecraft:desert' is not registgered
+2025-08-01 04:25:17,719 [Server thread] INFO treasure2 | WorldEventHandler.java:54 | In world load event
+2025-08-01 04:25:17,719 [Server thread] INFO treasure2 | WorldEventHandler.java:64 | In world load event for dimension minecraft:the_nether
+2025-08-01 04:25:17,734 [Server thread] INFO treasure2 | WorldEventHandler.java:54 | In world load event
+2025-08-01 04:25:17,734 [Server thread] INFO treasure2 | WorldEventHandler.java:64 | In world load event for dimension minecraft:the_end
+2025-08-01 05:12:49,888 [modloading-worker-0] WARN treasure2 | TreasureLootTableRegistry.java:173 | unable to locate file in jar -> data/treasure2/loot_tables/injects
+2025-08-01 05:13:02,701 [main] INFO treasure2 | TreasureTags.java:135 | in tags updated event
+2025-08-01 05:13:02,701 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:stone_key by rarity -> COMMON
+2025-08-01 05:13:02,702 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:leaf_key by rarity -> UNCOMMON
+2025-08-01 05:13:02,702 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:gold_key by rarity -> SCARCE
+2025-08-01 05:13:02,702 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:diamond_key by rarity -> RARE
+2025-08-01 05:13:02,702 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:thiefs_lock_pick by rarity -> UNCOMMON
+2025-08-01 05:13:02,702 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:ember_key by rarity -> SCARCE
+2025-08-01 05:13:02,702 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:wood_key by rarity -> COMMON
+2025-08-01 05:13:02,702 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:metallurgists_key by rarity -> RARE
+2025-08-01 05:13:02,702 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:skeleton_key by rarity -> RARE
+2025-08-01 05:13:02,702 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:jewelled_key by rarity -> EPIC
+2025-08-01 05:13:02,702 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:ruby_key by rarity -> EPIC
+2025-08-01 05:13:02,702 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:onyx_key by rarity -> SCARCE
+2025-08-01 05:13:02,703 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:emerald_key by rarity -> RARE
+2025-08-01 05:13:02,703 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:lightning_key by rarity -> SCARCE
+2025-08-01 05:13:02,703 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:topaz_key by rarity -> SCARCE
+2025-08-01 05:13:02,703 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:sapphire_key by rarity -> EPIC
+2025-08-01 05:13:02,703 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:pilferers_lock_pick by rarity -> COMMON
+2025-08-01 05:13:02,703 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:iron_key by rarity -> UNCOMMON
+2025-08-01 05:13:02,703 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:wither_key by rarity -> RARE
+2025-08-01 05:13:02,703 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:spider_key by rarity -> SCARCE
+2025-08-01 05:13:02,703 [main] INFO treasure2 | TreasureTags.java:152 | registering key -> treasure2:one_key by rarity -> MYTHICAL
+2025-08-01 05:13:02,704 [main] INFO treasure2 | TreasureTags.java:167 | registering lock -> treasure2:onyx_lock by rarity -> SCARCE
+2025-08-01 05:13:02,704 [main] INFO treasure2 | TreasureTags.java:167 | registering lock -> treasure2:spider_lock by rarity -> SCARCE
+2025-08-01 05:13:02,704 [main] INFO treasure2 | TreasureTags.java:167 | registering lock -> treasure2:emerald_lock by rarity -> RARE
+2025-08-01 05:13:02,704 [main] INFO treasure2 | TreasureTags.java:167 | registering lock -> treasure2:ruby_lock by rarity -> EPIC
+2025-08-01 05:13:02,704 [main] INFO treasure2 | TreasureTags.java:167 | registering lock -> treasure2:stone_lock by rarity -> COMMON
+2025-08-01 05:13:02,704 [main] INFO treasure2 | TreasureTags.java:167 | registering lock -> treasure2:leaf_lock by rarity -> UNCOMMON
+2025-08-01 05:13:02,704 [main] INFO treasure2 | TreasureTags.java:167 | registering lock -> treasure2:sapphire_lock by rarity -> EPIC
+2025-08-01 05:13:02,704 [main] INFO treasure2 | TreasureTags.java:167 | registering lock -> treasure2:diamond_lock by rarity -> RARE
+2025-08-01 05:13:02,704 [main] INFO treasure2 | TreasureTags.java:167 | registering lock -> treasure2:ember_lock by rarity -> SCARCE
+2025-08-01 05:13:02,704 [main] INFO treasure2 | TreasureTags.java:167 | registering lock -> treasure2:gold_lock by rarity -> SCARCE
+2025-08-01 05:13:02,704 [main] INFO treasure2 | TreasureTags.java:167 | registering lock -> treasure2:wood_lock by rarity -> COMMON
+2025-08-01 05:13:02,704 [main] INFO treasure2 | TreasureTags.java:167 | registering lock -> treasure2:iron_lock by rarity -> UNCOMMON
+2025-08-01 05:13:02,704 [main] INFO treasure2 | TreasureTags.java:167 | registering lock -> treasure2:topaz_lock by rarity -> SCARCE
+2025-08-01 05:13:02,705 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:barrel_chest by rarity -> UNCOMMON
+2025-08-01 05:13:02,705 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:viking_chest by rarity -> UNCOMMON
+2025-08-01 05:13:02,705 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:pirate_chest by rarity -> SCARCE
+2025-08-01 05:13:02,705 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:safe by rarity -> RARE
+2025-08-01 05:13:02,705 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:cauldron_chest by rarity -> CAULDRON
+2025-08-01 05:13:02,705 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:crate_chest by rarity -> UNCOMMON
+2025-08-01 05:13:02,705 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:crate_chest_moldy by rarity -> COMMON
+2025-08-01 05:13:02,705 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:dread_pirate_chest by rarity -> EPIC
+2025-08-01 05:13:02,705 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:spider_chest by rarity -> RARE
+2025-08-01 05:13:02,705 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:ironbound_chest by rarity -> UNCOMMON
+2025-08-01 05:13:02,706 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:skull_chest by rarity -> SKULL
+2025-08-01 05:13:02,706 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:milk_crate by rarity -> COMMON
+2025-08-01 05:13:02,706 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:vanilla_chest by rarity -> COMMON
+2025-08-01 05:13:02,706 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:gold_skull_chest by rarity -> GOLD_SKULL
+2025-08-01 05:13:02,706 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:gold_strongbox by rarity -> RARE
+2025-08-01 05:13:02,706 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:iron_strongbox by rarity -> SCARCE
+2025-08-01 05:13:02,706 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:crystal_skull_chest by rarity -> CRYSTAL_SKULL
+2025-08-01 05:13:02,706 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:wood_chest by rarity -> COMMON
+2025-08-01 05:13:02,706 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:wither_chest by rarity -> WITHER
+2025-08-01 05:13:02,706 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:compressor_chest by rarity -> EPIC
+2025-08-01 05:13:02,706 [main] INFO treasure2 | TreasureTags.java:184 | registering chest -> treasure2:cardboard_box by rarity -> COMMON
+2025-08-01 05:13:02,706 [main] INFO treasure2 | TreasureTags.java:201 | registering wishable -> treasure2:onyx by rarity -> RARE
+2025-08-01 05:13:02,707 [main] INFO treasure2 | TreasureTags.java:201 | registering wishable -> treasure2:ruby by rarity -> RARE
+2025-08-01 05:13:02,707 [main] INFO treasure2 | TreasureTags.java:201 | registering wishable -> treasure2:white_pearl by rarity -> RARE
+2025-08-01 05:13:02,707 [main] INFO treasure2 | TreasureTags.java:201 | registering wishable -> treasure2:sapphire by rarity -> EPIC
+2025-08-01 05:13:02,707 [main] INFO treasure2 | TreasureTags.java:201 | registering wishable -> treasure2:black_pearl by rarity -> EPIC
+2025-08-01 05:13:02,707 [main] INFO treasure2 | TreasureTags.java:201 | registering wishable -> treasure2:gold_coin by rarity -> SCARCE
+2025-08-01 05:13:02,707 [main] INFO treasure2 | TreasureTags.java:201 | registering wishable -> treasure2:topaz by rarity -> SCARCE
+2025-08-01 05:13:02,707 [main] INFO treasure2 | TreasureTags.java:201 | registering wishable -> minecraft:diamond by rarity -> SCARCE
+2025-08-01 05:13:02,707 [main] INFO treasure2 | TreasureTags.java:201 | registering wishable -> minecraft:emerald by rarity -> SCARCE
+2025-08-01 05:13:02,707 [main] INFO treasure2 | TreasureTags.java:201 | registering wishable -> treasure2:silver_coin by rarity -> UNCOMMON
+2025-08-01 05:13:02,707 [main] INFO treasure2 | TreasureTags.java:201 | registering wishable -> treasure2:copper_coin by rarity -> COMMON
+2025-08-01 05:13:03,233 [Server thread] INFO treasure2 | Config.java:760 | transforming mob set config...
+2025-08-01 05:13:03,239 [Server thread] INFO treasure2 | Config.java:769 | adding mobset to map -> MobSet{name='treasure2:wishing_well_group', category='wishing_wells', biomeWhitelist=[], biomeBlacklist=[], count=IntegerRange [min=1, max=3], mobs=[WeightedMob{name='minecraft:zombie', weight=35}, WeightedMob{name='minecraft:zombie_villager', weight=10}, WeightedMob{name='minecraft:skeleton', weight=35}, WeightedMob{name='minecraft:vex', weight=20}, WeightedMob{name='minecraft:creeper', weight=15}, WeightedMob{name='minecraft:slime', weight=5}]}
+2025-08-01 05:13:03,239 [Server thread] INFO treasure2 | Config.java:769 | adding mobset to map -> MobSet{name='treasure2:wither_tree_group', category='wither_trees', biomeWhitelist=[], biomeBlacklist=[], count=IntegerRange [min=1, max=3], mobs=[WeightedMob{name='minecraft:wither_skeleton', weight=90}, WeightedMob{name='minecraft:skeleton', weight=10}]}
+2025-08-01 05:13:03,239 [Server thread] INFO treasure2 | Config.java:769 | adding mobset to map -> MobSet{name='treasure2:small_zombie_group', category='zombies', biomeWhitelist=[], biomeBlacklist=[], count=IntegerRange [min=1, max=3], mobs=[WeightedMob{name='minecraft:zombie', weight=90}, WeightedMob{name='minecraft:zombie_villager', weight=10}]}
+2025-08-01 05:13:03,239 [Server thread] INFO treasure2 | Config.java:769 | adding mobset to map -> MobSet{name='treasure2:medium_zombie_group', category='zombies', biomeWhitelist=[], biomeBlacklist=[], count=IntegerRange [min=2, max=5], mobs=[WeightedMob{name='minecraft:zombie', weight=90}, WeightedMob{name='minecraft:zombie_villager', weight=10}]}
+2025-08-01 05:13:05,338 [Server thread] INFO treasure2 | WorldEventHandler.java:54 | In world load event
+2025-08-01 05:13:05,339 [Server thread] INFO treasure2 | WorldEventHandler.java:64 | In world load event for dimension minecraft:overworld
+2025-08-01 05:13:05,344 [Server thread] INFO treasure2 | MobSetRegistry.java:37 | mobSetConfig optional ...
+2025-08-01 05:13:05,345 [Server thread] INFO treasure2 | MobSetRegistry.java:39 | mobSetConfig is present
+2025-08-01 05:13:05,797 [Server thread] WARN treasure2 | TreasureTemplateRegistry.java:791 | biome -> 'minecraft:desert' is not registgered
+2025-08-01 05:13:05,798 [Server thread] WARN treasure2 | TreasureTemplateRegistry.java:791 | biome -> 'minecraft:desert' is not registgered
+2025-08-01 05:13:05,798 [Server thread] WARN treasure2 | TreasureTemplateRegistry.java:791 | biome -> 'minecraft:desert' is not registgered
+2025-08-01 05:13:05,798 [Server thread] WARN treasure2 | TreasureTemplateRegistry.java:791 | biome -> 'minecraft:desert' is not registgered
+2025-08-01 05:13:05,798 [Server thread] WARN treasure2 | TreasureTemplateRegistry.java:791 | biome -> 'minecraft:desert' is not registgered
+2025-08-01 05:13:05,798 [Server thread] WARN treasure2 | TreasureTemplateRegistry.java:791 | biome -> 'minecraft:desert' is not registgered
+2025-08-01 05:13:05,798 [Server thread] WARN treasure2 | TreasureTemplateRegistry.java:791 | biome -> 'minecraft:desert' is not registgered
+2025-08-01 05:13:05,798 [Server thread] WARN treasure2 | TreasureTemplateRegistry.java:791 | biome -> 'minecraft:desert' is not registgered
+2025-08-01 05:13:05,839 [Server thread] INFO treasure2 | WorldEventHandler.java:54 | In world load event
+2025-08-01 05:13:05,839 [Server thread] INFO treasure2 | WorldEventHandler.java:64 | In world load event for dimension minecraft:the_end
+2025-08-01 05:13:05,848 [Server thread] INFO treasure2 | WorldEventHandler.java:54 | In world load event
+2025-08-01 05:13:05,848 [Server thread] INFO treasure2 | WorldEventHandler.java:64 | In world load event for dimension minecraft:the_nether

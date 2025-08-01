@@ -941,6 +941,7 @@
   "dungeons_enhanced:ambitious_explorer": {
     "criteria": {
       "entered_tower_of_the_undead": "2025-07-30 03:55:53 +0000",
+      "entered_fishing_ship": "2025-08-01 04:09:02 +0000",
       "entered_ruined_building": "2025-07-29 04:02:16 +0000"
     },
     "done": false
@@ -4857,6 +4858,24 @@
   "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
     "criteria": {
       "has_smooth_stone": "2025-07-31 03:52:32 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/magnet_upgrade": {
+    "criteria": {
+      "has_pickup_upgrade": "2025-08-01 04:14:38 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/advanced_pickup_upgrade": {
+    "criteria": {
+      "has_pickup_upgrade": "2025-08-01 04:14:38 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/advanced_magnet_upgrade_from_basic": {
+    "criteria": {
+      "has_magnet_upgrade": "2025-08-01 04:15:05 +0000"
     },
     "done": true
   },
