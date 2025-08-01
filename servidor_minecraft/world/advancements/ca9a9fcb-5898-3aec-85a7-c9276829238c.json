@@ -4891,6 +4891,12 @@
     },
     "done": true
   },
+  "born_in_chaos_v1:fighting_nightmares": {
+    "criteria": {
+      "fighting_nightmares_0": "2025-08-01 05:29:07 +0000"
+    },
+    "done": true
+  },
   "reliquary:recipes/misc/uncrafting/gold_nugget": {
     "criteria": {
       "has_zombie_heart": "2025-08-01 05:21:22 +0000"
@@ -4909,6 +4915,12 @@
     },
     "done": true
   },
+  "reliquary:recipes/misc/uncrafting/string": {
+    "criteria": {
+      "has_chelicerae": "2025-08-01 05:32:29 +0000"
+    },
+    "done": true
+  },
   "reliquary:recipes/misc/uncrafting/packed_ice": {
     "criteria": {
       "has_frozen_core": "2025-08-01 05:21:49 +0000"
@@ -4918,6 +4930,12 @@
   "reliquary:recipes/misc/shears_of_winter": {
     "criteria": {
       "has_frozen_core": "2025-08-01 05:21:49 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/spider_eye": {
+    "criteria": {
+      "has_chelicerae": "2025-08-01 05:32:29 +0000"
     },
     "done": true
   },

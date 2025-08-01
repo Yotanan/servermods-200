@@ -989,6 +989,7 @@
       "minecraft:cave_spider": "2025-07-30 03:53:22 +0000",
       "minecraft:enderman": "2025-07-30 02:59:44 +0000",
       "minecraft:stray": "2025-07-30 02:44:24 +0000",
+      "minecraft:silverfish": "2025-08-01 05:34:05 +0000",
       "minecraft:vex": "2025-07-30 22:40:30 +0000",
       "minecraft:zombie": "2025-07-29 04:31:42 +0000",
       "minecraft:zombie_villager": "2025-07-30 20:10:54 +0000"
@@ -5419,6 +5420,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/raw_iron_block": {
+    "criteria": {
+      "has_raw_iron": "2025-08-01 05:31:57 +0000"
+    },
+    "done": true
+  },
   "alexscaves:alexscaves/root": {
     "criteria": {
       "underground_cabin": "2025-08-01 05:17:37 +0000"
@@ -5428,6 +5435,12 @@
   "alexscaves:alexscaves/cave_map": {
     "criteria": {
       "cave_map": "2025-08-01 05:25:56 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/diamond_steel_blueprint": {
+    "criteria": {
+      "diamond_steel_blueprint": "2025-08-01 05:32:44 +0000"
     },
     "done": true
   },
@@ -5446,6 +5459,12 @@
   "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
     "criteria": {
       "has_quartz_block": "2025-08-01 05:17:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2025-08-01 05:31:57 +0000"
     },
     "done": true
   },
@@ -5503,6 +5522,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2025-08-01 05:31:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
     "criteria": {
       "has_quartz_block": "2025-08-01 05:17:13 +0000"
@@ -5512,6 +5537,12 @@
   "alexscaves:alexscaves/cave_book": {
     "criteria": {
       "cave_book": "2025-08-01 05:23:11 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/spell_book_rotten": {
+    "criteria": {
+      "requirement": "2025-08-01 05:33:39 +0000"
     },
     "done": true
   },

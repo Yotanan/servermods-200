@@ -3010,3 +3010,8 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [01Aug2025 05:29:14.788] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler:lambda$handlePacket$13:74]: [SERVER] 处理数据包: PacketHandler$$Lambda$36742/0x00007810cc116fb0
 [01Aug2025 05:29:14.790] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.item.Baubles.WormholeMirrorItem:setCooldown:221]: [SERVER] 发送冷却包给 Yonatan_nXD
 [01Aug2025 05:29:41.480] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2075ms or 41 ticks behind
+[01Aug2025 05:33:39.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [How long's this been here?]
+[01Aug2025 05:34:07.374] [Server thread/WARN] [Scaling Health/]: Another mod seems to have canceled healing from a heart container (player literal{DarkZero369})
+[01Aug2025 05:36:18.678] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkZero369 moved too quickly! -24.44777329079573,27.0,-60.302741430375136
+[01Aug2025 05:41:25.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [Magery]
+[01Aug2025 05:41:45.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 has completed the challenge [+PARRY]
