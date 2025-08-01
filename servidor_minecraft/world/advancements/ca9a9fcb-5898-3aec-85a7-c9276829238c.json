@@ -4879,5 +4879,47 @@
     },
     "done": true
   },
+  "alexscaves:alexscaves/root": {
+    "criteria": {
+      "underground_cabin": "2025-08-01 05:20:45 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/snowball": {
+    "criteria": {
+      "has_frozen_core": "2025-08-01 05:21:49 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/gold_nugget": {
+    "criteria": {
+      "has_zombie_heart": "2025-08-01 05:21:22 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/ice_magus_rod": {
+    "criteria": {
+      "has_frozen_core": "2025-08-01 05:21:49 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/rotten_flesh": {
+    "criteria": {
+      "has_zombie_heart": "2025-08-01 05:21:22 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/packed_ice": {
+    "criteria": {
+      "has_frozen_core": "2025-08-01 05:21:49 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/shears_of_winter": {
+    "criteria": {
+      "has_frozen_core": "2025-08-01 05:21:49 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

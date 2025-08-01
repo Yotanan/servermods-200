@@ -2994,3 +2994,19 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [01Aug2025 05:18:22.635] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
 [01Aug2025 05:18:22.636] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
 [01Aug2025 05:20:45.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 has made the advancement [Alex's Caves]
+[01Aug2025 05:22:11.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [Lorem Ipsum]
+[01Aug2025 05:22:36.100] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in com/mrcrayfish/goblintraders/Hooks
+[01Aug2025 05:23:11.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [Once Upon a Cave]
+[01Aug2025 05:25:56.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yonatan_nXD has made the advancement [The Journey Begins]
+[01Aug2025 05:26:03.540] [Server thread/INFO] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Found alexscaves:magnetic_caves at 6030 -8 2493 in 2s
+[01Aug2025 05:27:12.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 died
+[01Aug2025 05:27:13.788] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[01Aug2025 05:27:13.788] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[01Aug2025 05:27:13.789] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[01Aug2025 05:29:07.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkZero369 has reached the goal [Fighting Nightmares]
+[01Aug2025 05:29:13.786] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler:lambda$handlePacket$13:74]: [SERVER] 处理数据包: PacketHandler$$Lambda$36730/0x00007810cc1132f8
+[01Aug2025 05:29:13.787] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler$RequestPlayerListPacket:handle:117]: [SERVER] 收到玩家列表请求 fromPotion=false
+[01Aug2025 05:29:13.787] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler$RequestPlayerListPacket:sendPlayerList:146]: [SERVER] 发送玩家列表给 Yonatan_nXD: [DarkZero369]
+[01Aug2025 05:29:14.788] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.system.wormhole.PacketHandler:lambda$handlePacket$13:74]: [SERVER] 处理数据包: PacketHandler$$Lambda$36742/0x00007810cc116fb0
+[01Aug2025 05:29:14.790] [Server thread/INFO] [STDOUT/]: [com.jinqinxixi.bountifulbaubles.item.Baubles.WormholeMirrorItem:setCooldown:221]: [SERVER] 发送冷却包给 Yonatan_nXD
+[01Aug2025 05:29:41.480] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2075ms or 41 ticks behind
