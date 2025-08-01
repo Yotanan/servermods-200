@@ -1,26 +1,26 @@
-[01:54:24.794][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.20.1 production server modded with platform Forge
-[01:54:24.814][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
-[01:54:24.856][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin
-[01:54:24.856][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin_forge
-[01:54:25.592][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support through the default plugin:
-[01:54:25.596][INFO][CraftTweaker]: - 'crafttweaker' at version '14.0.57'
-[01:54:25.596][INFO][CraftTweaker]: - 'ctjl' at version '1.20.1-1.3.0'
-[01:54:25.851][WARN][CraftTweaker-ZenCode]: Attempting to register expansion for unknown type 'stdlib.Exception', carrying on anyways
-[01:54:36.443][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'initialize'
-[01:54:37.135][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
-[01:54:37.209][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
-[01:54:37.437][INFO][CraftTweaker-ZenCode]: Execution for loader 'initialize' completed successfully
-[01:54:47.182][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
-[01:54:47.213][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
-[01:54:47.232][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
-[01:54:47.245][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
-[01:54:48.415][INFO][CraftTweaker]: crafttweaker.reload.start
-[01:54:48.418][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
-[01:54:48.449][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
-[01:54:48.936][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, crafttweaker, expansions]
-[01:54:48.939][INFO][CraftTweaker-ZenCode]: Loading file 'mi_primer_script.zs' with priority 0
-[01:54:48.968][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:firstaid:bandage>'
-[01:54:48.983][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:firstaid_vendaje_personalizado_final' that outputs: '<item:firstaid:bandage> * 2'
-[01:54:48.983][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
-[01:54:48.985][INFO][CraftTweaker]: crafttweaker.reload.complete
-[01:54:48.985][INFO][CraftTweaker]: This reload was made possible by Jessie Sims and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[03:50:16.034][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.20.1 production server modded with platform Forge
+[03:50:16.059][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
+[03:50:16.108][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin
+[03:50:16.111][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[03:50:16.823][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support through the default plugin:
+[03:50:16.823][INFO][CraftTweaker]: - 'crafttweaker' at version '14.0.57'
+[03:50:16.824][INFO][CraftTweaker]: - 'ctjl' at version '1.20.1-1.3.0'
+[03:50:17.014][WARN][CraftTweaker-ZenCode]: Attempting to register expansion for unknown type 'stdlib.Exception', carrying on anyways
+[03:50:27.799][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'initialize'
+[03:50:28.275][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[03:50:28.403][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[03:50:28.536][INFO][CraftTweaker-ZenCode]: Execution for loader 'initialize' completed successfully
+[03:51:40.541][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[03:51:40.577][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[03:51:40.603][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[03:51:40.617][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[03:51:41.774][INFO][CraftTweaker]: crafttweaker.reload.start
+[03:51:41.778][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[03:51:41.806][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[03:51:42.244][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, crafttweaker, expansions]
+[03:51:42.247][INFO][CraftTweaker-ZenCode]: Loading file 'mi_primer_script.zs' with priority 0
+[03:51:42.276][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:firstaid:bandage>'
+[03:51:42.291][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:firstaid_vendaje_personalizado_final' that outputs: '<item:firstaid:bandage> * 2'
+[03:51:42.291][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[03:51:42.292][INFO][CraftTweaker]: crafttweaker.reload.complete
+[03:51:42.292][INFO][CraftTweaker]: This reload was made possible by Jellycraft and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
